@@ -1,0 +1,10 @@
+# dbuild configuration file
+build:
+  variants:
+    - tag: latest
+      containerfile: Containerfile
+
+cit:
+  mode: health
+  port: 8123
+  health: /
