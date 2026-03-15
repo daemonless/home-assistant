@@ -1,12 +1,12 @@
 {
   "image": "home-assistant",
-  "generated": "2026-03-14T01:43:18Z",
+  "generated": "2026-03-15T12:14:24Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "2026.3.1",
       "source": "upstream",
-      "generated": "2026-03-14T01:43:02Z",
+      "generated": "2026-03-15T12:14:08Z",
       "packages": {
         "freebsd": [
           {
@@ -672,6 +672,10 @@
           {
             "name": "Babel",
             "version": "2.15.0"
+          },
+          {
+            "name": "DTLSSocket",
+            "version": "0.1.19"
           },
           {
             "name": "Deprecated",
@@ -2091,7 +2095,7 @@
           },
           {
             "name": "croniter",
-            "version": "6.0.0"
+            "version": "6.2.2"
           },
           {
             "name": "cronsim",
@@ -5382,6 +5386,10 @@
             "version": "3.0.0"
           },
           {
+            "name": "pytradfri",
+            "version": "9.0.1"
+          },
+          {
             "name": "pytrydan",
             "version": "0.8.0"
           },
@@ -7273,10 +7281,10 @@
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 1517,
+        "python": 1519,
         "ruby": 0,
         "rust": 135,
-        "total": 1811
+        "total": 1813
       }
     }
   }
