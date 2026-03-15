@@ -13,7 +13,7 @@ ENV MAKEFLAGS="-j2" \
     CC="/usr/bin/clang" \
     CXX="/usr/bin/clang++"
 
-# Build dependencies: Python 3.14, Rust, and build tools
+# Build dependencies
 RUN pkg update && \
     pkg install -y \
     python314 \
@@ -39,6 +39,9 @@ RUN pkg update && \
     cmake \
     ninja \
     gcc \
+    autoconf \
+    automake \
+    libtool \
     gmake \
     pkgconf \
     unzip && \
@@ -46,7 +49,7 @@ RUN pkg update && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/* && \
     ln -s /usr/local/bin/gmake /usr/local/bin/make
 
-# Fetch go2rtc FreBSD binary
+# Fetch go2rtc FreeBSD binary
 RUN GO2RTC_VERSION=$(fetch -qo - "https://api.github.com/repos/AlexxIT/go2rtc/releases/latest" | \
         sed -n 's/.*"tag_name": *"\([^"]*\)".*/\1/p') && \
     fetch -o /tmp/go2rtc.zip \
@@ -55,21 +58,24 @@ RUN GO2RTC_VERSION=$(fetch -qo - "https://api.github.com/repos/AlexxIT/go2rtc/re
     chmod +x /usr/local/bin/go2rtc && \
     rm /tmp/go2rtc.zip
 
-# Create venv and install core HA package
+# Create venv and install HA using full source for correct requirement resolution
 RUN uv venv --python 3.14 /opt/hass && \
-    uv pip install --python /opt/hass homeassistant zlib-ng && \
-    sed -i '' 's/if not sys.platform.startswith(("darwin", "linux")):/if False:/' /opt/hass/lib/python3.14/site-packages/homeassistant/__main__.py && \
+    uv pip install --python /opt/hass homeassistant zlib-ng numpy==2.3.2
+
+RUN VERSION=$(/opt/hass/bin/python -c "import homeassistant.const; print(homeassistant.const.__version__)") && \
+    git clone --depth 1 -b "$VERSION" https://github.com/home-assistant/core.git /tmp/ha-core && \
+    grep -v '^#' /tmp/ha-core/requirements_all.txt | grep -v '^$' > /tmp/reqs.txt && \
+    while read -r req; do \
+        uv pip install --python /opt/hass "$req" || echo "Skipping $req (build failed)"; \
+    done < /tmp/reqs.txt && \
+    rm -rf /tmp/ha-core /tmp/reqs.txt && \
+    rm -rf /root/.cargo /root/.cache
+
+# Apply FreeBSD-specific patches
+RUN sed -i '' 's/if not sys.platform.startswith(("darwin", "linux")):/if False:/' /opt/hass/lib/python3.14/site-packages/homeassistant/__main__.py && \
     sed -i '' 's/except AuthError as ex:/except Exception as ex:/' /opt/hass/lib/python3.14/site-packages/bluetooth_adapters/dbus.py && \
     sed -i '' 's/for adapter in self._bluez.adapter_details:/if False:  # FreeBSD: no BlueZ/' /opt/hass/lib/python3.14/site-packages/bluetooth_adapters/systems/linux.py && \
     rm -rf /root/.cache /root/.local/share/uv
-
-RUN VERSION=$(/opt/hass/bin/python -c "import homeassistant.const; print(homeassistant.const.__version__)") && \
-    fetch -o /tmp/requirements_all.txt \
-        "https://raw.githubusercontent.com/home-assistant/core/${VERSION}/requirements_all.txt" && \
-    grep -v '^#' /tmp/requirements_all.txt | grep -v '^$' | \
-        xargs -L1 uv pip install --python /opt/hass 2>/dev/null; \
-    rm -f /tmp/requirements_all.txt && \
-    rm -rf /root/.cargo /root/.cache
 
 # Capture installed version
 RUN mkdir -p /app && \
