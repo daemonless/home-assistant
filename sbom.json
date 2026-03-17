@@ -1,12 +1,12 @@
 {
   "image": "home-assistant",
-  "generated": "2026-03-15T12:14:24Z",
+  "generated": "2026-03-17T17:37:52Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "2026.3.1",
+      "app_version": "2026.3.2",
       "source": "upstream",
-      "generated": "2026-03-15T12:14:08Z",
+      "generated": "2026-03-17T17:37:37Z",
       "packages": {
         "freebsd": [
           {
@@ -751,7 +751,7 @@
           },
           {
             "name": "PyChromecast",
-            "version": "14.0.9"
+            "version": "14.0.10"
           },
           {
             "name": "PyFlume",
@@ -983,7 +983,7 @@
           },
           {
             "name": "aioamazondevices",
-            "version": "13.0.0"
+            "version": "13.0.1"
           },
           {
             "name": "aioambient",
@@ -1031,7 +1031,7 @@
           },
           {
             "name": "aiocomelit",
-            "version": "2.0.0"
+            "version": "2.0.1"
           },
           {
             "name": "aioconsole",
@@ -1967,7 +1967,7 @@
           },
           {
             "name": "charset-normalizer",
-            "version": "3.4.5"
+            "version": "3.4.6"
           },
           {
             "name": "ciscomobilityexpress",
@@ -2079,7 +2079,7 @@
           },
           {
             "name": "coverage",
-            "version": "7.13.4"
+            "version": "7.13.5"
           },
           {
             "name": "crc",
@@ -2743,7 +2743,7 @@
           },
           {
             "name": "govee-local-api",
-            "version": "2.3.0"
+            "version": "2.4.0"
           },
           {
             "name": "gpiozero",
@@ -2923,7 +2923,7 @@
           },
           {
             "name": "home-assistant-frontend",
-            "version": "20260304.0"
+            "version": "20260312.0"
           },
           {
             "name": "home-assistant-intents",
@@ -2931,7 +2931,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.3.1"
+            "version": "2026.3.2"
           },
           {
             "name": "homelink-integration-api",
@@ -3023,7 +3023,7 @@
           },
           {
             "name": "ical",
-            "version": "13.2.0"
+            "version": "13.2.2"
           },
           {
             "name": "icalendar",
@@ -3811,7 +3811,7 @@
           },
           {
             "name": "ohme",
-            "version": "1.6.0"
+            "version": "1.7.0"
           },
           {
             "name": "ollama",
@@ -3827,7 +3827,7 @@
           },
           {
             "name": "onedrive-personal-sdk",
-            "version": "0.1.5"
+            "version": "0.1.7"
           },
           {
             "name": "open-garage",
@@ -3899,7 +3899,7 @@
           },
           {
             "name": "orjson",
-            "version": "3.11.5"
+            "version": "3.11.7"
           },
           {
             "name": "ormsgpack",
@@ -4299,7 +4299,7 @@
           },
           {
             "name": "pyanglianwater",
-            "version": "3.1.0"
+            "version": "3.1.1"
           },
           {
             "name": "pyaprilaire",
@@ -4307,7 +4307,7 @@
           },
           {
             "name": "pyasn1",
-            "version": "0.6.2"
+            "version": "0.6.3"
           },
           {
             "name": "pyasn1_modules",
@@ -4431,7 +4431,7 @@
           },
           {
             "name": "pydantic-extra-types",
-            "version": "2.11.0"
+            "version": "2.11.1"
           },
           {
             "name": "pydantic-settings",
@@ -4655,7 +4655,7 @@
           },
           {
             "name": "pyjvcprojector",
-            "version": "2.0.1"
+            "version": "2.0.3"
           },
           {
             "name": "pykaleidescape",
@@ -4903,7 +4903,7 @@
           },
           {
             "name": "pyportainer",
-            "version": "1.0.31"
+            "version": "1.0.33"
           },
           {
             "name": "pyprobeplus",
@@ -5043,7 +5043,7 @@
           },
           {
             "name": "pysmartthings",
-            "version": "3.6.0"
+            "version": "3.7.0"
           },
           {
             "name": "pysmarty2",
@@ -5259,7 +5259,7 @@
           },
           {
             "name": "python-otbr-api",
-            "version": "2.8.0"
+            "version": "2.9.0"
           },
           {
             "name": "python-picnic-api2",
@@ -6131,7 +6131,7 @@
           },
           {
             "name": "tinytag",
-            "version": "2.2.0"
+            "version": "2.2.1"
           },
           {
             "name": "titlecase",
@@ -6371,7 +6371,7 @@
           },
           {
             "name": "uvicorn",
-            "version": "0.41.0"
+            "version": "0.42.0"
           },
           {
             "name": "vacuum-map-parser-base",
@@ -6615,7 +6615,7 @@
           },
           {
             "name": "yalexs-ble",
-            "version": "3.2.7"
+            "version": "3.2.8"
           },
           {
             "name": "yarl",
@@ -6671,7 +6671,7 @@
           },
           {
             "name": "zha",
-            "version": "1.0.1"
+            "version": "1.0.2"
           },
           {
             "name": "zha-quirks",
@@ -6687,7 +6687,7 @@
           },
           {
             "name": "zigpy",
-            "version": "1.1.0"
+            "version": "1.1.1"
           },
           {
             "name": "zigpy-deconz",
