@@ -1,12 +1,12 @@
 {
   "image": "home-assistant",
-  "generated": "2026-03-17T17:37:52Z",
+  "generated": "2026-03-21T09:27:32Z",
   "tags": {
     "latest": {
       "arch": "amd64",
-      "app_version": "2026.3.2",
+      "app_version": "2026.3.3",
       "source": "upstream",
-      "generated": "2026-03-17T17:37:37Z",
+      "generated": "2026-03-21T09:27:13Z",
       "packages": {
         "freebsd": [
           {
@@ -739,7 +739,7 @@
           },
           {
             "name": "Pint",
-            "version": "0.25.2"
+            "version": "0.25.3"
           },
           {
             "name": "PlexAPI",
@@ -919,7 +919,7 @@
           },
           {
             "name": "aenum",
-            "version": "3.1.16"
+            "version": "3.1.17"
           },
           {
             "name": "afsapi",
@@ -1627,7 +1627,7 @@
           },
           {
             "name": "asyncstdlib",
-            "version": "3.13.3"
+            "version": "3.14.0"
           },
           {
             "name": "asynctest",
@@ -1703,7 +1703,7 @@
           },
           {
             "name": "axis",
-            "version": "66"
+            "version": "67"
           },
           {
             "name": "ayla_iot_unofficial",
@@ -1711,7 +1711,7 @@
           },
           {
             "name": "azure-core",
-            "version": "1.38.3"
+            "version": "1.39.0"
           },
           {
             "name": "azure-eventhub",
@@ -2167,7 +2167,7 @@
           },
           {
             "name": "deepdiff",
-            "version": "8.6.1"
+            "version": "8.6.2"
           },
           {
             "name": "deepmerge",
@@ -2931,7 +2931,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.3.2"
+            "version": "2026.3.3"
           },
           {
             "name": "homelink-integration-api",
@@ -3007,7 +3007,7 @@
           },
           {
             "name": "hyponcloud",
-            "version": "0.3.0"
+            "version": "0.9.0"
           },
           {
             "name": "iammeter",
@@ -3515,7 +3515,7 @@
           },
           {
             "name": "metar",
-            "version": "1.11.0"
+            "version": "2.0.1"
           },
           {
             "name": "meteo_lt-pkg",
@@ -3879,7 +3879,7 @@
           },
           {
             "name": "opower",
-            "version": "0.17.0"
+            "version": "0.17.1"
           },
           {
             "name": "opuslib",
@@ -4087,7 +4087,7 @@
           },
           {
             "name": "protobuf",
-            "version": "6.33.5"
+            "version": "6.33.6"
           },
           {
             "name": "prowlpy",
@@ -4227,7 +4227,7 @@
           },
           {
             "name": "pyOpenSSL",
-            "version": "25.3.0"
+            "version": "26.0.0"
           },
           {
             "name": "pyRFC3339",
@@ -5043,7 +5043,7 @@
           },
           {
             "name": "pysmartthings",
-            "version": "3.7.0"
+            "version": "3.7.2"
           },
           {
             "name": "pysmarty2",
@@ -5063,7 +5063,7 @@
           },
           {
             "name": "pysmlight",
-            "version": "0.2.16"
+            "version": "0.3.1"
           },
           {
             "name": "pysnmp",
@@ -5927,7 +5927,7 @@
           },
           {
             "name": "sse-starlette",
-            "version": "3.3.2"
+            "version": "3.3.3"
           },
           {
             "name": "standard-aifc",
