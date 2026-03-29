@@ -4,21 +4,18 @@ x-daemonless:
   title: "Home Assistant"
   icon: ":material-apps:"
   category: "Utilities"
-  description: "Home Assistant on FreeBSD."
+  description: "Open source home automation that puts local control and privacy first."
   upstream_url: "https://github.com/daemonless/home-assistant"
   web_url: "https://www.home-assistant.io/"
   user: "bsd"
   mlock: false
   docs: manual
 
-  appjail:
+  appjail: true
     director:
       options:
         - "alias:"        # Required for discovery (host-like networking)
         - "ip4_inherit:"  # Required for discovery (host-like networking)
-    makejail:
-      options:
-        - container: "boot args:--pull"
 
   annotations:
     org.freebsd.jail.allow.raw_sockets: "true"  # required for DHCP/BPF device discovery
