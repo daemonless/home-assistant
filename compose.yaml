@@ -11,7 +11,7 @@ x-daemonless:
   mlock: false
   docs: manual
 
-  appjail: true
+  appjail:
     director:
       options:
         - "alias:"        # Required for discovery (host-like networking)
