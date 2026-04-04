@@ -1,13 +1,13 @@
 {
+  "generated": "2026-04-04T08:57:23Z",
   "image": "home-assistant",
-  "generated": "2026-04-01T21:30:58Z",
   "tags": {
     "latest": {
+      "app_version": "2026.4.1",
       "arch": "amd64",
-      "app_version": "2026.4.0",
-      "source": "upstream",
-      "generated": "2026-04-01T21:29:43Z",
+      "generated": "2026-04-04T08:56:06Z",
       "packages": {
+        "dotnet": [],
         "freebsd": [
           {
             "name": "FreeBSD-audit-lib",
@@ -502,15 +502,10 @@
             "version": "1.5.7_1"
           }
         ],
-        "dotnet": [],
         "go": [
           {
             "name": "github.com/AlexxIT/go2rtc",
             "version": "v1.9.14"
-          },
-          {
-            "name": "stdlib",
-            "version": "v1.25.6"
           },
           {
             "name": "github.com/eclipse/paho.mqtt.golang",
@@ -647,6 +642,10 @@
           {
             "name": "gopkg.in/yaml.v3",
             "version": "v3.0.1"
+          },
+          {
+            "name": "stdlib",
+            "version": "v1.25.6"
           }
         ],
         "java": [],
@@ -879,7 +878,7 @@
           },
           {
             "name": "Werkzeug",
-            "version": "3.1.7"
+            "version": "3.1.8"
           },
           {
             "name": "accuweather",
@@ -1535,7 +1534,7 @@
           },
           {
             "name": "arcam-fmj",
-            "version": "1.8.2"
+            "version": "1.8.3"
           },
           {
             "name": "argcomplete",
@@ -1783,7 +1782,7 @@
           },
           {
             "name": "bitarray",
-            "version": "3.8.0"
+            "version": "3.8.1"
           },
           {
             "name": "bitstring",
@@ -1963,7 +1962,7 @@
           },
           {
             "name": "charset-normalizer",
-            "version": "3.4.6"
+            "version": "3.4.7"
           },
           {
             "name": "chess-com-api",
@@ -1983,7 +1982,7 @@
           },
           {
             "name": "click",
-            "version": "8.3.1"
+            "version": "8.3.2"
           },
           {
             "name": "click-log",
@@ -2675,7 +2674,7 @@
           },
           {
             "name": "google-api-core",
-            "version": "2.30.1"
+            "version": "2.30.2"
           },
           {
             "name": "google-api-python-client",
@@ -2731,7 +2730,7 @@
           },
           {
             "name": "googleapis-common-protos",
-            "version": "1.73.1"
+            "version": "1.74.0"
           },
           {
             "name": "goslide-api",
@@ -2915,7 +2914,7 @@
           },
           {
             "name": "holidays",
-            "version": "0.84"
+            "version": "0.93"
           },
           {
             "name": "home-assistant-bluetooth",
@@ -2927,7 +2926,7 @@
           },
           {
             "name": "home-assistant-frontend",
-            "version": "20260325.5"
+            "version": "20260325.6"
           },
           {
             "name": "home-assistant-intents",
@@ -2935,7 +2934,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.4.0"
+            "version": "2026.4.1"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4119,7 +4118,7 @@
           },
           {
             "name": "psutil",
-            "version": "7.1.2"
+            "version": "7.2.2"
           },
           {
             "name": "psutil-home-assistant",
@@ -5071,7 +5070,7 @@
           },
           {
             "name": "pysmartthings",
-            "version": "3.7.2"
+            "version": "3.7.3"
           },
           {
             "name": "pysmarty2",
@@ -5083,7 +5082,7 @@
           },
           {
             "name": "pysmhi",
-            "version": "1.1.0"
+            "version": "2.0.0"
           },
           {
             "name": "pysml",
@@ -6283,7 +6282,7 @@
           },
           {
             "name": "types-pytz",
-            "version": "2026.1.1.20260304"
+            "version": "2026.1.1.20260402"
           },
           {
             "name": "typing-inspect",
@@ -6299,7 +6298,7 @@
           },
           {
             "name": "tzdata",
-            "version": "2025.3"
+            "version": "2026.1"
           },
           {
             "name": "tzlocal",
@@ -6411,7 +6410,7 @@
           },
           {
             "name": "uvicorn",
-            "version": "0.42.0"
+            "version": "0.43.0"
           },
           {
             "name": "vacuum-map-parser-base",
@@ -6751,7 +6750,7 @@
           },
           {
             "name": "zinvolt",
-            "version": "0.3.0"
+            "version": "0.4.1"
           },
           {
             "name": "zipp",
@@ -6781,92 +6780,96 @@
             "version": ""
           },
           {
-            "name": "alloctests",
-            "version": "0.0.0"
-          },
-          {
-            "name": "coretests",
-            "version": "0.0.0"
-          },
-          {
-            "name": "std",
-            "version": "0.0.0"
-          },
-          {
-            "name": "sysroot",
-            "version": "0.0.0"
-          },
-          {
             "name": "addr2line",
             "version": "0.25.0"
-          },
-          {
-            "name": "cfg-if",
-            "version": "1.0.1"
-          },
-          {
-            "name": "dlmalloc",
-            "version": "0.2.10"
-          },
-          {
-            "name": "fortanix-sgx-abi",
-            "version": "0.6.1"
-          },
-          {
-            "name": "hashbrown",
-            "version": "0.15.5"
-          },
-          {
-            "name": "hermit-abi",
-            "version": "0.5.2"
-          },
-          {
-            "name": "libc",
-            "version": "0.2.177"
-          },
-          {
-            "name": "miniz_oxide",
-            "version": "0.8.9"
-          },
-          {
-            "name": "moto-rt",
-            "version": "0.15.0"
-          },
-          {
-            "name": "object",
-            "version": "0.37.3"
-          },
-          {
-            "name": "r-efi",
-            "version": "5.3.0"
-          },
-          {
-            "name": "r-efi-alloc",
-            "version": "2.1.0"
-          },
-          {
-            "name": "rustc-demangle",
-            "version": "0.1.26"
-          },
-          {
-            "name": "vex-sdk",
-            "version": "0.27.0"
-          },
-          {
-            "name": "wasi",
-            "version": "0.11.1+wasi-snapshot-preview1"
           },
           {
             "name": "adler2",
             "version": "2.0.1"
           },
           {
+            "name": "aho-corasick",
+            "version": "1.1.3"
+          },
+          {
             "name": "alloc",
             "version": "0.0.0"
           },
           {
+            "name": "alloctests",
+            "version": "0.0.0"
+          },
+          {
+            "name": "anstream",
+            "version": "0.6.20"
+          },
+          {
+            "name": "anstyle",
+            "version": "1.0.11"
+          },
+          {
+            "name": "anstyle-parse",
+            "version": "0.2.7"
+          },
+          {
+            "name": "anstyle-query",
+            "version": "1.1.4"
+          },
+          {
+            "name": "anstyle-wincon",
+            "version": "3.0.10"
+          },
+          {
+            "name": "anyhow",
+            "version": "1.0.99"
+          },
+          {
+            "name": "assert-instr-macro",
+            "version": "0.1.0"
+          },
+          {
+            "name": "autocfg",
+            "version": "1.1.0"
+          },
+          {
+            "name": "backtrace",
+            "version": "0.3.75"
+          },
+          {
+            "name": "bitflags",
+            "version": "1.3.2"
+          },
+          {
+            "name": "byteorder",
+            "version": "1.4.3"
+          },
+          {
             "name": "cc",
             "version": "1.2.0"
+          },
+          {
+            "name": "cfg-if",
+            "version": "1.0.1"
+          },
+          {
+            "name": "clap",
+            "version": "4.5.47"
+          },
+          {
+            "name": "clap_builder",
+            "version": "4.5.47"
+          },
+          {
+            "name": "clap_derive",
+            "version": "4.5.47"
+          },
+          {
+            "name": "clap_lex",
+            "version": "0.7.5"
+          },
+          {
+            "name": "colorchoice",
+            "version": "1.0.4"
           },
           {
             "name": "compiler_builtins",
@@ -6877,12 +6880,244 @@
             "version": "0.0.0"
           },
           {
+            "name": "core_arch",
+            "version": "0.1.5"
+          },
+          {
+            "name": "core_simd",
+            "version": "0.1.0"
+          },
+          {
+            "name": "coretests",
+            "version": "0.0.0"
+          },
+          {
+            "name": "cpp_demangle",
+            "version": "0.4.4"
+          },
+          {
+            "name": "crossbeam-deque",
+            "version": "0.8.6"
+          },
+          {
+            "name": "crossbeam-epoch",
+            "version": "0.9.18"
+          },
+          {
+            "name": "crossbeam-utils",
+            "version": "0.8.21"
+          },
+          {
+            "name": "darling",
+            "version": "0.20.11"
+          },
+          {
+            "name": "darling_core",
+            "version": "0.20.11"
+          },
+          {
+            "name": "darling_macro",
+            "version": "0.20.11"
+          },
+          {
+            "name": "diff",
+            "version": "0.1.13"
+          },
+          {
+            "name": "dlmalloc",
+            "version": "0.2.10"
+          },
+          {
+            "name": "either",
+            "version": "1.15.0"
+          },
+          {
+            "name": "env_logger",
+            "version": "0.10.2"
+          },
+          {
+            "name": "equivalent",
+            "version": "1.0.2"
+          },
+          {
+            "name": "find-msvc-tools",
+            "version": "0.1.1"
+          },
+          {
+            "name": "fnv",
+            "version": "1.0.7"
+          },
+          {
+            "name": "fortanix-sgx-abi",
+            "version": "0.6.1"
+          },
+          {
+            "name": "getrandom",
+            "version": "0.2.16"
+          },
+          {
             "name": "gimli",
             "version": "0.32.0"
           },
           {
+            "name": "hashbrown",
+            "version": "0.15.5"
+          },
+          {
+            "name": "heck",
+            "version": "0.5.0"
+          },
+          {
+            "name": "hermit-abi",
+            "version": "0.5.2"
+          },
+          {
+            "name": "humantime",
+            "version": "2.2.0"
+          },
+          {
+            "name": "ident_case",
+            "version": "1.0.1"
+          },
+          {
+            "name": "indexmap",
+            "version": "1.9.3"
+          },
+          {
+            "name": "intrinsic-test",
+            "version": "0.1.0"
+          },
+          {
+            "name": "is-terminal",
+            "version": "0.4.16"
+          },
+          {
+            "name": "is_terminal_polyfill",
+            "version": "1.70.1"
+          },
+          {
+            "name": "itertools",
+            "version": "0.14.0"
+          },
+          {
+            "name": "itoa",
+            "version": "1.0.15"
+          },
+          {
+            "name": "libc",
+            "version": "0.2.177"
+          },
+          {
+            "name": "linked-hash-map",
+            "version": "0.5.6"
+          },
+          {
+            "name": "log",
+            "version": "0.4.28"
+          },
+          {
             "name": "memchr",
             "version": "2.7.5"
+          },
+          {
+            "name": "miniz_oxide",
+            "version": "0.8.9"
+          },
+          {
+            "name": "moto-rt",
+            "version": "0.15.0"
+          },
+          {
+            "name": "num-traits",
+            "version": "0.2.16"
+          },
+          {
+            "name": "object",
+            "version": "0.37.3"
+          },
+          {
+            "name": "once_cell_polyfill",
+            "version": "1.70.1"
+          },
+          {
+            "name": "ppv-lite86",
+            "version": "0.2.17"
+          },
+          {
+            "name": "pretty_env_logger",
+            "version": "0.5.0"
+          },
+          {
+            "name": "proc-macro2",
+            "version": "1.0.86"
+          },
+          {
+            "name": "proptest",
+            "version": "0.10.1"
+          },
+          {
+            "name": "quick-xml",
+            "version": "0.33.0"
+          },
+          {
+            "name": "quickcheck",
+            "version": "1.0.3"
+          },
+          {
+            "name": "quote",
+            "version": "1.0.37"
+          },
+          {
+            "name": "r-efi",
+            "version": "5.3.0"
+          },
+          {
+            "name": "r-efi-alloc",
+            "version": "2.1.0"
+          },
+          {
+            "name": "rand",
+            "version": "0.7.3"
+          },
+          {
+            "name": "rand_chacha",
+            "version": "0.2.2"
+          },
+          {
+            "name": "rand_core",
+            "version": "0.5.1"
+          },
+          {
+            "name": "rand_hc",
+            "version": "0.2.0"
+          },
+          {
+            "name": "rand_xorshift",
+            "version": "0.2.0"
+          },
+          {
+            "name": "rayon",
+            "version": "1.11.0"
+          },
+          {
+            "name": "rayon-core",
+            "version": "1.13.0"
+          },
+          {
+            "name": "regex",
+            "version": "1.11.2"
+          },
+          {
+            "name": "regex-automata",
+            "version": "0.4.10"
+          },
+          {
+            "name": "regex-syntax",
+            "version": "0.8.6"
+          },
+          {
+            "name": "rustc-demangle",
+            "version": "0.1.26"
           },
           {
             "name": "rustc-std-workspace-alloc",
@@ -6893,8 +7128,140 @@
             "version": "1.99.0"
           },
           {
+            "name": "ruzstd",
+            "version": "0.8.1"
+          },
+          {
+            "name": "ryu",
+            "version": "1.0.20"
+          },
+          {
+            "name": "same-file",
+            "version": "1.0.6"
+          },
+          {
+            "name": "semver",
+            "version": "1.0.26"
+          },
+          {
+            "name": "serde",
+            "version": "1.0.210"
+          },
+          {
+            "name": "serde_derive",
+            "version": "1.0.210"
+          },
+          {
+            "name": "serde_json",
+            "version": "1.0.143"
+          },
+          {
+            "name": "serde_with",
+            "version": "3.14.0"
+          },
+          {
+            "name": "serde_with_macros",
+            "version": "3.14.0"
+          },
+          {
+            "name": "serde_yaml",
+            "version": "0.8.26"
+          },
+          {
             "name": "shlex",
             "version": "1.3.0"
+          },
+          {
+            "name": "simd-test-macro",
+            "version": "0.1.0"
+          },
+          {
+            "name": "std",
+            "version": "0.0.0"
+          },
+          {
+            "name": "std_float",
+            "version": "0.1.0"
+          },
+          {
+            "name": "stdarch-gen-arm",
+            "version": "0.1.0"
+          },
+          {
+            "name": "stdarch-gen-loongarch",
+            "version": "0.1.0"
+          },
+          {
+            "name": "stdarch-test",
+            "version": "0.1.0"
+          },
+          {
+            "name": "stdarch-verify",
+            "version": "0.1.0"
+          },
+          {
+            "name": "stdarch_examples",
+            "version": "0.0.0"
+          },
+          {
+            "name": "strsim",
+            "version": "0.11.1"
+          },
+          {
+            "name": "syn",
+            "version": "2.0.79"
+          },
+          {
+            "name": "syscalls",
+            "version": "0.6.18"
+          },
+          {
+            "name": "sysroot",
+            "version": "0.0.0"
+          },
+          {
+            "name": "termcolor",
+            "version": "1.4.1"
+          },
+          {
+            "name": "test_helpers",
+            "version": "0.1.0"
+          },
+          {
+            "name": "unicode-ident",
+            "version": "1.0.13"
+          },
+          {
+            "name": "utf8parse",
+            "version": "0.2.2"
+          },
+          {
+            "name": "vex-sdk",
+            "version": "0.27.0"
+          },
+          {
+            "name": "walkdir",
+            "version": "2.5.0"
+          },
+          {
+            "name": "wasi",
+            "version": "0.11.1+wasi-snapshot-preview1"
+          },
+          {
+            "name": "wasmparser",
+            "version": "0.235.0"
+          },
+          {
+            "name": "wasmprinter",
+            "version": "0.235.0"
+          },
+          {
+            "name": "winapi-util",
+            "version": "0.1.10"
+          },
+          {
+            "name": "windows-link",
+            "version": "0.1.3"
           },
           {
             "name": "windows-sys",
@@ -6937,374 +7304,6 @@
             "version": "0.52.6"
           },
           {
-            "name": "backtrace",
-            "version": "0.3.75"
-          },
-          {
-            "name": "cpp_demangle",
-            "version": "0.4.4"
-          },
-          {
-            "name": "ruzstd",
-            "version": "0.8.1"
-          },
-          {
-            "name": "serde",
-            "version": "1.0.210"
-          },
-          {
-            "name": "proc-macro2",
-            "version": "1.0.86"
-          },
-          {
-            "name": "quote",
-            "version": "1.0.37"
-          },
-          {
-            "name": "serde_derive",
-            "version": "1.0.210"
-          },
-          {
-            "name": "syn",
-            "version": "2.0.79"
-          },
-          {
-            "name": "unicode-ident",
-            "version": "1.0.13"
-          },
-          {
-            "name": "core_simd",
-            "version": "0.1.0"
-          },
-          {
-            "name": "std_float",
-            "version": "0.1.0"
-          },
-          {
-            "name": "test_helpers",
-            "version": "0.1.0"
-          },
-          {
-            "name": "proptest",
-            "version": "0.10.1"
-          },
-          {
-            "name": "autocfg",
-            "version": "1.1.0"
-          },
-          {
-            "name": "bitflags",
-            "version": "1.3.2"
-          },
-          {
-            "name": "byteorder",
-            "version": "1.4.3"
-          },
-          {
-            "name": "num-traits",
-            "version": "0.2.16"
-          },
-          {
-            "name": "ppv-lite86",
-            "version": "0.2.17"
-          },
-          {
-            "name": "rand",
-            "version": "0.7.3"
-          },
-          {
-            "name": "rand_chacha",
-            "version": "0.2.2"
-          },
-          {
-            "name": "rand_core",
-            "version": "0.5.1"
-          },
-          {
-            "name": "rand_hc",
-            "version": "0.2.0"
-          },
-          {
-            "name": "rand_xorshift",
-            "version": "0.2.0"
-          },
-          {
-            "name": "aho-corasick",
-            "version": "1.1.3"
-          },
-          {
-            "name": "anstream",
-            "version": "0.6.20"
-          },
-          {
-            "name": "anstyle",
-            "version": "1.0.11"
-          },
-          {
-            "name": "anstyle-parse",
-            "version": "0.2.7"
-          },
-          {
-            "name": "anstyle-query",
-            "version": "1.1.4"
-          },
-          {
-            "name": "anstyle-wincon",
-            "version": "3.0.10"
-          },
-          {
-            "name": "anyhow",
-            "version": "1.0.99"
-          },
-          {
-            "name": "assert-instr-macro",
-            "version": "0.1.0"
-          },
-          {
-            "name": "clap",
-            "version": "4.5.47"
-          },
-          {
-            "name": "clap_builder",
-            "version": "4.5.47"
-          },
-          {
-            "name": "clap_derive",
-            "version": "4.5.47"
-          },
-          {
-            "name": "clap_lex",
-            "version": "0.7.5"
-          },
-          {
-            "name": "colorchoice",
-            "version": "1.0.4"
-          },
-          {
-            "name": "core_arch",
-            "version": "0.1.5"
-          },
-          {
-            "name": "crossbeam-deque",
-            "version": "0.8.6"
-          },
-          {
-            "name": "crossbeam-epoch",
-            "version": "0.9.18"
-          },
-          {
-            "name": "crossbeam-utils",
-            "version": "0.8.21"
-          },
-          {
-            "name": "darling",
-            "version": "0.20.11"
-          },
-          {
-            "name": "darling_core",
-            "version": "0.20.11"
-          },
-          {
-            "name": "darling_macro",
-            "version": "0.20.11"
-          },
-          {
-            "name": "diff",
-            "version": "0.1.13"
-          },
-          {
-            "name": "either",
-            "version": "1.15.0"
-          },
-          {
-            "name": "env_logger",
-            "version": "0.10.2"
-          },
-          {
-            "name": "equivalent",
-            "version": "1.0.2"
-          },
-          {
-            "name": "find-msvc-tools",
-            "version": "0.1.1"
-          },
-          {
-            "name": "fnv",
-            "version": "1.0.7"
-          },
-          {
-            "name": "getrandom",
-            "version": "0.2.16"
-          },
-          {
-            "name": "heck",
-            "version": "0.5.0"
-          },
-          {
-            "name": "humantime",
-            "version": "2.2.0"
-          },
-          {
-            "name": "ident_case",
-            "version": "1.0.1"
-          },
-          {
-            "name": "indexmap",
-            "version": "1.9.3"
-          },
-          {
-            "name": "intrinsic-test",
-            "version": "0.1.0"
-          },
-          {
-            "name": "is-terminal",
-            "version": "0.4.16"
-          },
-          {
-            "name": "is_terminal_polyfill",
-            "version": "1.70.1"
-          },
-          {
-            "name": "itertools",
-            "version": "0.14.0"
-          },
-          {
-            "name": "itoa",
-            "version": "1.0.15"
-          },
-          {
-            "name": "linked-hash-map",
-            "version": "0.5.6"
-          },
-          {
-            "name": "log",
-            "version": "0.4.28"
-          },
-          {
-            "name": "once_cell_polyfill",
-            "version": "1.70.1"
-          },
-          {
-            "name": "pretty_env_logger",
-            "version": "0.5.0"
-          },
-          {
-            "name": "quick-xml",
-            "version": "0.33.0"
-          },
-          {
-            "name": "quickcheck",
-            "version": "1.0.3"
-          },
-          {
-            "name": "rayon",
-            "version": "1.11.0"
-          },
-          {
-            "name": "rayon-core",
-            "version": "1.13.0"
-          },
-          {
-            "name": "regex",
-            "version": "1.11.2"
-          },
-          {
-            "name": "regex-automata",
-            "version": "0.4.10"
-          },
-          {
-            "name": "regex-syntax",
-            "version": "0.8.6"
-          },
-          {
-            "name": "ryu",
-            "version": "1.0.20"
-          },
-          {
-            "name": "same-file",
-            "version": "1.0.6"
-          },
-          {
-            "name": "semver",
-            "version": "1.0.26"
-          },
-          {
-            "name": "serde_json",
-            "version": "1.0.143"
-          },
-          {
-            "name": "serde_with",
-            "version": "3.14.0"
-          },
-          {
-            "name": "serde_with_macros",
-            "version": "3.14.0"
-          },
-          {
-            "name": "serde_yaml",
-            "version": "0.8.26"
-          },
-          {
-            "name": "simd-test-macro",
-            "version": "0.1.0"
-          },
-          {
-            "name": "stdarch-gen-arm",
-            "version": "0.1.0"
-          },
-          {
-            "name": "stdarch-gen-loongarch",
-            "version": "0.1.0"
-          },
-          {
-            "name": "stdarch-test",
-            "version": "0.1.0"
-          },
-          {
-            "name": "stdarch-verify",
-            "version": "0.1.0"
-          },
-          {
-            "name": "stdarch_examples",
-            "version": "0.0.0"
-          },
-          {
-            "name": "strsim",
-            "version": "0.11.1"
-          },
-          {
-            "name": "syscalls",
-            "version": "0.6.18"
-          },
-          {
-            "name": "termcolor",
-            "version": "1.4.1"
-          },
-          {
-            "name": "utf8parse",
-            "version": "0.2.2"
-          },
-          {
-            "name": "walkdir",
-            "version": "2.5.0"
-          },
-          {
-            "name": "wasmparser",
-            "version": "0.235.0"
-          },
-          {
-            "name": "wasmprinter",
-            "version": "0.235.0"
-          },
-          {
-            "name": "winapi-util",
-            "version": "0.1.10"
-          },
-          {
-            "name": "windows-link",
-            "version": "0.1.3"
-          },
-          {
             "name": "yaml-rust",
             "version": "0.4.5"
           },
@@ -7318,9 +7317,10 @@
           }
         ]
       },
+      "source": "upstream",
       "summary": {
-        "freebsd": 123,
         "dotnet": 0,
+        "freebsd": 123,
         "go": 36,
         "java": 0,
         "node": 0,
