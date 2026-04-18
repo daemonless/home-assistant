@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-17T22:17:53Z",
+  "generated": "2026-04-18T09:25:19Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.4.2",
+      "app_version": "2026.4.3",
       "arch": "amd64",
-      "generated": "2026-04-17T22:16:38Z",
+      "generated": "2026-04-18T09:23:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -798,7 +798,7 @@
           },
           {
             "name": "PySwitchbot",
-            "version": "2.0.0"
+            "version": "2.0.1"
           },
           {
             "name": "PySwitchmate",
@@ -818,7 +818,7 @@
           },
           {
             "name": "PyViCare",
-            "version": "2.58.1"
+            "version": "2.59.0"
           },
           {
             "name": "PyXiaomiGateway",
@@ -974,7 +974,7 @@
           },
           {
             "name": "aioamazondevices",
-            "version": "13.3.2"
+            "version": "13.4.1"
           },
           {
             "name": "aioambient",
@@ -2930,7 +2930,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.4.2"
+            "version": "2026.4.3"
           },
           {
             "name": "homekit-audio-proxy",
@@ -3078,7 +3078,7 @@
           },
           {
             "name": "imgw_pib",
-            "version": "2.0.2"
+            "version": "2.1.0"
           },
           {
             "name": "importlib_metadata",
@@ -3566,7 +3566,7 @@
           },
           {
             "name": "miniaudio",
-            "version": "1.61"
+            "version": "1.70"
           },
           {
             "name": "minio",
@@ -4022,7 +4022,7 @@
           },
           {
             "name": "pillow",
-            "version": "12.1.1"
+            "version": "12.2.0"
           },
           {
             "name": "platformdirs",
@@ -4262,7 +4262,7 @@
           },
           {
             "name": "pyTibber",
-            "version": "0.37.0"
+            "version": "0.37.1"
           },
           {
             "name": "pyW215",
@@ -4742,7 +4742,7 @@
           },
           {
             "name": "pylitterbot",
-            "version": "2025.2.1"
+            "version": "2025.3.2"
           },
           {
             "name": "pylutron",
@@ -5694,7 +5694,7 @@
           },
           {
             "name": "satel_integra",
-            "version": "1.0.0"
+            "version": "1.2.1"
           },
           {
             "name": "scapy",
@@ -6398,7 +6398,7 @@
           },
           {
             "name": "uv",
-            "version": "0.11.1"
+            "version": "0.11.6"
           },
           {
             "name": "uvcclient",
