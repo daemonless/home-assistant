@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-18T09:25:19Z",
+  "generated": "2026-04-24T22:01:25Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.4.3",
+      "app_version": "2026.4.4",
       "arch": "amd64",
-      "generated": "2026-04-18T09:23:59Z",
+      "generated": "2026-04-24T22:00:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -35,7 +35,7 @@
           },
           {
             "name": "FreeBSD-clibs-dev",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-clibs-lib32",
@@ -99,7 +99,7 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-dev",
@@ -107,7 +107,7 @@
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -119,7 +119,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-runtime-dev",
@@ -662,7 +662,7 @@
           },
           {
             "name": "Authlib",
-            "version": "1.6.11"
+            "version": "1.7.0"
           },
           {
             "name": "Babel",
@@ -974,7 +974,7 @@
           },
           {
             "name": "aioamazondevices",
-            "version": "13.4.1"
+            "version": "13.4.3"
           },
           {
             "name": "aioambient",
@@ -1354,7 +1354,7 @@
           },
           {
             "name": "aiotractive",
-            "version": "1.0.2"
+            "version": "1.0.3"
           },
           {
             "name": "aiounifi",
@@ -1922,7 +1922,7 @@
           },
           {
             "name": "bx_py_utils",
-            "version": "116"
+            "version": "118"
           },
           {
             "name": "cached-ipaddress",
@@ -1930,7 +1930,7 @@
           },
           {
             "name": "cachetools",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "casttube",
@@ -1942,7 +1942,7 @@
           },
           {
             "name": "certifi",
-            "version": "2026.2.25"
+            "version": "2026.4.22"
           },
           {
             "name": "cffi",
@@ -1978,7 +1978,7 @@
           },
           {
             "name": "click",
-            "version": "8.3.2"
+            "version": "8.3.3"
           },
           {
             "name": "click-log",
@@ -2922,7 +2922,7 @@
           },
           {
             "name": "home-assistant-frontend",
-            "version": "20260325.7"
+            "version": "20260325.8"
           },
           {
             "name": "home-assistant-intents",
@@ -2930,7 +2930,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.4.3"
+            "version": "2026.4.4"
           },
           {
             "name": "homekit-audio-proxy",
@@ -3046,7 +3046,7 @@
           },
           {
             "name": "idna",
-            "version": "3.11"
+            "version": "3.13"
           },
           {
             "name": "idrive-e2-client",
@@ -3245,6 +3245,10 @@
             "version": "2.2.0"
           },
           {
+            "name": "joserfc",
+            "version": "1.6.4"
+          },
+          {
             "name": "jsonpath",
             "version": "0.82.2"
           },
@@ -3262,7 +3266,7 @@
           },
           {
             "name": "jsonrpc-websocket",
-            "version": "3.2.0"
+            "version": "3.2.1"
           },
           {
             "name": "jsonschema",
@@ -3866,15 +3870,15 @@
           },
           {
             "name": "opentelemetry-api",
-            "version": "1.41.0"
+            "version": "1.41.1"
           },
           {
             "name": "opentelemetry-sdk",
-            "version": "1.41.0"
+            "version": "1.41.1"
           },
           {
             "name": "opentelemetry-semantic-conventions",
-            "version": "0.62b0"
+            "version": "0.62b1"
           },
           {
             "name": "openwebifpy",
@@ -4262,7 +4266,7 @@
           },
           {
             "name": "pyTibber",
-            "version": "0.37.1"
+            "version": "0.37.2"
           },
           {
             "name": "pyW215",
@@ -4450,7 +4454,7 @@
           },
           {
             "name": "pydantic",
-            "version": "2.13.2"
+            "version": "2.13.3"
           },
           {
             "name": "pydantic-extra-types",
@@ -4458,11 +4462,11 @@
           },
           {
             "name": "pydantic-settings",
-            "version": "2.13.1"
+            "version": "2.14.0"
           },
           {
             "name": "pydantic_core",
-            "version": "2.46.2"
+            "version": "2.46.3"
           },
           {
             "name": "pydeako",
@@ -5782,7 +5786,7 @@
           },
           {
             "name": "serialx",
-            "version": "0.6.2"
+            "version": "1.5.0"
           },
           {
             "name": "setuptools",
@@ -5826,7 +5830,7 @@
           },
           {
             "name": "simplejson",
-            "version": "3.20.2"
+            "version": "4.1.1"
           },
           {
             "name": "simplepush",
@@ -5974,7 +5978,7 @@
           },
           {
             "name": "starkbank-ecdsa",
-            "version": "2.2.0"
+            "version": "2.3.1"
           },
           {
             "name": "starlette",
@@ -6022,7 +6026,7 @@
           },
           {
             "name": "striprtf",
-            "version": "0.0.29"
+            "version": "0.0.31"
           },
           {
             "name": "subarulink",
@@ -6294,7 +6298,7 @@
           },
           {
             "name": "tzdata",
-            "version": "2026.1"
+            "version": "2026.2"
           },
           {
             "name": "tzlocal",
@@ -6406,7 +6410,7 @@
           },
           {
             "name": "uvicorn",
-            "version": "0.44.0"
+            "version": "0.46.0"
           },
           {
             "name": "vacuum-map-parser-base",
@@ -7341,10 +7345,10 @@
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 1530,
+        "python": 1531,
         "ruby": 0,
         "rust": 140,
-        "total": 1828
+        "total": 1829
       }
     }
   }
