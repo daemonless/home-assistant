@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-07T00:50:03Z",
+  "generated": "2026-05-09T08:59:15Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.5.0",
+      "app_version": "2026.5.1",
       "arch": "amd64",
-      "generated": "2026-05-07T00:48:42Z",
+      "generated": "2026-05-09T08:57:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -199,7 +199,7 @@
           },
           {
             "name": "curl",
-            "version": "8.19.0_2"
+            "version": "8.20.0"
           },
           {
             "name": "dav1d",
@@ -439,7 +439,7 @@
           },
           {
             "name": "python314",
-            "version": "3.14.4"
+            "version": "3.14.4_2"
           },
           {
             "name": "readline",
@@ -1698,7 +1698,7 @@
           },
           {
             "name": "axis",
-            "version": "69"
+            "version": "70"
           },
           {
             "name": "ayla_iot_unofficial",
@@ -1706,7 +1706,7 @@
           },
           {
             "name": "azure-core",
-            "version": "1.40.0"
+            "version": "1.41.0"
           },
           {
             "name": "azure-eventhub",
@@ -1810,7 +1810,7 @@
           },
           {
             "name": "blebox-uniapi",
-            "version": "2.5.2"
+            "version": "2.5.3"
           },
           {
             "name": "blinker",
@@ -2154,7 +2154,7 @@
           },
           {
             "name": "deebot-client",
-            "version": "18.2.0"
+            "version": "18.3.0"
           },
           {
             "name": "deepdiff",
@@ -2606,7 +2606,7 @@
           },
           {
             "name": "gardena-bluetooth",
-            "version": "2.4.0"
+            "version": "2.8.1"
           },
           {
             "name": "gassist-text",
@@ -2690,15 +2690,15 @@
           },
           {
             "name": "google-auth",
-            "version": "2.50.0"
+            "version": "2.52.0"
           },
           {
             "name": "google-auth-httplib2",
-            "version": "0.3.1"
+            "version": "0.4.0"
           },
           {
             "name": "google-auth-oauthlib",
-            "version": "1.3.1"
+            "version": "1.4.0"
           },
           {
             "name": "google-cloud-pubsub",
@@ -2738,7 +2738,7 @@
           },
           {
             "name": "googleapis-common-protos",
-            "version": "1.74.0"
+            "version": "1.75.0"
           },
           {
             "name": "goslide-api",
@@ -2926,7 +2926,7 @@
           },
           {
             "name": "holidays",
-            "version": "0.95"
+            "version": "0.96"
           },
           {
             "name": "home-assistant-bluetooth",
@@ -2942,7 +2942,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.5.0"
+            "version": "2026.5.1"
           },
           {
             "name": "homekit-audio-proxy",
@@ -3486,7 +3486,7 @@
           },
           {
             "name": "markdown-it-py",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "name": "marshmallow",
@@ -3498,7 +3498,7 @@
           },
           {
             "name": "mashumaro",
-            "version": "3.20"
+            "version": "3.21"
           },
           {
             "name": "matrix-nio",
@@ -4114,7 +4114,7 @@
           },
           {
             "name": "proto-plus",
-            "version": "1.27.2"
+            "version": "1.28.0"
           },
           {
             "name": "protobuf",
@@ -4282,7 +4282,7 @@
           },
           {
             "name": "pyTibber",
-            "version": "0.37.4"
+            "version": "0.37.5"
           },
           {
             "name": "pyW215",
@@ -4478,7 +4478,7 @@
           },
           {
             "name": "pydantic-settings",
-            "version": "2.14.0"
+            "version": "2.14.1"
           },
           {
             "name": "pydantic_core",
@@ -4906,7 +4906,7 @@
           },
           {
             "name": "pyoverkiz",
-            "version": "1.20.0"
+            "version": "1.20.3"
           },
           {
             "name": "pypalazzetti",
@@ -5178,7 +5178,7 @@
           },
           {
             "name": "python-bsblan",
-            "version": "5.2.0"
+            "version": "5.2.1"
           },
           {
             "name": "python-citybikes",
@@ -5214,7 +5214,7 @@
           },
           {
             "name": "python-duco-client",
-            "version": "0.3.10"
+            "version": "0.4.1"
           },
           {
             "name": "python-ecobee-api",
@@ -5810,7 +5810,7 @@
           },
           {
             "name": "serialx",
-            "version": "1.7.0"
+            "version": "1.7.1"
           },
           {
             "name": "setuptools",
@@ -6418,7 +6418,7 @@
           },
           {
             "name": "urllib3",
-            "version": "2.6.3"
+            "version": "2.7.0"
           },
           {
             "name": "usb-devices",
@@ -6742,7 +6742,7 @@
           },
           {
             "name": "zha",
-            "version": "1.3.0"
+            "version": "1.3.1"
           },
           {
             "name": "zha-quirks",
@@ -6758,7 +6758,7 @@
           },
           {
             "name": "zigpy",
-            "version": "1.4.0"
+            "version": "1.4.1"
           },
           {
             "name": "zigpy-deconz",
