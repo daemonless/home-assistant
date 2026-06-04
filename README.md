@@ -8,7 +8,7 @@ Source: dbuild templates
 [![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/home-assistant/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/home-assistant/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/daemonless/home-assistant?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/home-assistant/commits)
 
-Home Assistant on FreeBSD.
+Open source home automation that puts local control and privacy first.
 
 | | |
 |---|---|
@@ -41,6 +41,8 @@ services:
       - TZ=UTC
     volumes:
       - "/path/to/containers/home-assistant:/config"
+    annotations:
+      org.freebsd.jail.allow.raw_sockets: "true"
     restart: unless-stopped
 ```
 
@@ -66,8 +68,8 @@ services:
     name: home_assistant
     options:
       - container: 'boot args:--pull'
-      - container: "boot args:--pull"
     oci:
+      user: root
       environment:
         - PUID: !ENV '${PUID}'
         - PGID: !ENV '${PGID}'
@@ -86,12 +88,14 @@ ARG tag=latest
 
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/home-assistant:${tag}
+SET allow.raw_sockets=1
 ```
 
 ### Podman CLI
 
 ```bash
 podman run -d --name home-assistant \
+  --annotation 'org.freebsd.jail.allow.raw_sockets=true' \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=UTC \
@@ -114,6 +118,8 @@ podman run -d --name home-assistant \
       TZ: "UTC"
     volumes:
       - "/path/to/containers/home-assistant:/config"
+    annotation:
+      org.freebsd.jail.allow.raw_sockets: "true"
 ```
 
 ## Parameters

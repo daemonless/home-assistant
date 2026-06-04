@@ -1,2 +1,5 @@
 #!/bin/sh
-exec /opt/hass/bin/hass --config /config
+# HA installs per-integration pinned deps at runtime via uv; bsd needs a
+# writable HOME for the uv cache (default /root/.cache is root-only).
+export HOME=/config
+exec s6-setuidgid bsd /opt/hass/bin/hass --config /config
