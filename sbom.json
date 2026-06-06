@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-04T18:32:59Z",
+  "generated": "2026-06-06T09:21:47Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.6.0",
+      "app_version": "2026.6.1",
       "arch": "amd64",
-      "generated": "2026-06-04T18:31:39Z",
+      "generated": "2026-06-06T09:20:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -890,7 +890,7 @@
           },
           {
             "name": "actron-neo-api",
-            "version": "0.5.6"
+            "version": "0.5.12"
           },
           {
             "name": "adax",
@@ -1006,7 +1006,7 @@
           },
           {
             "name": "aioautomower",
-            "version": "2.7.5"
+            "version": "2.7.6"
           },
           {
             "name": "aioazuredevops",
@@ -1354,7 +1354,7 @@
           },
           {
             "name": "aiostreammagic",
-            "version": "2.13.1"
+            "version": "2.13.2"
           },
           {
             "name": "aioswitcher",
@@ -1810,7 +1810,7 @@
           },
           {
             "name": "bleach",
-            "version": "6.3.0"
+            "version": "6.4.0"
           },
           {
             "name": "bleak",
@@ -2810,7 +2810,7 @@
           },
           {
             "name": "graphql-core",
-            "version": "3.2.8"
+            "version": "3.2.11"
           },
           {
             "name": "graphviz",
@@ -2974,7 +2974,7 @@
           },
           {
             "name": "holidays",
-            "version": "0.97"
+            "version": "0.98"
           },
           {
             "name": "home-assistant-bluetooth",
@@ -2990,7 +2990,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.6.0"
+            "version": "2026.6.1"
           },
           {
             "name": "homekit-audio-proxy",
@@ -2998,7 +2998,7 @@
           },
           {
             "name": "homelink-integration-api",
-            "version": "0.0.1"
+            "version": "0.0.5"
           },
           {
             "name": "homematicip",
@@ -3102,11 +3102,11 @@
           },
           {
             "name": "idasen",
-            "version": "0.12.0"
+            "version": "0.13.1"
           },
           {
             "name": "idasen-ha",
-            "version": "2.6.5"
+            "version": "2.7.0"
           },
           {
             "name": "idna",
@@ -3142,7 +3142,7 @@
           },
           {
             "name": "imgw_pib",
-            "version": "2.2.0"
+            "version": "2.2.2"
           },
           {
             "name": "importlib_metadata",
@@ -5154,7 +5154,7 @@
           },
           {
             "name": "pysmartthings",
-            "version": "4.0.0"
+            "version": "4.0.1"
           },
           {
             "name": "pysmarty2",
@@ -6310,7 +6310,7 @@
           },
           {
             "name": "tqdm",
-            "version": "4.67.3"
+            "version": "4.68.1"
           },
           {
             "name": "transitions",
@@ -6634,7 +6634,7 @@
           },
           {
             "name": "wcwidth",
-            "version": "0.7.0"
+            "version": "0.8.0"
           },
           {
             "name": "weatherflow4py",
@@ -6782,7 +6782,7 @@
           },
           {
             "name": "yoto_api",
-            "version": "3.1.5"
+            "version": "3.1.6"
           },
           {
             "name": "youless_api",
