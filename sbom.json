@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-06T09:21:47Z",
+  "generated": "2026-06-09T23:41:07Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.6.1",
+      "app_version": "2026.6.2",
       "arch": "amd64",
-      "generated": "2026-06-06T09:20:32Z",
+      "generated": "2026-06-09T23:39:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -35,7 +35,7 @@
           },
           {
             "name": "FreeBSD-clibs-dev",
-            "version": "15.0p9"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-clibs-lib32",
@@ -103,7 +103,7 @@
           },
           {
             "name": "FreeBSD-openssl-dev",
-            "version": "15.0p2"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-openssl-lib",
@@ -123,7 +123,7 @@
           },
           {
             "name": "FreeBSD-runtime-dev",
-            "version": "15.0p9"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -143,7 +143,7 @@
           },
           {
             "name": "FreeBSD-utilities-dev",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -319,11 +319,11 @@
           },
           {
             "name": "libedit",
-            "version": "3.1.20251016_1,1"
+            "version": "3.1.20260512,1"
           },
           {
             "name": "libffi",
-            "version": "3.5.1"
+            "version": "3.5.2"
           },
           {
             "name": "libiconv",
@@ -455,7 +455,7 @@
           },
           {
             "name": "rust",
-            "version": "1.95.0"
+            "version": "1.96.0"
           },
           {
             "name": "s6",
@@ -1750,7 +1750,7 @@
           },
           {
             "name": "azure-storage-queue",
-            "version": "12.16.0"
+            "version": "12.17.0"
           },
           {
             "name": "b2sdk",
@@ -2982,7 +2982,7 @@
           },
           {
             "name": "home-assistant-frontend",
-            "version": "20260527.4"
+            "version": "20260527.5"
           },
           {
             "name": "home-assistant-intents",
@@ -2990,7 +2990,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.6.1"
+            "version": "2026.6.2"
           },
           {
             "name": "homekit-audio-proxy",
@@ -3310,7 +3310,7 @@
           },
           {
             "name": "joserfc",
-            "version": "1.7.0"
+            "version": "1.7.1"
           },
           {
             "name": "jsonpath",
@@ -3650,7 +3650,7 @@
           },
           {
             "name": "mitsubishi-comfort",
-            "version": "0.3.0"
+            "version": "0.3.1"
           },
           {
             "name": "moat-ble",
@@ -3974,7 +3974,7 @@
           },
           {
             "name": "opower",
-            "version": "0.18.2"
+            "version": "0.18.4"
           },
           {
             "name": "opuslib",
@@ -4130,7 +4130,7 @@
           },
           {
             "name": "plugwise",
-            "version": "1.11.3"
+            "version": "1.11.4"
           },
           {
             "name": "pmsensor",
@@ -4530,7 +4530,7 @@
           },
           {
             "name": "pydaikin",
-            "version": "2.17.2"
+            "version": "2.18.1"
           },
           {
             "name": "pydanfossair",
@@ -5526,7 +5526,7 @@
           },
           {
             "name": "pytrydan",
-            "version": "1.0.0"
+            "version": "1.0.1"
           },
           {
             "name": "pytz",
@@ -5598,7 +5598,7 @@
           },
           {
             "name": "pyyardian",
-            "version": "1.3.3"
+            "version": "1.4.0"
           },
           {
             "name": "pyzbar",
@@ -5682,7 +5682,7 @@
           },
           {
             "name": "renault-api",
-            "version": "0.5.11"
+            "version": "0.5.12"
           },
           {
             "name": "renson-endura-delta",
@@ -6310,7 +6310,7 @@
           },
           {
             "name": "tqdm",
-            "version": "4.68.1"
+            "version": "4.68.2"
           },
           {
             "name": "transitions",
@@ -6473,8 +6473,8 @@
             "version": "2.9.0"
           },
           {
-            "name": "update-checker",
-            "version": "0.18.0"
+            "name": "update_checker",
+            "version": "1.0.0"
           },
           {
             "name": "uplink",
@@ -6634,7 +6634,7 @@
           },
           {
             "name": "wcwidth",
-            "version": "0.8.0"
+            "version": "0.8.1"
           },
           {
             "name": "weatherflow4py",
@@ -6858,7 +6858,7 @@
           },
           {
             "name": "zinvolt",
-            "version": "0.4.3"
+            "version": "1.0.0"
           },
           {
             "name": "zipp",
@@ -6904,8 +6904,16 @@
             "version": "0.0.0"
           },
           {
+            "name": "alloca",
+            "version": "0.4.0"
+          },
+          {
             "name": "alloctests",
             "version": "0.0.0"
+          },
+          {
+            "name": "anes",
+            "version": "0.1.6"
           },
           {
             "name": "anstream",
@@ -6936,20 +6944,48 @@
             "version": "0.1.0"
           },
           {
+            "name": "assert_cmd",
+            "version": "2.1.2"
+          },
+          {
             "name": "autocfg",
             "version": "1.5.0"
+          },
+          {
+            "name": "az",
+            "version": "1.3.0"
           },
           {
             "name": "backtrace",
             "version": "0.3.76"
           },
           {
+            "name": "bincode",
+            "version": "1.3.3"
+          },
+          {
             "name": "bitflags",
-            "version": "1.3.2"
+            "version": "2.11.0"
+          },
+          {
+            "name": "bstr",
+            "version": "1.12.1"
+          },
+          {
+            "name": "builtins-test",
+            "version": "0.1.0"
+          },
+          {
+            "name": "bumpalo",
+            "version": "3.19.1"
           },
           {
             "name": "byteorder",
             "version": "1.5.0"
+          },
+          {
+            "name": "cast",
+            "version": "0.3.0"
           },
           {
             "name": "cc",
@@ -6958,6 +6994,22 @@
           {
             "name": "cfg-if",
             "version": "1.0.4"
+          },
+          {
+            "name": "chacha20",
+            "version": "0.10.0"
+          },
+          {
+            "name": "ciborium",
+            "version": "0.2.2"
+          },
+          {
+            "name": "ciborium-io",
+            "version": "0.2.2"
+          },
+          {
+            "name": "ciborium-ll",
+            "version": "0.2.2"
           },
           {
             "name": "clap",
@@ -6984,6 +7036,10 @@
             "version": "0.1.160"
           },
           {
+            "name": "console",
+            "version": "0.16.2"
+          },
+          {
             "name": "core",
             "version": "0.0.0"
           },
@@ -7004,6 +7060,22 @@
             "version": "0.5.0"
           },
           {
+            "name": "cpufeatures",
+            "version": "0.3.0"
+          },
+          {
+            "name": "crc32fast",
+            "version": "1.5.0"
+          },
+          {
+            "name": "criterion",
+            "version": "0.8.2"
+          },
+          {
+            "name": "criterion-plot",
+            "version": "0.8.2"
+          },
+          {
             "name": "crossbeam-deque",
             "version": "0.8.6"
           },
@@ -7014,6 +7086,10 @@
           {
             "name": "crossbeam-utils",
             "version": "0.8.21"
+          },
+          {
+            "name": "crunchy",
+            "version": "0.2.4"
           },
           {
             "name": "darling",
@@ -7028,8 +7104,20 @@
             "version": "0.21.3"
           },
           {
+            "name": "derive_more",
+            "version": "2.1.1"
+          },
+          {
+            "name": "derive_more-impl",
+            "version": "2.1.1"
+          },
+          {
             "name": "diff",
             "version": "0.1.13"
+          },
+          {
+            "name": "difflib",
+            "version": "0.4.0"
           },
           {
             "name": "dlmalloc",
@@ -7038,6 +7126,10 @@
           {
             "name": "either",
             "version": "1.15.0"
+          },
+          {
+            "name": "encode_unicode",
+            "version": "1.0.0"
           },
           {
             "name": "env_filter",
@@ -7052,8 +7144,24 @@
             "version": "1.0.2"
           },
           {
+            "name": "errno",
+            "version": "0.3.14"
+          },
+          {
+            "name": "escape8259",
+            "version": "0.5.3"
+          },
+          {
+            "name": "fastrand",
+            "version": "2.3.0"
+          },
+          {
             "name": "find-msvc-tools",
             "version": "0.1.9"
+          },
+          {
+            "name": "flate2",
+            "version": "1.1.9"
           },
           {
             "name": "float-cmp",
@@ -7072,12 +7180,36 @@
             "version": "0.6.1"
           },
           {
+            "name": "getopts",
+            "version": "0.2.24"
+          },
+          {
             "name": "getrandom",
-            "version": "0.2.17"
+            "version": "0.4.1"
           },
           {
             "name": "gimli",
             "version": "0.32.3"
+          },
+          {
+            "name": "gmp-mpfr-sys",
+            "version": "1.6.8"
+          },
+          {
+            "name": "gungraun",
+            "version": "0.17.2"
+          },
+          {
+            "name": "gungraun-macros",
+            "version": "0.7.2"
+          },
+          {
+            "name": "gungraun-runner",
+            "version": "0.17.2"
+          },
+          {
+            "name": "half",
+            "version": "2.7.1"
           },
           {
             "name": "hashbrown",
@@ -7105,7 +7237,11 @@
           },
           {
             "name": "indexmap",
-            "version": "1.9.3"
+            "version": "2.13.0"
+          },
+          {
+            "name": "indicatif",
+            "version": "0.18.4"
           },
           {
             "name": "intrinsic-test",
@@ -7121,11 +7257,15 @@
           },
           {
             "name": "itertools",
-            "version": "0.14.0"
+            "version": "0.13.0"
           },
           {
             "name": "itoa",
             "version": "1.0.17"
+          },
+          {
+            "name": "js-sys",
+            "version": "0.3.85"
           },
           {
             "name": "leb128fmt",
@@ -7133,11 +7273,31 @@
           },
           {
             "name": "libc",
-            "version": "0.2.178"
+            "version": "0.2.183"
+          },
+          {
+            "name": "libm",
+            "version": "0.2.16"
+          },
+          {
+            "name": "libm-macros",
+            "version": "0.1.0"
+          },
+          {
+            "name": "libm-test",
+            "version": "0.1.0"
+          },
+          {
+            "name": "libtest-mimic",
+            "version": "0.8.1"
           },
           {
             "name": "linked-hash-map",
             "version": "0.5.6"
+          },
+          {
+            "name": "linux-raw-sys",
+            "version": "0.11.0"
           },
           {
             "name": "log",
@@ -7156,6 +7316,14 @@
             "version": "0.16.0"
           },
           {
+            "name": "musl-math-sys",
+            "version": "0.1.0"
+          },
+          {
+            "name": "no-panic",
+            "version": "0.1.36"
+          },
+          {
             "name": "num-traits",
             "version": "0.2.19"
           },
@@ -7164,12 +7332,60 @@
             "version": "0.37.3"
           },
           {
+            "name": "once_cell",
+            "version": "1.21.3"
+          },
+          {
             "name": "once_cell_polyfill",
             "version": "1.70.2"
           },
           {
+            "name": "oorandom",
+            "version": "11.1.5"
+          },
+          {
+            "name": "page_size",
+            "version": "0.6.0"
+          },
+          {
+            "name": "panic-handler",
+            "version": "0.1.0"
+          },
+          {
+            "name": "paste",
+            "version": "1.0.15"
+          },
+          {
+            "name": "plotters",
+            "version": "0.3.7"
+          },
+          {
+            "name": "plotters-backend",
+            "version": "0.3.7"
+          },
+          {
+            "name": "plotters-svg",
+            "version": "0.3.7"
+          },
+          {
+            "name": "portable-atomic",
+            "version": "1.13.1"
+          },
+          {
             "name": "ppv-lite86",
             "version": "0.2.21"
+          },
+          {
+            "name": "predicates",
+            "version": "3.1.4"
+          },
+          {
+            "name": "predicates-core",
+            "version": "1.0.10"
+          },
+          {
+            "name": "predicates-tree",
+            "version": "1.0.13"
           },
           {
             "name": "pretty_env_logger",
@@ -7178,6 +7394,14 @@
           {
             "name": "prettyplease",
             "version": "0.2.37"
+          },
+          {
+            "name": "proc-macro-error-attr2",
+            "version": "2.0.0"
+          },
+          {
+            "name": "proc-macro-error2",
+            "version": "2.0.1"
           },
           {
             "name": "proc-macro2",
@@ -7209,15 +7433,15 @@
           },
           {
             "name": "rand",
-            "version": "0.7.3"
+            "version": "0.10.0"
           },
           {
             "name": "rand_chacha",
-            "version": "0.2.2"
+            "version": "0.10.0"
           },
           {
             "name": "rand_core",
-            "version": "0.5.1"
+            "version": "0.10.0"
           },
           {
             "name": "rand_hc",
@@ -7226,6 +7450,10 @@
           {
             "name": "rand_xorshift",
             "version": "0.2.0"
+          },
+          {
+            "name": "rand_xoshiro",
+            "version": "0.8.0"
           },
           {
             "name": "rayon",
@@ -7248,6 +7476,10 @@
             "version": "0.8.9"
           },
           {
+            "name": "rug",
+            "version": "1.28.1"
+          },
+          {
             "name": "rustc-demangle",
             "version": "0.1.27"
           },
@@ -7258,6 +7490,22 @@
           {
             "name": "rustc-std-workspace-core",
             "version": "1.99.0"
+          },
+          {
+            "name": "rustc_apfloat",
+            "version": "0.2.3+llvm-462a31f5a5ab"
+          },
+          {
+            "name": "rustc_version",
+            "version": "0.4.1"
+          },
+          {
+            "name": "rustix",
+            "version": "1.1.3"
+          },
+          {
+            "name": "rustversion",
+            "version": "1.0.22"
           },
           {
             "name": "ruzstd",
@@ -7312,8 +7560,16 @@
             "version": "1.3.0"
           },
           {
+            "name": "simd-adler32",
+            "version": "0.3.8"
+          },
+          {
             "name": "simd-test-macro",
             "version": "0.1.0"
+          },
+          {
+            "name": "smallvec",
+            "version": "1.15.1"
           },
           {
             "name": "std",
@@ -7352,6 +7608,10 @@
             "version": "0.11.1"
           },
           {
+            "name": "symbol-check",
+            "version": "0.1.0"
+          },
+          {
             "name": "syn",
             "version": "2.0.79"
           },
@@ -7364,8 +7624,16 @@
             "version": "0.0.0"
           },
           {
+            "name": "tempfile",
+            "version": "3.25.0"
+          },
+          {
             "name": "termcolor",
             "version": "1.4.1"
+          },
+          {
+            "name": "termtree",
+            "version": "0.5.1"
           },
           {
             "name": "test_helpers",
@@ -7380,20 +7648,44 @@
             "version": "2.0.18"
           },
           {
+            "name": "tinytemplate",
+            "version": "1.2.1"
+          },
+          {
+            "name": "twox-hash",
+            "version": "2.1.2"
+          },
+          {
             "name": "unicode-ident",
             "version": "1.0.13"
+          },
+          {
+            "name": "unicode-width",
+            "version": "0.2.2"
           },
           {
             "name": "unicode-xid",
             "version": "0.2.6"
           },
           {
+            "name": "unit-prefix",
+            "version": "0.5.2"
+          },
+          {
             "name": "utf8parse",
             "version": "0.2.2"
           },
           {
+            "name": "util",
+            "version": "0.1.0"
+          },
+          {
             "name": "vex-sdk",
             "version": "0.27.1"
+          },
+          {
+            "name": "wait-timeout",
+            "version": "0.2.1"
           },
           {
             "name": "walkdir",
@@ -7412,6 +7704,22 @@
             "version": "0.4.0+wasi-0.3.0-rc-2026-01-06"
           },
           {
+            "name": "wasm-bindgen",
+            "version": "0.2.108"
+          },
+          {
+            "name": "wasm-bindgen-macro",
+            "version": "0.2.108"
+          },
+          {
+            "name": "wasm-bindgen-macro-support",
+            "version": "0.2.108"
+          },
+          {
+            "name": "wasm-bindgen-shared",
+            "version": "0.2.108"
+          },
+          {
             "name": "wasm-encoder",
             "version": "0.244.0"
           },
@@ -7421,15 +7729,35 @@
           },
           {
             "name": "wasmparser",
-            "version": "0.235.0"
+            "version": "0.243.0"
           },
           {
             "name": "wasmprinter",
             "version": "0.235.0"
           },
           {
+            "name": "web-sys",
+            "version": "0.3.85"
+          },
+          {
+            "name": "web-time",
+            "version": "1.1.0"
+          },
+          {
+            "name": "winapi",
+            "version": "0.3.9"
+          },
+          {
+            "name": "winapi-i686-pc-windows-gnu",
+            "version": "0.4.0"
+          },
+          {
             "name": "winapi-util",
             "version": "0.1.11"
+          },
+          {
+            "name": "winapi-x86_64-pc-windows-gnu",
+            "version": "0.4.0"
           },
           {
             "name": "windows-link",
@@ -7509,11 +7837,11 @@
           },
           {
             "name": "zerocopy",
-            "version": "0.8.26"
+            "version": "0.8.39"
           },
           {
             "name": "zerocopy-derive",
-            "version": "0.8.26"
+            "version": "0.8.39"
           },
           {
             "name": "zmij",
@@ -7531,8 +7859,8 @@
         "php": 0,
         "python": 1557,
         "ruby": 0,
-        "rust": 159,
-        "total": 1875
+        "rust": 241,
+        "total": 1957
       }
     }
   }
