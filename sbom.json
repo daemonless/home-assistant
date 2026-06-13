@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-09T23:41:07Z",
+  "generated": "2026-06-13T11:07:18Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.6.2",
+      "app_version": "2026.6.3",
       "arch": "amd64",
-      "generated": "2026-06-09T23:39:48Z",
+      "generated": "2026-06-13T11:05:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -23,7 +23,7 @@
           },
           {
             "name": "FreeBSD-certctl",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-clang",
@@ -47,15 +47,15 @@
           },
           {
             "name": "FreeBSD-fetch",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-kerberos-lib",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-libarchive",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-libbsdstat",
@@ -75,7 +75,7 @@
           },
           {
             "name": "FreeBSD-libldns",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-libmagic",
@@ -99,7 +99,7 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0p2"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-openssl-dev",
@@ -107,11 +107,11 @@
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0p2"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-rc",
@@ -119,7 +119,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p9"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-runtime-dev",
@@ -139,7 +139,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p9"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-utilities-dev",
@@ -151,7 +151,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-zlib",
@@ -171,7 +171,7 @@
           },
           {
             "name": "bash",
-            "version": "5.3.12"
+            "version": "5.3.15"
           },
           {
             "name": "brotli",
@@ -187,7 +187,7 @@
           },
           {
             "name": "cmake-core",
-            "version": "3.31.12"
+            "version": "3.31.12_1"
           },
           {
             "name": "cmake-doc",
@@ -978,7 +978,7 @@
           },
           {
             "name": "aioamazondevices",
-            "version": "14.0.0"
+            "version": "14.0.3"
           },
           {
             "name": "aioambient",
@@ -1706,11 +1706,11 @@
           },
           {
             "name": "awscrt",
-            "version": "0.32.1"
+            "version": "0.34.1"
           },
           {
             "name": "awsiotsdk",
-            "version": "1.29.0"
+            "version": "1.30.0"
           },
           {
             "name": "axis",
@@ -1914,7 +1914,7 @@
           },
           {
             "name": "bthome-ble",
-            "version": "3.23.2"
+            "version": "3.23.4"
           },
           {
             "name": "bthomehub5-devicelist",
@@ -2342,7 +2342,7 @@
           },
           {
             "name": "elementpath",
-            "version": "5.1.1"
+            "version": "5.1.2"
           },
           {
             "name": "elevenlabs",
@@ -2722,7 +2722,7 @@
           },
           {
             "name": "google-auth",
-            "version": "2.53.0"
+            "version": "2.54.0"
           },
           {
             "name": "google-auth-httplib2",
@@ -2922,7 +2922,7 @@
           },
           {
             "name": "hassil",
-            "version": "3.5.0"
+            "version": "3.7.0"
           },
           {
             "name": "haversine",
@@ -2982,7 +2982,7 @@
           },
           {
             "name": "home-assistant-frontend",
-            "version": "20260527.5"
+            "version": "20260527.6"
           },
           {
             "name": "home-assistant-intents",
@@ -2990,7 +2990,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.6.2"
+            "version": "2026.6.3"
           },
           {
             "name": "homekit-audio-proxy",
@@ -3710,7 +3710,7 @@
           },
           {
             "name": "msgpack",
-            "version": "1.1.2"
+            "version": "1.2.0"
           },
           {
             "name": "mt-940",
@@ -5526,7 +5526,7 @@
           },
           {
             "name": "pytrydan",
-            "version": "1.0.1"
+            "version": "1.0.2"
           },
           {
             "name": "pytz",
@@ -5690,7 +5690,7 @@
           },
           {
             "name": "reolink_aio",
-            "version": "0.20.1"
+            "version": "0.21.0"
           },
           {
             "name": "requests",
@@ -6082,7 +6082,7 @@
           },
           {
             "name": "starlette",
-            "version": "1.2.1"
+            "version": "1.3.1"
           },
           {
             "name": "starline",
