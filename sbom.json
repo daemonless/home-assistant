@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-13T11:07:18Z",
+  "generated": "2026-06-20T19:14:03Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.6.3",
+      "app_version": "2026.6.4",
       "arch": "amd64",
-      "generated": "2026-06-13T11:05:59Z",
+      "generated": "2026-06-20T19:12:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -435,15 +435,15 @@
           },
           {
             "name": "py314-sqlite3",
-            "version": "3.14.5_10"
+            "version": "3.14.6_10"
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_3"
           },
           {
             "name": "python314",
-            "version": "3.14.5"
+            "version": "3.14.6"
           },
           {
             "name": "readline",
@@ -978,7 +978,7 @@
           },
           {
             "name": "aioamazondevices",
-            "version": "14.0.3"
+            "version": "14.1.3"
           },
           {
             "name": "aioambient",
@@ -1034,7 +1034,7 @@
           },
           {
             "name": "aiocomelit",
-            "version": "2.0.3"
+            "version": "2.0.7"
           },
           {
             "name": "aioconsole",
@@ -1046,7 +1046,7 @@
           },
           {
             "name": "aiodiscover",
-            "version": "3.2.4"
+            "version": "3.3.2"
           },
           {
             "name": "aiodns",
@@ -1166,7 +1166,7 @@
           },
           {
             "name": "aioimmich",
-            "version": "0.14.1"
+            "version": "0.15.0"
           },
           {
             "name": "aioitertools",
@@ -1794,7 +1794,7 @@
           },
           {
             "name": "bitarray",
-            "version": "3.8.1"
+            "version": "3.8.2"
           },
           {
             "name": "bitstring",
@@ -1934,7 +1934,7 @@
           },
           {
             "name": "bx_py_utils",
-            "version": "118"
+            "version": "119"
           },
           {
             "name": "cachebox",
@@ -1942,7 +1942,7 @@
           },
           {
             "name": "cached-ipaddress",
-            "version": "1.1.1"
+            "version": "1.1.2"
           },
           {
             "name": "cachetools",
@@ -1958,7 +1958,7 @@
           },
           {
             "name": "certifi",
-            "version": "2026.5.20"
+            "version": "2026.6.17"
           },
           {
             "name": "cffi",
@@ -2094,7 +2094,7 @@
           },
           {
             "name": "coverage",
-            "version": "7.14.1"
+            "version": "7.14.2"
           },
           {
             "name": "crc",
@@ -2162,7 +2162,7 @@
           },
           {
             "name": "dateparser",
-            "version": "1.4.0"
+            "version": "1.4.1"
           },
           {
             "name": "dbus-fast",
@@ -2286,7 +2286,7 @@
           },
           {
             "name": "dsmr-parser",
-            "version": "1.7.0"
+            "version": "1.9.0"
           },
           {
             "name": "dwdwfsapi",
@@ -2722,7 +2722,7 @@
           },
           {
             "name": "google-auth",
-            "version": "2.54.0"
+            "version": "2.55.0"
           },
           {
             "name": "google-auth-httplib2",
@@ -2826,7 +2826,7 @@
           },
           {
             "name": "greenlet",
-            "version": "3.5.1"
+            "version": "3.5.2"
           },
           {
             "name": "greenplanet-energy-api",
@@ -2982,7 +2982,7 @@
           },
           {
             "name": "home-assistant-frontend",
-            "version": "20260527.6"
+            "version": "20260527.7"
           },
           {
             "name": "home-assistant-intents",
@@ -2990,7 +2990,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.6.3"
+            "version": "2026.6.4"
           },
           {
             "name": "homekit-audio-proxy",
@@ -3710,7 +3710,7 @@
           },
           {
             "name": "msgpack",
-            "version": "1.2.0"
+            "version": "1.2.1"
           },
           {
             "name": "mt-940",
@@ -3974,7 +3974,7 @@
           },
           {
             "name": "opower",
-            "version": "0.18.4"
+            "version": "0.18.5"
           },
           {
             "name": "opuslib",
@@ -4546,7 +4546,7 @@
           },
           {
             "name": "pydantic-settings",
-            "version": "2.14.1"
+            "version": "2.14.2"
           },
           {
             "name": "pydantic_core",
@@ -4762,7 +4762,7 @@
           },
           {
             "name": "pyituran",
-            "version": "0.1.5"
+            "version": "0.1.6"
           },
           {
             "name": "pyjvcprojector",
@@ -5050,7 +5050,7 @@
           },
           {
             "name": "pyrainbird",
-            "version": "6.3.0"
+            "version": "6.3.1"
           },
           {
             "name": "pyrate-limiter",
@@ -5074,7 +5074,7 @@
           },
           {
             "name": "pyroute2",
-            "version": "0.7.5"
+            "version": "0.9.6"
           },
           {
             "name": "pyrympro",
@@ -5222,7 +5222,7 @@
           },
           {
             "name": "pytest",
-            "version": "9.0.3"
+            "version": "9.1.1"
           },
           {
             "name": "pytest-rerunfailures",
@@ -5434,7 +5434,7 @@
           },
           {
             "name": "python-socketio",
-            "version": "5.16.2"
+            "version": "5.16.3"
           },
           {
             "name": "python-socketio-v4",
@@ -5826,7 +5826,7 @@
           },
           {
             "name": "selenium",
-            "version": "4.44.0"
+            "version": "4.45.0"
           },
           {
             "name": "semver",
@@ -6042,7 +6042,7 @@
           },
           {
             "name": "sqlite3",
-            "version": "3.14.5"
+            "version": "3.14.6"
           },
           {
             "name": "sqlparse",
@@ -6062,7 +6062,7 @@
           },
           {
             "name": "sse-starlette",
-            "version": "3.4.4"
+            "version": "3.4.5"
           },
           {
             "name": "standard-aifc",
@@ -6190,7 +6190,7 @@
           },
           {
             "name": "telnetlib3",
-            "version": "4.0.4"
+            "version": "4.0.5"
           },
           {
             "name": "teltasync",
@@ -6310,7 +6310,7 @@
           },
           {
             "name": "tqdm",
-            "version": "4.68.2"
+            "version": "4.68.3"
           },
           {
             "name": "transitions",
@@ -6426,7 +6426,7 @@
           },
           {
             "name": "ujson",
-            "version": "5.12.1"
+            "version": "5.13.0"
           },
           {
             "name": "ulid-transform",
