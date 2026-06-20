@@ -33,12 +33,12 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   home-assistant:
-    image: ghcr.io/daemonless/home-assistant:latest
+    image: "ghcr.io/daemonless/home-assistant:latest"
     container_name: home-assistant
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=UTC
+      - PUID=1000  # User ID for the application process
+      - PGID=1000  # Group ID for the application process
+      - TZ=UTC  # Timezone for the container
     volumes:
       - "/path/to/containers/home-assistant:/config"
     annotations:
@@ -109,7 +109,7 @@ podman run -d --name home-assistant \
 - name: Deploy home-assistant
   containers.podman.podman_container:
     name: home-assistant
-    image: ghcr.io/daemonless/home-assistant:latest
+    image: "ghcr.io/daemonless/home-assistant:latest"
     state: started
     restart_policy: always
     env:

@@ -4,6 +4,8 @@ FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
 ENV MAKEFLAGS="-j2" \
     CARGO_BUILD_JOBS=2 \
     UV_CONCURRENCY=2 \
+    CARGO_PROFILE_RELEASE_LTO=off \
+    CARGO_PROFILE_RELEASE_CODEGEN_UNITS=256 \
     CC="/usr/bin/clang" \
     CXX="/usr/bin/clang++"
 
