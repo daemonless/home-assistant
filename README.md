@@ -17,13 +17,11 @@ Open source home automation that puts local control and privacy first.
 | **Website** | [https://www.home-assistant.io/](https://www.home-assistant.io/) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
@@ -47,10 +45,11 @@ services:
 ```
 
 ### AppJail Director
-
 **.env**:
 
 ```
+# .env
+
 DIRECTOR_PROJECT=home-assistant
 PUID=1000
 PGID=1000
@@ -60,6 +59,8 @@ TZ=UTC
 **appjail-director.yml**:
 
 ```yaml
+# appjail-director.yml
+
 options:
   - alias:
   - ip4_inherit:
@@ -84,6 +85,8 @@ volumes:
 **Makejail**:
 
 ```
+# Makejail
+
 ARG tag=latest
 
 OPTION overwrite=force
@@ -101,6 +104,21 @@ podman run -d --name home-assistant \
   -e TZ=UTC \
   -v /path/to/containers/home-assistant:/config \
   ghcr.io/daemonless/home-assistant:latest
+```
+
+### AppJail
+
+```bash
+appjail oci run -Pd \
+  -o overwrite=force \
+  -o container="args:--pull" \
+  -o virtualnet=":<random> default" \
+  -o nat \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=UTC \
+  -o fstab="/path/to/containers/home-assistant /config <pseudofs>" \
+  ghcr.io/daemonless/home-assistant:latest home-assistant
 ```
 
 ### Ansible
@@ -140,7 +158,7 @@ podman run -d --name home-assistant \
 
 **Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
-**Base:** FreeBSD 15.0
+**Base:** FreeBSD 15.1-latest
 
 ---
 
