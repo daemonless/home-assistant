@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-03T22:36:15Z",
+  "generated": "2026-07-11T09:51:57Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.7.1",
+      "app_version": "2026.7.2",
       "arch": "amd64",
-      "generated": "2026-07-03T22:34:54Z",
+      "generated": "2026-07-11T09:50:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -171,7 +171,7 @@
           },
           {
             "name": "aom",
-            "version": "3.14.1"
+            "version": "3.14.1_1"
           },
           {
             "name": "bash",
@@ -191,7 +191,7 @@
           },
           {
             "name": "cmake-core",
-            "version": "3.31.12_1"
+            "version": "3.31.12_3"
           },
           {
             "name": "cmake-doc",
@@ -219,7 +219,7 @@
           },
           {
             "name": "ffmpeg-nox11",
-            "version": "8.1.2,1"
+            "version": "8.1.2_1,1"
           },
           {
             "name": "fontconfig",
@@ -263,7 +263,7 @@
           },
           {
             "name": "graphite2",
-            "version": "1.3.14"
+            "version": "1.3.15"
           },
           {
             "name": "harfbuzz",
@@ -459,7 +459,7 @@
           },
           {
             "name": "rust",
-            "version": "1.96.0_1"
+            "version": "1.96.1"
           },
           {
             "name": "s6",
@@ -471,7 +471,7 @@
           },
           {
             "name": "sqlite3",
-            "version": "3.53.1,1"
+            "version": "3.53.3,1"
           },
           {
             "name": "srt",
@@ -982,7 +982,7 @@
           },
           {
             "name": "aioamazondevices",
-            "version": "14.1.8"
+            "version": "14.1.9"
           },
           {
             "name": "aioambient",
@@ -1314,7 +1314,7 @@
           },
           {
             "name": "aioruckus",
-            "version": "0.42"
+            "version": "0.46.3"
           },
           {
             "name": "aiorussound",
@@ -1722,7 +1722,7 @@
           },
           {
             "name": "axis",
-            "version": "72"
+            "version": "74"
           },
           {
             "name": "ayla_iot_unofficial",
@@ -1806,7 +1806,7 @@
           },
           {
             "name": "bitarray",
-            "version": "3.8.2"
+            "version": "3.9.0"
           },
           {
             "name": "bitstring",
@@ -1830,7 +1830,7 @@
           },
           {
             "name": "bleak-esphome",
-            "version": "3.9.4"
+            "version": "3.9.7"
           },
           {
             "name": "bleak-retry-connector",
@@ -1946,7 +1946,7 @@
           },
           {
             "name": "bx_py_utils",
-            "version": "119"
+            "version": "120"
           },
           {
             "name": "cachebox",
@@ -2122,7 +2122,7 @@
           },
           {
             "name": "croniter",
-            "version": "6.2.3"
+            "version": "6.2.4"
           },
           {
             "name": "cronsim",
@@ -2298,7 +2298,7 @@
           },
           {
             "name": "dsmr-parser",
-            "version": "1.9.0"
+            "version": "1.11.1"
           },
           {
             "name": "dwdwfsapi",
@@ -2730,7 +2730,7 @@
           },
           {
             "name": "google-auth",
-            "version": "2.55.1"
+            "version": "2.55.2"
           },
           {
             "name": "google-auth-httplib2",
@@ -2914,7 +2914,7 @@
           },
           {
             "name": "habluetooth",
-            "version": "6.26.2"
+            "version": "6.26.5"
           },
           {
             "name": "hanna-cloud",
@@ -2982,7 +2982,7 @@
           },
           {
             "name": "holidays",
-            "version": "0.99"
+            "version": "0.100"
           },
           {
             "name": "home-assistant-bluetooth",
@@ -2990,7 +2990,7 @@
           },
           {
             "name": "home-assistant-frontend",
-            "version": "20260624.4"
+            "version": "20260624.5"
           },
           {
             "name": "home-assistant-intents",
@@ -2998,7 +2998,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.7.1"
+            "version": "2026.7.2"
           },
           {
             "name": "homekit-audio-proxy",
@@ -3050,7 +3050,7 @@
           },
           {
             "name": "httpx-retries",
-            "version": "0.5.0"
+            "version": "0.6.0"
           },
           {
             "name": "httpx-sse",
@@ -3098,7 +3098,7 @@
           },
           {
             "name": "ical",
-            "version": "13.2.5"
+            "version": "13.3.0"
           },
           {
             "name": "icalendar",
@@ -3142,7 +3142,7 @@
           },
           {
             "name": "ijson",
-            "version": "3.5.0"
+            "version": "3.5.1"
           },
           {
             "name": "imeon_inverter_api",
@@ -3318,7 +3318,7 @@
           },
           {
             "name": "joserfc",
-            "version": "1.7.2"
+            "version": "1.7.3"
           },
           {
             "name": "jsonpath-python",
@@ -4194,7 +4194,7 @@
           },
           {
             "name": "proto-plus",
-            "version": "1.28.0"
+            "version": "1.28.1"
           },
           {
             "name": "protobuf",
@@ -4290,7 +4290,7 @@
           },
           {
             "name": "py-synologydsm-api",
-            "version": "2.10.2"
+            "version": "2.10.3"
           },
           {
             "name": "py-unifi-access",
@@ -4430,7 +4430,7 @@
           },
           {
             "name": "pyasn1",
-            "version": "0.6.3"
+            "version": "0.6.4"
           },
           {
             "name": "pyasn1_modules",
@@ -4830,7 +4830,7 @@
           },
           {
             "name": "pylamarzocco",
-            "version": "2.4.1"
+            "version": "2.4.2"
           },
           {
             "name": "pylast",
@@ -4998,7 +4998,7 @@
           },
           {
             "name": "pyoverkiz",
-            "version": "2.0.3"
+            "version": "2.0.4"
           },
           {
             "name": "pypalazzetti",
@@ -5278,7 +5278,7 @@
           },
           {
             "name": "python-bsblan",
-            "version": "6.1.4"
+            "version": "6.1.6"
           },
           {
             "name": "python-citybikes",
@@ -5434,7 +5434,7 @@
           },
           {
             "name": "python-roborock",
-            "version": "5.22.0"
+            "version": "5.25.0"
           },
           {
             "name": "python-slugify",
@@ -5610,7 +5610,7 @@
           },
           {
             "name": "pywmspro",
-            "version": "0.4.0"
+            "version": "0.4.2"
           },
           {
             "name": "pyws66i",
@@ -5702,7 +5702,7 @@
           },
           {
             "name": "regex",
-            "version": "2026.6.28"
+            "version": "2026.7.10"
           },
           {
             "name": "renault-api",
@@ -5714,7 +5714,7 @@
           },
           {
             "name": "reolink_aio",
-            "version": "0.21.3"
+            "version": "0.21.4"
           },
           {
             "name": "requests",
@@ -5846,7 +5846,7 @@
           },
           {
             "name": "selenium",
-            "version": "4.45.0"
+            "version": "4.46.0"
           },
           {
             "name": "semver",
@@ -6321,6 +6321,10 @@
             "version": "2.4.0"
           },
           {
+            "name": "tomli_w",
+            "version": "1.2.0"
+          },
+          {
             "name": "toonapi",
             "version": "0.3.0"
           },
@@ -6334,7 +6338,7 @@
           },
           {
             "name": "tqdm",
-            "version": "4.68.3"
+            "version": "4.68.4"
           },
           {
             "name": "transitions",
@@ -6370,7 +6374,7 @@
           },
           {
             "name": "tuya-device-handlers",
-            "version": "0.0.24"
+            "version": "0.0.25"
           },
           {
             "name": "tuya-device-sharing-sdk",
@@ -6422,7 +6426,7 @@
           },
           {
             "name": "tzdata",
-            "version": "2026.2"
+            "version": "2026.3"
           },
           {
             "name": "tzlocal",
@@ -6446,7 +6450,7 @@
           },
           {
             "name": "uiprotect",
-            "version": "15.3.0"
+            "version": "15.4.3"
           },
           {
             "name": "ujson",
@@ -6530,7 +6534,7 @@
           },
           {
             "name": "uvicorn",
-            "version": "0.49.0"
+            "version": "0.51.0"
           },
           {
             "name": "vacuum-map-parser-base",
@@ -6558,7 +6562,7 @@
           },
           {
             "name": "venstarcolortouch",
-            "version": "0.21"
+            "version": "0.22"
           },
           {
             "name": "viaggiatreno_ha",
@@ -6690,7 +6694,7 @@
           },
           {
             "name": "websockets",
-            "version": "16.0"
+            "version": "16.1"
           },
           {
             "name": "weheat",
@@ -6846,7 +6850,7 @@
           },
           {
             "name": "zha-quirks",
-            "version": "2.1.0"
+            "version": "2.1.1"
           },
           {
             "name": "zhong-hong-hvac",
@@ -7881,10 +7885,10 @@
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 1562,
+        "python": 1563,
         "ruby": 0,
         "rust": 241,
-        "total": 1963
+        "total": 1964
       }
     }
   }
