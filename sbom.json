@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-11T09:51:57Z",
+  "generated": "2026-07-21T23:20:11Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.7.2",
+      "app_version": "2026.7.3",
       "arch": "amd64",
-      "generated": "2026-07-11T09:50:39Z",
+      "generated": "2026-07-21T23:18:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -83,6 +83,10 @@
           },
           {
             "name": "FreeBSD-lld",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -183,7 +187,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "cmake",
@@ -243,7 +247,7 @@
           },
           {
             "name": "git-lite",
-            "version": "2.54.0"
+            "version": "2.55.0"
           },
           {
             "name": "glib",
@@ -291,7 +295,7 @@
           },
           {
             "name": "lame",
-            "version": "3.100_5"
+            "version": "4.0"
           },
           {
             "name": "lcms2",
@@ -299,7 +303,7 @@
           },
           {
             "name": "lerc",
-            "version": "4.1.0"
+            "version": "4.1.1"
           },
           {
             "name": "libass",
@@ -327,7 +331,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.7.1"
           },
           {
             "name": "libiconv",
@@ -402,6 +406,10 @@
             "version": "4.0.1"
           },
           {
+            "name": "mpg123",
+            "version": "1.33.6"
+          },
+          {
             "name": "nettle",
             "version": "3.10.2"
           },
@@ -415,7 +423,7 @@
           },
           {
             "name": "p11-kit",
-            "version": "0.26.2"
+            "version": "0.26.4"
           },
           {
             "name": "pcre2",
@@ -714,7 +722,7 @@
           },
           {
             "name": "ImageIO",
-            "version": "2.37.3"
+            "version": "2.37.4"
           },
           {
             "name": "Jinja2",
@@ -1578,7 +1586,7 @@
           },
           {
             "name": "asgiref",
-            "version": "3.11.1"
+            "version": "3.12.1"
           },
           {
             "name": "asn1",
@@ -1806,7 +1814,7 @@
           },
           {
             "name": "bitarray",
-            "version": "3.9.0"
+            "version": "3.9.1"
           },
           {
             "name": "bitstring",
@@ -2094,7 +2102,7 @@
           },
           {
             "name": "construct-typing",
-            "version": "0.7.0"
+            "version": "0.8.0"
           },
           {
             "name": "convertertools",
@@ -2106,7 +2114,7 @@
           },
           {
             "name": "coverage",
-            "version": "7.15.0"
+            "version": "7.15.2"
           },
           {
             "name": "crc",
@@ -2502,7 +2510,7 @@
           },
           {
             "name": "faust-cchardet",
-            "version": "2.1.19"
+            "version": "3.0.0"
           },
           {
             "name": "feedparser",
@@ -2702,7 +2710,7 @@
           },
           {
             "name": "gios",
-            "version": "7.1.0"
+            "version": "7.1.1"
           },
           {
             "name": "glances_api",
@@ -2722,7 +2730,7 @@
           },
           {
             "name": "google-api-core",
-            "version": "2.31.0"
+            "version": "2.32.0"
           },
           {
             "name": "google-api-python-client",
@@ -2730,7 +2738,7 @@
           },
           {
             "name": "google-auth",
-            "version": "2.55.2"
+            "version": "2.56.2"
           },
           {
             "name": "google-auth-httplib2",
@@ -2878,7 +2886,7 @@
           },
           {
             "name": "guntamatic",
-            "version": "1.9.0"
+            "version": "1.9.2"
           },
           {
             "name": "guppy3",
@@ -2990,7 +2998,7 @@
           },
           {
             "name": "home-assistant-frontend",
-            "version": "20260624.5"
+            "version": "20260624.6"
           },
           {
             "name": "home-assistant-intents",
@@ -2998,7 +3006,7 @@
           },
           {
             "name": "homeassistant",
-            "version": "2026.7.2"
+            "version": "2026.7.3"
           },
           {
             "name": "homekit-audio-proxy",
@@ -3318,7 +3326,7 @@
           },
           {
             "name": "joserfc",
-            "version": "1.7.3"
+            "version": "1.7.4"
           },
           {
             "name": "jsonpath-python",
@@ -3962,15 +3970,15 @@
           },
           {
             "name": "opentelemetry-api",
-            "version": "1.43.0"
+            "version": "1.44.0"
           },
           {
             "name": "opentelemetry-sdk",
-            "version": "1.43.0"
+            "version": "1.44.0"
           },
           {
             "name": "opentelemetry-semantic-conventions",
-            "version": "0.64b0"
+            "version": "0.65b0"
           },
           {
             "name": "openwebifpy",
@@ -4126,7 +4134,7 @@
           },
           {
             "name": "platformdirs",
-            "version": "4.10.0"
+            "version": "4.11.0"
           },
           {
             "name": "plexauth",
@@ -4998,7 +5006,7 @@
           },
           {
             "name": "pyoverkiz",
-            "version": "2.0.4"
+            "version": "2.1.0"
           },
           {
             "name": "pypalazzetti",
@@ -5434,7 +5442,7 @@
           },
           {
             "name": "python-roborock",
-            "version": "5.25.0"
+            "version": "5.31.1"
           },
           {
             "name": "python-slugify",
@@ -5470,7 +5478,7 @@
           },
           {
             "name": "python-swisscom-internet-box",
-            "version": "0.1.1"
+            "version": "0.2.0"
           },
           {
             "name": "python-tado",
@@ -5682,7 +5690,7 @@
           },
           {
             "name": "reactivex",
-            "version": "4.1.0"
+            "version": "5.0.0"
           },
           {
             "name": "redgtech-api",
@@ -5702,7 +5710,7 @@
           },
           {
             "name": "regex",
-            "version": "2026.7.10"
+            "version": "2026.7.19"
           },
           {
             "name": "renault-api",
@@ -6050,7 +6058,7 @@
           },
           {
             "name": "soupsieve",
-            "version": "2.8.4"
+            "version": "2.9.1"
           },
           {
             "name": "speak2mary",
@@ -6086,7 +6094,7 @@
           },
           {
             "name": "sse-starlette",
-            "version": "3.4.5"
+            "version": "3.4.6"
           },
           {
             "name": "standard-aifc",
@@ -6230,7 +6238,7 @@
           },
           {
             "name": "tempora",
-            "version": "5.9.0"
+            "version": "5.12.0"
           },
           {
             "name": "tenacity",
@@ -6338,7 +6346,7 @@
           },
           {
             "name": "tqdm",
-            "version": "4.68.4"
+            "version": "4.69.0"
           },
           {
             "name": "transitions",
@@ -6694,7 +6702,7 @@
           },
           {
             "name": "websockets",
-            "version": "16.1"
+            "version": "16.1.1"
           },
           {
             "name": "weheat",
@@ -6846,7 +6854,7 @@
           },
           {
             "name": "zha",
-            "version": "2.0.0"
+            "version": "2.0.1"
           },
           {
             "name": "zha-quirks",
@@ -6862,7 +6870,7 @@
           },
           {
             "name": "zigpy",
-            "version": "2.0.0"
+            "version": "2.0.1"
           },
           {
             "name": "zigpy-deconz",
@@ -7880,7 +7888,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 124,
+        "freebsd": 126,
         "go": 36,
         "java": 0,
         "node": 0,
@@ -7888,7 +7896,7 @@
         "python": 1563,
         "ruby": 0,
         "rust": 241,
-        "total": 1964
+        "total": 1966
       }
     }
   }
