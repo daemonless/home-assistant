@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-01T16:25:56Z",
+  "generated": "2026-08-06T09:24:10Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.7.4",
+      "app_version": "2026.8.0",
       "arch": "amd64",
-      "generated": "2026-08-01T16:19:04Z",
+      "generated": "2026-08-06T09:18:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -721,7 +721,7 @@
               "LGPL21"
             ],
             "name": "mpg123",
-            "version": "1.33.6"
+            "version": "1.33.7"
           },
           {
             "licenses": [
@@ -1106,7 +1106,7 @@
           {
             "name": "AIOSomecomfort",
             "purl": "",
-            "version": "0.0.35"
+            "version": "0.0.38"
           },
           {
             "name": "Adax-local",
@@ -1226,7 +1226,7 @@
           {
             "name": "PyJWT",
             "purl": "",
-            "version": "2.12.1"
+            "version": "2.13.0"
           },
           {
             "name": "PyLoadAPI",
@@ -1281,7 +1281,7 @@
           {
             "name": "PySwitchbot",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.3.0"
           },
           {
             "name": "PySwitchmate",
@@ -1306,7 +1306,7 @@
           {
             "name": "PyViCare",
             "purl": "",
-            "version": "2.60.2"
+            "version": "2.61.0"
           },
           {
             "name": "PyXiaomiGateway",
@@ -1426,7 +1426,7 @@
           {
             "name": "afsapi",
             "purl": "",
-            "version": "1.0.1"
+            "version": "1.0.2"
           },
           {
             "name": "agent-py",
@@ -1486,7 +1486,7 @@
           {
             "name": "aioacaia",
             "purl": "",
-            "version": "0.1.18"
+            "version": "0.2.1"
           },
           {
             "name": "aioairq",
@@ -1506,7 +1506,7 @@
           {
             "name": "aioamazondevices",
             "purl": "",
-            "version": "14.1.9"
+            "version": "14.2.2"
           },
           {
             "name": "aioambient",
@@ -1526,7 +1526,7 @@
           {
             "name": "aioaquarite",
             "purl": "",
-            "version": "0.5.1"
+            "version": "0.6.1"
           },
           {
             "name": "aioaseko",
@@ -1556,12 +1556,7 @@
           {
             "name": "aiobotocore",
             "purl": "",
-            "version": "2.21.1"
-          },
-          {
-            "name": "aiocache",
-            "purl": "",
-            "version": "0.12.3"
+            "version": "3.7.0"
           },
           {
             "name": "aiocentriconnect",
@@ -1626,7 +1621,7 @@
           {
             "name": "aioesphomeapi",
             "purl": "",
-            "version": "45.3.1"
+            "version": "45.6.1"
           },
           {
             "name": "aiofiles",
@@ -1664,6 +1659,11 @@
             "version": "2.7.1"
           },
           {
+            "name": "aioharmanluxury",
+            "purl": "",
+            "version": "0.2.3"
+          },
+          {
             "name": "aioharmony",
             "purl": "",
             "version": "1.0.8"
@@ -1671,7 +1671,7 @@
           {
             "name": "aiohasupervisor",
             "purl": "",
-            "version": "0.5.0"
+            "version": "0.6.0"
           },
           {
             "name": "aiohomeconnect",
@@ -1681,7 +1681,7 @@
           {
             "name": "aiohomekit",
             "purl": "",
-            "version": "3.2.20"
+            "version": "4.0.0"
           },
           {
             "name": "aiohttp",
@@ -1731,7 +1731,7 @@
           {
             "name": "aiohue",
             "purl": "",
-            "version": "4.8.1"
+            "version": "4.9.0"
           },
           {
             "name": "aioimaplib",
@@ -1741,7 +1741,7 @@
           {
             "name": "aioimmich",
             "purl": "",
-            "version": "0.15.1"
+            "version": "0.16.1"
           },
           {
             "name": "aioitertools",
@@ -1752,6 +1752,11 @@
             "name": "aiokafka",
             "purl": "",
             "version": "0.10.0"
+          },
+          {
+            "name": "aiokarakeep",
+            "purl": "",
+            "version": "0.3.0"
           },
           {
             "name": "aiokef",
@@ -1801,12 +1806,12 @@
           {
             "name": "aiomealie",
             "purl": "",
-            "version": "1.2.4"
+            "version": "2.0.0"
           },
           {
             "name": "aiomelcloudhome",
             "purl": "",
-            "version": "0.1.9"
+            "version": "0.2.1"
           },
           {
             "name": "aiomodernforms",
@@ -1886,7 +1891,7 @@
           {
             "name": "aiopvapi",
             "purl": "",
-            "version": "3.3.0"
+            "version": "3.4.0"
           },
           {
             "name": "aiopyarr",
@@ -1941,7 +1946,7 @@
           {
             "name": "aioshelly",
             "purl": "",
-            "version": "13.26.2"
+            "version": "13.29.0"
           },
           {
             "name": "aiosignal",
@@ -1991,7 +1996,7 @@
           {
             "name": "aioswitcher",
             "purl": "",
-            "version": "6.1.1"
+            "version": "6.1.3"
           },
           {
             "name": "aiosyncthing",
@@ -2031,7 +2036,7 @@
           {
             "name": "aiovodafone",
             "purl": "",
-            "version": "3.3.0"
+            "version": "3.3.1"
           },
           {
             "name": "aiowaqi",
@@ -2046,7 +2051,7 @@
           {
             "name": "aiowebostv",
             "purl": "",
-            "version": "0.7.5"
+            "version": "0.9.0"
           },
           {
             "name": "aiowithings",
@@ -2166,7 +2171,7 @@
           {
             "name": "anova-wifi",
             "purl": "",
-            "version": "0.17.1"
+            "version": "1.0.1"
           },
           {
             "name": "anthemav",
@@ -2236,7 +2241,7 @@
           {
             "name": "argcomplete",
             "purl": "",
-            "version": "3.7.0"
+            "version": "3.7.2"
           },
           {
             "name": "arris-tg2492lg",
@@ -2296,7 +2301,7 @@
           {
             "name": "async_upnp_client",
             "purl": "",
-            "version": "0.46.2"
+            "version": "0.47.1"
           },
           {
             "name": "asyncarve",
@@ -2322,6 +2327,11 @@
             "name": "asyncio-throttle",
             "purl": "",
             "version": "1.0.2"
+          },
+          {
+            "name": "asyncpg",
+            "purl": "",
+            "version": "0.31.0"
           },
           {
             "name": "asyncpysupla",
@@ -2531,7 +2541,7 @@
           {
             "name": "bellows",
             "purl": "",
-            "version": "0.49.2"
+            "version": "1.0.0"
           },
           {
             "name": "bidict",
@@ -2576,7 +2586,12 @@
           {
             "name": "bleak-retry-connector",
             "purl": "",
-            "version": "4.6.1"
+            "version": "4.6.3"
+          },
+          {
+            "name": "bleak-smlight",
+            "purl": "",
+            "version": "1.1.0"
           },
           {
             "name": "blebox-uniapi",
@@ -2591,7 +2606,7 @@
           {
             "name": "blinkpy",
             "purl": "",
-            "version": "0.25.6"
+            "version": "0.25.9"
           },
           {
             "name": "blockchain",
@@ -2641,17 +2656,17 @@
           {
             "name": "boschshcpy",
             "purl": "",
-            "version": "0.3.5"
+            "version": "0.6.4"
           },
           {
             "name": "boto3",
             "purl": "",
-            "version": "1.37.1"
+            "version": "1.42.97"
           },
           {
             "name": "botocore",
             "purl": "",
-            "version": "1.37.1"
+            "version": "1.42.97"
           },
           {
             "name": "bring-api",
@@ -2731,7 +2746,7 @@
           {
             "name": "cachetools",
             "purl": "",
-            "version": "7.1.6"
+            "version": "7.1.7"
           },
           {
             "name": "casttube",
@@ -2916,7 +2931,7 @@
           {
             "name": "coverage",
             "purl": "",
-            "version": "7.15.2"
+            "version": "7.15.3"
           },
           {
             "name": "crc",
@@ -3001,7 +3016,7 @@
           {
             "name": "dateparser",
             "purl": "",
-            "version": "1.4.1"
+            "version": "1.4.2"
           },
           {
             "name": "dbus-fast",
@@ -3026,7 +3041,7 @@
           {
             "name": "deebot-client",
             "purl": "",
-            "version": "18.4.0"
+            "version": "18.5.1"
           },
           {
             "name": "deepdiff",
@@ -3061,7 +3076,7 @@
           {
             "name": "denon-rs232",
             "purl": "",
-            "version": "4.1.0"
+            "version": "4.2.1"
           },
           {
             "name": "denonavr",
@@ -3181,7 +3196,7 @@
           {
             "name": "earn-e-p1",
             "purl": "",
-            "version": "0.1.0"
+            "version": "0.2.0"
           },
           {
             "name": "easyenergy",
@@ -3211,7 +3226,7 @@
           {
             "name": "eheimdigital",
             "purl": "",
-            "version": "1.7.0"
+            "version": "1.7.1"
           },
           {
             "name": "ekey-bionyxpy",
@@ -3271,7 +3286,7 @@
           {
             "name": "energieleser",
             "purl": "",
-            "version": "0.1.4"
+            "version": "0.1.5"
           },
           {
             "name": "energyflip-client",
@@ -3311,7 +3326,7 @@
           {
             "name": "epaper-dithering",
             "purl": "",
-            "version": "5.0.6"
+            "version": "6.0.0"
           },
           {
             "name": "ephem",
@@ -3346,7 +3361,7 @@
           {
             "name": "esphome-dashboard-api",
             "purl": "",
-            "version": "1.3.0"
+            "version": "1.4.0"
           },
           {
             "name": "esprima",
@@ -3376,7 +3391,7 @@
           {
             "name": "evohome-async",
             "purl": "",
-            "version": "1.2.0"
+            "version": "2.0.1"
           },
           {
             "name": "evolutionhttp",
@@ -3411,7 +3426,7 @@
           {
             "name": "faust-cchardet",
             "purl": "",
-            "version": "2.2.1"
+            "version": "3.1.0"
           },
           {
             "name": "feedparser",
@@ -3604,9 +3619,14 @@
             "version": "0.0.14"
           },
           {
+            "name": "gatus-api",
+            "purl": "",
+            "version": "1.0.3"
+          },
+          {
             "name": "gcal_sync",
             "purl": "",
-            "version": "8.0.0"
+            "version": "9.1.0"
           },
           {
             "name": "genie_partner_sdk",
@@ -3696,12 +3716,12 @@
           {
             "name": "google-auth",
             "purl": "",
-            "version": "2.56.2"
+            "version": "2.56.3"
           },
           {
             "name": "google-auth-httplib2",
             "purl": "",
-            "version": "0.4.0"
+            "version": "0.4.1"
           },
           {
             "name": "google-auth-oauthlib",
@@ -3711,7 +3731,7 @@
           {
             "name": "google-cloud-core",
             "purl": "",
-            "version": "2.6.0"
+            "version": "2.6.1"
           },
           {
             "name": "google-cloud-firestore",
@@ -3752,6 +3772,11 @@
             "name": "google_air_quality_api",
             "purl": "",
             "version": "3.0.1"
+          },
+          {
+            "name": "google_health_api",
+            "purl": "",
+            "version": "0.8.0"
           },
           {
             "name": "google_nest_sdm",
@@ -3881,7 +3906,7 @@
           {
             "name": "guntamatic",
             "purl": "",
-            "version": "1.9.2"
+            "version": "1.9.3"
           },
           {
             "name": "guppy3",
@@ -3906,12 +3931,12 @@
           {
             "name": "ha-iotawattpy",
             "purl": "",
-            "version": "0.1.2"
+            "version": "0.2.1"
           },
           {
             "name": "ha-philipsjs",
             "purl": "",
-            "version": "3.2.4"
+            "version": "3.2.5"
           },
           {
             "name": "ha-silabs-firmware-client",
@@ -3934,6 +3959,11 @@
             "version": "0.0.7"
           },
           {
+            "name": "harbor-python",
+            "purl": "",
+            "version": "1.5.0"
+          },
+          {
             "name": "hass-nabucasa",
             "purl": "",
             "version": "2.2.0"
@@ -3946,7 +3976,7 @@
           {
             "name": "hassil",
             "purl": "",
-            "version": "3.8.0"
+            "version": "3.11.0"
           },
           {
             "name": "haversine",
@@ -4011,7 +4041,7 @@
           {
             "name": "holidays",
             "purl": "",
-            "version": "0.100"
+            "version": "0.101"
           },
           {
             "name": "home-assistant-bluetooth",
@@ -4021,17 +4051,17 @@
           {
             "name": "home-assistant-frontend",
             "purl": "",
-            "version": "20260624.6"
+            "version": "20260729.5"
           },
           {
             "name": "home-assistant-intents",
             "purl": "",
-            "version": "2026.6.24"
+            "version": "2026.7.30"
           },
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.7.4"
+            "version": "2026.8.0"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4046,7 +4076,7 @@
           {
             "name": "homematicip",
             "purl": "",
-            "version": "2.13.2"
+            "version": "2.13.4"
           },
           {
             "name": "horimote",
@@ -4156,7 +4186,7 @@
           {
             "name": "ical",
             "purl": "",
-            "version": "13.3.0"
+            "version": "14.0.1"
           },
           {
             "name": "icalendar",
@@ -4176,7 +4206,7 @@
           {
             "name": "idasen-ha",
             "purl": "",
-            "version": "2.7.0"
+            "version": "3.0.1"
           },
           {
             "name": "idna",
@@ -4221,7 +4251,7 @@
           {
             "name": "imgw_pib",
             "purl": "",
-            "version": "2.4.0"
+            "version": "2.5.1"
           },
           {
             "name": "importlib_metadata",
@@ -4271,7 +4301,7 @@
           {
             "name": "infrared-protocols",
             "purl": "",
-            "version": "6.3.0"
+            "version": "8.2.1"
           },
           {
             "name": "iniconfig",
@@ -4301,7 +4331,7 @@
           {
             "name": "intellifire4py",
             "purl": "",
-            "version": "4.4.0"
+            "version": "4.5.0"
           },
           {
             "name": "invoke",
@@ -4411,7 +4441,7 @@
           {
             "name": "jellyfin-apiclient-python",
             "purl": "",
-            "version": "1.11.0"
+            "version": "1.16.0"
           },
           {
             "name": "jiter",
@@ -4526,12 +4556,12 @@
           {
             "name": "knx-telegram-store",
             "purl": "",
-            "version": "0.3.2"
+            "version": "0.11.2"
           },
           {
             "name": "knx_frontend",
             "purl": "",
-            "version": "2026.6.23.203726"
+            "version": "2026.8.2.133643"
           },
           {
             "name": "krakenex",
@@ -4616,7 +4646,7 @@
           {
             "name": "librouteros",
             "purl": "",
-            "version": "3.2.1"
+            "version": "4.1.1"
           },
           {
             "name": "libsoundtouch",
@@ -4709,6 +4739,11 @@
             "version": "0.9.2"
           },
           {
+            "name": "lyngdorf",
+            "purl": "",
+            "version": "1.4.0"
+          },
+          {
             "name": "mac-vendor-lookup",
             "purl": "",
             "version": "0.1.15"
@@ -4736,7 +4771,7 @@
           {
             "name": "matrix-nio",
             "purl": "",
-            "version": "0.25.2"
+            "version": "0.26.0"
           },
           {
             "name": "matter-ble-proxy",
@@ -4746,7 +4781,7 @@
           {
             "name": "matter-python-client",
             "purl": "",
-            "version": "0.7.1"
+            "version": "1.3.0"
           },
           {
             "name": "maxcube-api",
@@ -4806,7 +4841,7 @@
           {
             "name": "meteo_lt-pkg",
             "purl": "",
-            "version": "0.2.4"
+            "version": "0.7.3"
           },
           {
             "name": "meteoalertapi",
@@ -4839,6 +4874,11 @@
             "version": "0.3.5"
           },
           {
+            "name": "midea-local",
+            "purl": "",
+            "version": "6.11.1"
+          },
+          {
             "name": "mill_local",
             "purl": "",
             "version": "0.5.0"
@@ -4861,12 +4901,17 @@
           {
             "name": "mitsubishi-comfort",
             "purl": "",
-            "version": "0.3.2"
+            "version": "0.5.1"
           },
           {
             "name": "moat-ble",
             "purl": "",
             "version": "0.1.1"
+          },
+          {
+            "name": "modbus-connection",
+            "purl": "",
+            "version": "3.9.0"
           },
           {
             "name": "moehlenhoff-alpha2",
@@ -4881,12 +4926,12 @@
           {
             "name": "monarchmoneycommunity",
             "purl": "",
-            "version": "1.3.0"
+            "version": "1.5.1"
           },
           {
             "name": "monzopy",
             "purl": "",
-            "version": "1.5.1"
+            "version": "1.6.0"
           },
           {
             "name": "mopeka-iot-ble",
@@ -4961,17 +5006,17 @@
           {
             "name": "music_assistant_client",
             "purl": "",
-            "version": "1.3.6"
+            "version": "1.4.3"
           },
           {
             "name": "music_assistant_models",
             "purl": "",
-            "version": "1.1.139"
+            "version": "1.1.152"
           },
           {
             "name": "mutagen",
             "purl": "",
-            "version": "1.47.0"
+            "version": "1.48.1"
           },
           {
             "name": "mutesync",
@@ -4987,11 +5032,6 @@
             "name": "my-test-package",
             "purl": "",
             "version": "1.0"
-          },
-          {
-            "name": "mypermobil",
-            "purl": "",
-            "version": "0.1.8"
           },
           {
             "name": "mypy_extensions",
@@ -5012,6 +5052,11 @@
             "name": "ndms2_client",
             "purl": "",
             "version": "0.1.2"
+          },
+          {
+            "name": "neopool-modbus",
+            "purl": "",
+            "version": "4.5.1"
           },
           {
             "name": "nessclient",
@@ -5051,7 +5096,7 @@
           {
             "name": "nexia",
             "purl": "",
-            "version": "2.11.1"
+            "version": "2.13.0"
           },
           {
             "name": "nextcloudmonitor",
@@ -5081,7 +5126,7 @@
           {
             "name": "nice-go",
             "purl": "",
-            "version": "1.0.1"
+            "version": "1.0.2"
           },
           {
             "name": "niluclient",
@@ -5216,7 +5261,7 @@
           {
             "name": "openai",
             "purl": "",
-            "version": "2.21.0"
+            "version": "2.45.0"
           },
           {
             "name": "openerz-api",
@@ -5266,7 +5311,7 @@
           {
             "name": "opower",
             "purl": "",
-            "version": "0.18.6"
+            "version": "0.19.0"
           },
           {
             "name": "opuslib-next",
@@ -5276,7 +5321,7 @@
           {
             "name": "oralb-ble",
             "purl": "",
-            "version": "1.1.0"
+            "version": "1.1.3"
           },
           {
             "name": "orderedmultidict",
@@ -5436,7 +5481,7 @@
           {
             "name": "pillow",
             "purl": "",
-            "version": "12.2.0"
+            "version": "12.3.0"
           },
           {
             "name": "platformdirs",
@@ -5461,7 +5506,7 @@
           {
             "name": "plugwise",
             "purl": "",
-            "version": "1.11.4"
+            "version": "1.14.2"
           },
           {
             "name": "pmsensor",
@@ -5631,7 +5676,7 @@
           {
             "name": "py-opendisplay",
             "purl": "",
-            "version": "7.2.3"
+            "version": "7.15.0"
           },
           {
             "name": "py-schluter",
@@ -5676,7 +5721,7 @@
           {
             "name": "pyControl4",
             "purl": "",
-            "version": "1.5.0"
+            "version": "2.0.2"
           },
           {
             "name": "pyDuotecno",
@@ -5711,7 +5756,7 @@
           {
             "name": "pyHomee",
             "purl": "",
-            "version": "1.4.0"
+            "version": "1.4.3"
           },
           {
             "name": "pyOpenSSL",
@@ -5751,7 +5796,7 @@
           {
             "name": "py_ccm15",
             "purl": "",
-            "version": "0.6.0"
+            "version": "1.1.2"
           },
           {
             "name": "py_madvr2",
@@ -5791,12 +5836,12 @@
           {
             "name": "pyairnow",
             "purl": "",
-            "version": "1.3.1"
+            "version": "1.4.0"
           },
           {
             "name": "pyairobotrest",
             "purl": "",
-            "version": "0.3.0"
+            "version": "0.4.0"
           },
           {
             "name": "pyairvisual",
@@ -5836,7 +5881,7 @@
           {
             "name": "pyatmo",
             "purl": "",
-            "version": "9.4.0"
+            "version": "9.6.0"
           },
           {
             "name": "pyatv",
@@ -5872,6 +5917,11 @@
             "name": "pybotvac",
             "purl": "",
             "version": "0.0.29"
+          },
+          {
+            "name": "pybraendstofpriser",
+            "purl": "",
+            "version": "2.2.0"
           },
           {
             "name": "pybravia",
@@ -5966,7 +6016,7 @@
           {
             "name": "pydaikin",
             "purl": "",
-            "version": "2.18.1"
+            "version": "2.18.3"
           },
           {
             "name": "pydanfossair",
@@ -6026,7 +6076,7 @@
           {
             "name": "pydrawise",
             "purl": "",
-            "version": "2026.4.0"
+            "version": "2026.7.0"
           },
           {
             "name": "pydroid-ipcam",
@@ -6056,7 +6106,7 @@
           {
             "name": "pyeconet",
             "purl": "",
-            "version": "0.2.2"
+            "version": "0.2.4"
           },
           {
             "name": "pyedimax",
@@ -6164,6 +6214,11 @@
             "version": "4.0.5"
           },
           {
+            "name": "pygeosphere-warnings",
+            "purl": "",
+            "version": "0.1.1"
+          },
+          {
             "name": "pygtfs",
             "purl": "",
             "version": "0.1.11"
@@ -6211,7 +6266,7 @@
           {
             "name": "pyimouapi",
             "purl": "",
-            "version": "1.2.8"
+            "version": "1.3.0"
           },
           {
             "name": "pyinsteon",
@@ -6221,12 +6276,12 @@
           {
             "name": "pyintelliclima",
             "purl": "",
-            "version": "0.3.1"
+            "version": "0.4.0"
           },
           {
             "name": "pyintesishome",
             "purl": "",
-            "version": "1.8.8"
+            "version": "2.0.3"
           },
           {
             "name": "pyipma",
@@ -6261,7 +6316,7 @@
           {
             "name": "pyisy",
             "purl": "",
-            "version": "3.6.1"
+            "version": "3.7.0"
           },
           {
             "name": "pyitachip2ir2",
@@ -6346,7 +6401,7 @@
           {
             "name": "pyliebherrhomeapi",
             "purl": "",
-            "version": "0.4.1"
+            "version": "0.5.1"
           },
           {
             "name": "pylitejet",
@@ -6361,12 +6416,12 @@
           {
             "name": "pylutron",
             "purl": "",
-            "version": "0.4.1"
+            "version": "0.4.2"
           },
           {
             "name": "pylutron-caseta",
             "purl": "",
-            "version": "0.28.0"
+            "version": "0.29.0"
           },
           {
             "name": "pymailgunner",
@@ -6411,7 +6466,7 @@
           {
             "name": "pymonoprice",
             "purl": "",
-            "version": "0.5"
+            "version": "0.6.1"
           },
           {
             "name": "pymysensors",
@@ -6441,12 +6496,12 @@
           {
             "name": "pynintendoauth",
             "purl": "",
-            "version": "1.0.2"
+            "version": "1.0.3"
           },
           {
             "name": "pynintendoparental",
             "purl": "",
-            "version": "2.4.0.1"
+            "version": "2.5.0"
           },
           {
             "name": "pynobo",
@@ -6541,7 +6596,7 @@
           {
             "name": "pypaperless",
             "purl": "",
-            "version": "4.1.1"
+            "version": "5.2.3"
           },
           {
             "name": "pyparsing",
@@ -6581,7 +6636,7 @@
           {
             "name": "pyportainer",
             "purl": "",
-            "version": "1.0.38"
+            "version": "1.0.43"
           },
           {
             "name": "pyprobeplus",
@@ -6626,7 +6681,7 @@
           {
             "name": "pyrainbird",
             "purl": "",
-            "version": "6.3.1"
+            "version": "6.5.0"
           },
           {
             "name": "pyrate-limiter",
@@ -6676,12 +6731,17 @@
           {
             "name": "pysaunum",
             "purl": "",
-            "version": "0.6.0"
+            "version": "0.7.0"
           },
           {
             "name": "pyschlage",
             "purl": "",
-            "version": "2025.9.0"
+            "version": "2026.7.0"
+          },
+          {
+            "name": "pyscorpiontrack",
+            "purl": "",
+            "version": "0.1.1"
           },
           {
             "name": "pysensibo",
@@ -6726,7 +6786,7 @@
           {
             "name": "pysignalclirestapi",
             "purl": "",
-            "version": "0.3.24"
+            "version": "0.3.25"
           },
           {
             "name": "pysignalr",
@@ -6781,7 +6841,7 @@
           {
             "name": "pysmlight",
             "purl": "",
-            "version": "0.4.0"
+            "version": "0.5.3"
           },
           {
             "name": "pysnmp",
@@ -6816,7 +6876,7 @@
           {
             "name": "pystiebeleltron",
             "purl": "",
-            "version": "0.2.5"
+            "version": "0.5.0"
           },
           {
             "name": "pysuezV2",
@@ -6861,7 +6921,7 @@
           {
             "name": "python-aidot",
             "purl": "",
-            "version": "0.3.53"
+            "version": "0.3.56"
           },
           {
             "name": "python-awair",
@@ -6921,7 +6981,7 @@
           {
             "name": "python-duco-connectivity",
             "purl": "",
-            "version": "0.7.1"
+            "version": "0.11.0"
           },
           {
             "name": "python-ecobee-api",
@@ -6981,7 +7041,7 @@
           {
             "name": "python-homewizard-energy",
             "purl": "",
-            "version": "10.1.0"
+            "version": "10.2.0"
           },
           {
             "name": "python-hpilo",
@@ -6996,7 +7056,7 @@
           {
             "name": "python-izone",
             "purl": "",
-            "version": "1.2.10"
+            "version": "1.3.9"
           },
           {
             "name": "python-join-api",
@@ -7061,7 +7121,7 @@
           {
             "name": "python-qube-heatpump",
             "purl": "",
-            "version": "1.11.0"
+            "version": "1.12.0"
           },
           {
             "name": "python-rabbitair",
@@ -7156,7 +7216,7 @@
           {
             "name": "python_open_router",
             "purl": "",
-            "version": "0.3.3"
+            "version": "0.4.0"
           },
           {
             "name": "python_opendata_transport",
@@ -7221,7 +7281,7 @@
           {
             "name": "pytrydan",
             "purl": "",
-            "version": "1.0.2"
+            "version": "1.0.4"
           },
           {
             "name": "pytz",
@@ -7252,11 +7312,6 @@
             "name": "pyvesync",
             "purl": "",
             "version": "3.4.2"
-          },
-          {
-            "name": "pyvizio",
-            "purl": "",
-            "version": "0.1.64"
           },
           {
             "name": "pyvlx",
@@ -7426,7 +7481,7 @@
           {
             "name": "reolink_aio",
             "purl": "",
-            "version": "0.21.4"
+            "version": "0.21.8"
           },
           {
             "name": "requests",
@@ -7541,7 +7596,7 @@
           {
             "name": "s3transfer",
             "purl": "",
-            "version": "0.11.3"
+            "version": "0.16.1"
           },
           {
             "name": "samsungctl",
@@ -7606,7 +7661,7 @@
           {
             "name": "sense_energy",
             "purl": "",
-            "version": "0.14.1"
+            "version": "0.14.3"
           },
           {
             "name": "sensirion-ble",
@@ -7806,7 +7861,7 @@
           {
             "name": "solaredge-web",
             "purl": "",
-            "version": "0.0.1"
+            "version": "0.3.0"
           },
           {
             "name": "solaredge_local",
@@ -7891,7 +7946,7 @@
           {
             "name": "sse-starlette",
             "purl": "",
-            "version": "3.4.6"
+            "version": "3.4.8"
           },
           {
             "name": "standard-aifc",
@@ -7916,7 +7971,7 @@
           {
             "name": "starlette",
             "purl": "",
-            "version": "1.3.1"
+            "version": "1.4.1"
           },
           {
             "name": "starline",
@@ -8081,12 +8136,12 @@
           {
             "name": "tesla-wall-connector",
             "purl": "",
-            "version": "1.1.0"
+            "version": "1.2.0"
           },
           {
             "name": "tesla_fleet_api",
             "purl": "",
-            "version": "1.4.7"
+            "version": "1.7.6"
           },
           {
             "name": "tesla_powerwall",
@@ -8096,7 +8151,7 @@
           {
             "name": "teslemetry_stream",
             "purl": "",
-            "version": "0.9.0"
+            "version": "0.9.2"
           },
           {
             "name": "tessie_api",
@@ -8196,12 +8251,12 @@
           {
             "name": "total_connect_client",
             "purl": "",
-            "version": "2025.12.2"
+            "version": "2026.7"
           },
           {
             "name": "tplink_omada_client",
             "purl": "",
-            "version": "1.5.8"
+            "version": "1.5.9"
           },
           {
             "name": "tqdm",
@@ -8251,12 +8306,12 @@
           {
             "name": "tuya-device-handlers",
             "purl": "",
-            "version": "0.0.25"
+            "version": "0.0.26"
           },
           {
             "name": "tuya-device-sharing-sdk",
             "purl": "",
-            "version": "0.2.10"
+            "version": "0.2.14"
           },
           {
             "name": "twentemilieu",
@@ -8272,11 +8327,6 @@
             "name": "twitchAPI",
             "purl": "",
             "version": "4.2.1"
-          },
-          {
-            "name": "typedmonarchmoney",
-            "purl": "",
-            "version": "0.7.0"
           },
           {
             "name": "typeguard",
@@ -8346,7 +8396,7 @@
           {
             "name": "uiprotect",
             "purl": "",
-            "version": "15.4.3"
+            "version": "15.14.2"
           },
           {
             "name": "ujson",
@@ -8441,7 +8491,7 @@
           {
             "name": "uv",
             "purl": "",
-            "version": "0.11.25"
+            "version": "0.11.31"
           },
           {
             "name": "uvcclient",
@@ -8451,7 +8501,7 @@
           {
             "name": "uvicorn",
             "purl": "",
-            "version": "0.52.0"
+            "version": "0.52.1"
           },
           {
             "name": "vacuum-map-parser-base",
@@ -8511,7 +8561,7 @@
           {
             "name": "victron_mqtt",
             "purl": "",
-            "version": "2026.6.1.1"
+            "version": "2026.7.6"
           },
           {
             "name": "vilfo-api-client",
@@ -8527,6 +8577,11 @@
             "name": "visionpluspython",
             "purl": "",
             "version": "1.1.0"
+          },
+          {
+            "name": "vizaio",
+            "purl": "",
+            "version": "0.3.2"
           },
           {
             "name": "vobject",
@@ -8566,7 +8621,7 @@
           {
             "name": "vsure",
             "purl": "",
-            "version": "2.7.1"
+            "version": "2.10.0"
           },
           {
             "name": "vtjp",
@@ -8611,7 +8666,7 @@
           {
             "name": "weatherflow4py",
             "purl": "",
-            "version": "1.5.4"
+            "version": "1.5.8"
           },
           {
             "name": "webcolors",
@@ -8666,7 +8721,7 @@
           {
             "name": "whirlpool_sixth_sense",
             "purl": "",
-            "version": "1.0.3"
+            "version": "1.3.1"
           },
           {
             "name": "whois",
@@ -8681,7 +8736,7 @@
           {
             "name": "wiim",
             "purl": "",
-            "version": "0.1.4"
+            "version": "0.1.6"
           },
           {
             "name": "wirelesstagpy",
@@ -8696,7 +8751,7 @@
           {
             "name": "wrapt",
             "purl": "",
-            "version": "1.17.3"
+            "version": "2.3.0"
           },
           {
             "name": "wsdot",
@@ -8711,7 +8766,7 @@
           {
             "name": "wyoming",
             "purl": "",
-            "version": "1.9.0"
+            "version": "1.10.0"
           },
           {
             "name": "xiaomi-ble",
@@ -8721,12 +8776,12 @@
           {
             "name": "xknx",
             "purl": "",
-            "version": "3.16.0"
+            "version": "3.18.0"
           },
           {
             "name": "xknxproject",
             "purl": "",
-            "version": "3.9.0"
+            "version": "3.10.0"
           },
           {
             "name": "xlsxwriter",
@@ -8761,7 +8816,7 @@
           {
             "name": "yalexs",
             "purl": "",
-            "version": "9.2.7"
+            "version": "9.2.10"
           },
           {
             "name": "yalexs-ble",
@@ -8806,7 +8861,7 @@
           {
             "name": "yt-dlp",
             "purl": "",
-            "version": "2026.3.17"
+            "version": "2026.7.4"
           },
           {
             "name": "yt-dlp-ejs",
@@ -8821,7 +8876,7 @@
           {
             "name": "zamg",
             "purl": "",
-            "version": "0.3.6"
+            "version": "0.4.1"
           },
           {
             "name": "zcc_helper",
@@ -8841,12 +8896,12 @@
           {
             "name": "zha",
             "purl": "",
-            "version": "2.0.1"
+            "version": "2.1.0"
           },
           {
             "name": "zha-quirks",
             "purl": "",
-            "version": "2.1.1"
+            "version": "2.2.0"
           },
           {
             "name": "zhong-hong-hvac",
@@ -8861,12 +8916,12 @@
           {
             "name": "zigpy",
             "purl": "",
-            "version": "2.0.1"
+            "version": "2.1.0"
           },
           {
             "name": "zigpy-deconz",
             "purl": "",
-            "version": "0.25.5"
+            "version": "1.0.0"
           },
           {
             "name": "zigpy-xbee",
@@ -8881,7 +8936,7 @@
           {
             "name": "zigpy-ziggurat",
             "purl": "",
-            "version": "1.0.1"
+            "version": "1.1.1"
           },
           {
             "name": "zigpy-znp",
@@ -8911,7 +8966,7 @@
           {
             "name": "zwave-js-server-python",
             "purl": "",
-            "version": "0.72.0"
+            "version": "0.73.0"
           },
           {
             "name": "zwave-me-ws",
@@ -10301,10 +10356,10 @@
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 1564,
+        "python": 1575,
         "ruby": 0,
         "rust": 274,
-        "total": 2000
+        "total": 2011
       }
     }
   }
