@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-06T09:24:10Z",
+  "generated": "2026-08-07T22:12:55Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.8.0",
+      "app_version": "2026.8.1",
       "arch": "amd64",
-      "generated": "2026-08-06T09:18:32Z",
+      "generated": "2026-08-07T22:06:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2051,7 +2051,7 @@
           {
             "name": "aiowebostv",
             "purl": "",
-            "version": "0.9.0"
+            "version": "0.9.1"
           },
           {
             "name": "aiowithings",
@@ -2551,7 +2551,7 @@
           {
             "name": "bitarray",
             "purl": "",
-            "version": "3.10.0"
+            "version": "3.10.1"
           },
           {
             "name": "bitstring",
@@ -2931,7 +2931,7 @@
           {
             "name": "coverage",
             "purl": "",
-            "version": "7.15.3"
+            "version": "7.15.4"
           },
           {
             "name": "crc",
@@ -4051,7 +4051,7 @@
           {
             "name": "home-assistant-frontend",
             "purl": "",
-            "version": "20260729.5"
+            "version": "20260729.6"
           },
           {
             "name": "home-assistant-intents",
@@ -4061,7 +4061,7 @@
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.8.0"
+            "version": "2026.8.1"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4741,7 +4741,7 @@
           {
             "name": "lyngdorf",
             "purl": "",
-            "version": "1.4.0"
+            "version": "1.4.4"
           },
           {
             "name": "mac-vendor-lookup",
@@ -4911,7 +4911,7 @@
           {
             "name": "modbus-connection",
             "purl": "",
-            "version": "3.9.0"
+            "version": "4.1.0"
           },
           {
             "name": "moehlenhoff-alpha2",
@@ -6016,7 +6016,7 @@
           {
             "name": "pydaikin",
             "purl": "",
-            "version": "2.18.3"
+            "version": "2.18.4"
           },
           {
             "name": "pydanfossair",
@@ -6036,7 +6036,7 @@
           {
             "name": "pydantic-settings",
             "purl": "",
-            "version": "2.14.2"
+            "version": "2.15.0"
           },
           {
             "name": "pydantic_core",
@@ -7111,7 +7111,7 @@
           {
             "name": "python-picnic-api2",
             "purl": "",
-            "version": "1.3.4"
+            "version": "2.0.1"
           },
           {
             "name": "python-pooldose",
@@ -7161,7 +7161,7 @@
           {
             "name": "python-socketio",
             "purl": "",
-            "version": "5.16.3"
+            "version": "5.16.4"
           },
           {
             "name": "python-socketio-v4",
@@ -7281,7 +7281,7 @@
           {
             "name": "pytrydan",
             "purl": "",
-            "version": "1.0.4"
+            "version": "1.0.5"
           },
           {
             "name": "pytz",
@@ -7861,7 +7861,7 @@
           {
             "name": "solaredge-web",
             "purl": "",
-            "version": "0.3.0"
+            "version": "0.3.1"
           },
           {
             "name": "solaredge_local",
@@ -7901,7 +7901,7 @@
           {
             "name": "soupsieve",
             "purl": "",
-            "version": "2.9.1"
+            "version": "2.9.2"
           },
           {
             "name": "speak2mary",
@@ -8106,7 +8106,7 @@
           {
             "name": "telnetlib3",
             "purl": "",
-            "version": "4.0.5"
+            "version": "5.0.0"
           },
           {
             "name": "teltasync",
