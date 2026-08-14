@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-07T22:12:55Z",
+  "generated": "2026-08-14T22:18:24Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.8.1",
+      "app_version": "2026.8.2",
       "arch": "amd64",
-      "generated": "2026-08-07T22:06:34Z",
+      "generated": "2026-08-14T22:13:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -386,7 +386,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg-nox11",
-            "version": "8.1.2_1,1"
+            "version": "8.1.2_2,1"
           },
           {
             "licenses": [
@@ -437,7 +437,7 @@
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -700,7 +700,7 @@
               "GPLv2"
             ],
             "name": "libx264",
-            "version": "0.164.3095"
+            "version": "0.165.3223"
           },
           {
             "licenses": [
@@ -750,7 +750,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.4"
+            "version": "0.26.5"
           },
           {
             "licenses": [
@@ -764,14 +764,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.1_1"
+            "version": "2.8.4"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "pkgconf",
-            "version": "2.4.3_1,1"
+            "version": "3.0.5,1"
           },
           {
             "licenses": [
@@ -793,21 +793,21 @@
               "PSFL"
             ],
             "name": "py314-sqlite3",
-            "version": "3.14.6_10"
+            "version": "3.14.7_10"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_3"
+            "version": "3.12.13_4"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python314",
-            "version": "3.14.6"
+            "version": "3.14.7"
           },
           {
             "licenses": [
@@ -1726,7 +1726,7 @@
           {
             "name": "aiohttp_socks",
             "purl": "",
-            "version": "0.11.0"
+            "version": "0.12.0"
           },
           {
             "name": "aiohue",
@@ -1801,7 +1801,7 @@
           {
             "name": "aiolyric",
             "purl": "",
-            "version": "2.1.1"
+            "version": "2.1.2"
           },
           {
             "name": "aiomealie",
@@ -1891,7 +1891,7 @@
           {
             "name": "aiopvapi",
             "purl": "",
-            "version": "3.4.0"
+            "version": "3.4.1"
           },
           {
             "name": "aiopyarr",
@@ -2594,9 +2594,9 @@
             "version": "1.1.0"
           },
           {
-            "name": "blebox-uniapi",
+            "name": "blebox_uniapi",
             "purl": "",
-            "version": "2.5.5"
+            "version": "2.5.7"
           },
           {
             "name": "blinker",
@@ -2731,7 +2731,7 @@
           {
             "name": "bx_py_utils",
             "purl": "",
-            "version": "120"
+            "version": "121"
           },
           {
             "name": "cachebox",
@@ -3241,7 +3241,7 @@
           {
             "name": "elementpath",
             "purl": "",
-            "version": "5.1.3"
+            "version": "5.1.4"
           },
           {
             "name": "elevenlabs",
@@ -3391,7 +3391,7 @@
           {
             "name": "evohome-async",
             "purl": "",
-            "version": "2.0.1"
+            "version": "2.1.0"
           },
           {
             "name": "evolutionhttp",
@@ -3426,7 +3426,7 @@
           {
             "name": "faust-cchardet",
             "purl": "",
-            "version": "3.1.0"
+            "version": "3.2.0"
           },
           {
             "name": "feedparser",
@@ -3856,7 +3856,7 @@
           {
             "name": "greenlet",
             "purl": "",
-            "version": "3.5.4"
+            "version": "3.5.5"
           },
           {
             "name": "greenplanet-energy-api",
@@ -4051,7 +4051,7 @@
           {
             "name": "home-assistant-frontend",
             "purl": "",
-            "version": "20260729.6"
+            "version": "20260729.7"
           },
           {
             "name": "home-assistant-intents",
@@ -4061,7 +4061,7 @@
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.8.1"
+            "version": "2026.8.2"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4076,7 +4076,7 @@
           {
             "name": "homematicip",
             "purl": "",
-            "version": "2.13.4"
+            "version": "2.15.0"
           },
           {
             "name": "horimote",
@@ -4186,7 +4186,7 @@
           {
             "name": "ical",
             "purl": "",
-            "version": "14.0.1"
+            "version": "14.1.0"
           },
           {
             "name": "icalendar",
@@ -4271,7 +4271,7 @@
           {
             "name": "incomfort-client",
             "purl": "",
-            "version": "0.7.0"
+            "version": "0.7.1"
           },
           {
             "name": "indevolt-api",
@@ -4741,7 +4741,7 @@
           {
             "name": "lyngdorf",
             "purl": "",
-            "version": "1.4.4"
+            "version": "1.4.9"
           },
           {
             "name": "mac-vendor-lookup",
@@ -4876,7 +4876,7 @@
           {
             "name": "midea-local",
             "purl": "",
-            "version": "6.11.1"
+            "version": "7.0.0"
           },
           {
             "name": "mill_local",
@@ -4911,7 +4911,7 @@
           {
             "name": "modbus-connection",
             "purl": "",
-            "version": "4.1.0"
+            "version": "4.7.0"
           },
           {
             "name": "moehlenhoff-alpha2",
@@ -5486,7 +5486,7 @@
           {
             "name": "platformdirs",
             "purl": "",
-            "version": "4.11.0"
+            "version": "4.11.3"
           },
           {
             "name": "plexauth",
@@ -5671,7 +5671,7 @@
           {
             "name": "py-nymta",
             "purl": "",
-            "version": "0.4.0"
+            "version": "0.4.1"
           },
           {
             "name": "py-opendisplay",
@@ -6826,7 +6826,7 @@
           {
             "name": "pysmb",
             "purl": "",
-            "version": "1.2.14"
+            "version": "1.2.15"
           },
           {
             "name": "pysmhi",
@@ -6941,7 +6941,7 @@
           {
             "name": "python-bsblan",
             "purl": "",
-            "version": "6.1.6"
+            "version": "6.1.8"
           },
           {
             "name": "python-citybikes",
@@ -6991,7 +6991,7 @@
           {
             "name": "python-engineio",
             "purl": "",
-            "version": "4.13.4"
+            "version": "4.13.5"
           },
           {
             "name": "python-engineio-v3",
@@ -7171,7 +7171,7 @@
           {
             "name": "python-socks",
             "purl": "",
-            "version": "2.8.2"
+            "version": "3.0.0"
           },
           {
             "name": "python-songpal",
@@ -7646,7 +7646,7 @@
           {
             "name": "selenium",
             "purl": "",
-            "version": "4.46.0"
+            "version": "4.47.0"
           },
           {
             "name": "semver",
@@ -7921,7 +7921,7 @@
           {
             "name": "sqlite3",
             "purl": "",
-            "version": "3.14.6"
+            "version": "3.14.7"
           },
           {
             "name": "sqlparse",
@@ -7971,7 +7971,7 @@
           {
             "name": "starlette",
             "purl": "",
-            "version": "1.4.1"
+            "version": "1.6.0"
           },
           {
             "name": "starline",
@@ -8281,7 +8281,7 @@
           {
             "name": "trio",
             "purl": "",
-            "version": "0.33.0"
+            "version": "0.34.0"
           },
           {
             "name": "trio-websocket",
@@ -8356,7 +8356,7 @@
           {
             "name": "typing-inspection",
             "purl": "",
-            "version": "0.4.2"
+            "version": "0.4.4"
           },
           {
             "name": "typing_extensions",
@@ -8501,7 +8501,7 @@
           {
             "name": "uvicorn",
             "purl": "",
-            "version": "0.52.1"
+            "version": "0.52.3"
           },
           {
             "name": "vacuum-map-parser-base",
@@ -8776,7 +8776,7 @@
           {
             "name": "xknx",
             "purl": "",
-            "version": "3.18.0"
+            "version": "3.19.0"
           },
           {
             "name": "xknxproject",
@@ -9017,6 +9017,11 @@
             "version": "0.0.0"
           },
           {
+            "name": "android_system_properties",
+            "purl": "",
+            "version": "0.1.5"
+          },
+          {
             "name": "anes",
             "purl": "",
             "version": "0.1.6"
@@ -9049,12 +9054,32 @@
           {
             "name": "anyhow",
             "purl": "",
-            "version": "1.0.102"
+            "version": "1.0.103"
           },
           {
             "name": "api-list-common",
             "purl": "",
             "version": "0.1.0"
+          },
+          {
+            "name": "apple-flat-package",
+            "purl": "",
+            "version": "0.20.0"
+          },
+          {
+            "name": "apple-xar",
+            "purl": "",
+            "version": "0.20.0"
+          },
+          {
+            "name": "ar",
+            "purl": "",
+            "version": "0.9.0"
+          },
+          {
+            "name": "arrayvec",
+            "purl": "",
+            "version": "0.7.8"
           },
           {
             "name": "assert-instr-macro",
@@ -9067,9 +9092,14 @@
             "version": "2.2.0"
           },
           {
+            "name": "atomic-waker",
+            "purl": "",
+            "version": "1.1.2"
+          },
+          {
             "name": "autocfg",
             "purl": "",
-            "version": "1.5.0"
+            "version": "1.5.1"
           },
           {
             "name": "az",
@@ -9082,14 +9112,44 @@
             "version": "0.3.76"
           },
           {
+            "name": "base64",
+            "purl": "",
+            "version": "0.22.1"
+          },
+          {
+            "name": "base64ct",
+            "purl": "",
+            "version": "1.8.3"
+          },
+          {
+            "name": "bcder",
+            "purl": "",
+            "version": "0.7.7"
+          },
+          {
             "name": "bincode",
             "purl": "",
             "version": "1.3.3"
           },
           {
+            "name": "bit-set",
+            "purl": "",
+            "version": "0.6.0"
+          },
+          {
+            "name": "bit-vec",
+            "purl": "",
+            "version": "0.7.0"
+          },
+          {
             "name": "bitflags",
             "purl": "",
-            "version": "2.11.0"
+            "version": "1.3.2"
+          },
+          {
+            "name": "block-buffer",
+            "purl": "",
+            "version": "0.10.4"
           },
           {
             "name": "bstr",
@@ -9104,12 +9164,27 @@
           {
             "name": "bumpalo",
             "purl": "",
-            "version": "3.20.2"
+            "version": "3.20.3"
+          },
+          {
+            "name": "byteorder",
+            "purl": "",
+            "version": "1.5.0"
           },
           {
             "name": "bytes",
             "purl": "",
-            "version": "1.10.1"
+            "version": "1.12.1"
+          },
+          {
+            "name": "bzip2",
+            "purl": "",
+            "version": "0.4.4"
+          },
+          {
+            "name": "bzip2-sys",
+            "purl": "",
+            "version": "0.1.13+1.0.8"
           },
           {
             "name": "cast",
@@ -9119,7 +9194,12 @@
           {
             "name": "cc",
             "purl": "",
-            "version": "1.2.0"
+            "version": "1.2.66"
+          },
+          {
+            "name": "cfb",
+            "purl": "",
+            "version": "0.7.3"
           },
           {
             "name": "cfg-if",
@@ -9127,9 +9207,19 @@
             "version": "1.0.4"
           },
           {
+            "name": "cfg_aliases",
+            "purl": "",
+            "version": "0.2.1"
+          },
+          {
             "name": "chacha20",
             "purl": "",
-            "version": "0.10.0"
+            "version": "0.10.1"
+          },
+          {
+            "name": "chrono",
+            "purl": "",
+            "version": "0.4.45"
           },
           {
             "name": "ciborium",
@@ -9149,7 +9239,7 @@
           {
             "name": "clap",
             "purl": "",
-            "version": "4.6.0"
+            "version": "4.6.1"
           },
           {
             "name": "clap_builder",
@@ -9159,7 +9249,7 @@
           {
             "name": "clap_derive",
             "purl": "",
-            "version": "4.6.0"
+            "version": "4.6.1"
           },
           {
             "name": "clap_lex",
@@ -9172,6 +9262,11 @@
             "version": "1.0.5"
           },
           {
+            "name": "combine",
+            "purl": "",
+            "version": "4.6.7"
+          },
+          {
             "name": "compiler_builtins",
             "purl": "",
             "version": "0.1.160"
@@ -9182,9 +9277,24 @@
             "version": "0.16.3"
           },
           {
+            "name": "const-oid",
+            "purl": "",
+            "version": "0.9.6"
+          },
+          {
             "name": "core",
             "purl": "",
             "version": "0.0.0"
+          },
+          {
+            "name": "core-foundation",
+            "purl": "",
+            "version": "0.10.1"
+          },
+          {
+            "name": "core-foundation-sys",
+            "purl": "",
+            "version": "0.8.7"
           },
           {
             "name": "core_arch",
@@ -9202,6 +9312,11 @@
             "version": "0.0.0"
           },
           {
+            "name": "cpio-archive",
+            "purl": "",
+            "version": "0.10.0"
+          },
+          {
             "name": "cpp_demangle",
             "purl": "",
             "version": "0.5.0"
@@ -9209,7 +9324,17 @@
           {
             "name": "cpufeatures",
             "purl": "",
-            "version": "0.3.0"
+            "version": "0.2.17"
+          },
+          {
+            "name": "crc",
+            "purl": "",
+            "version": "3.4.0"
+          },
+          {
+            "name": "crc-catalog",
+            "purl": "",
+            "version": "2.5.0"
           },
           {
             "name": "crc32fast",
@@ -9247,6 +9372,16 @@
             "version": "0.2.4"
           },
           {
+            "name": "crypto-common",
+            "purl": "",
+            "version": "0.1.7"
+          },
+          {
+            "name": "cryptographic-message-syntax",
+            "purl": "",
+            "version": "0.27.0"
+          },
+          {
             "name": "darling",
             "purl": "",
             "version": "0.23.0"
@@ -9260,6 +9395,36 @@
             "name": "darling_macro",
             "purl": "",
             "version": "0.23.0"
+          },
+          {
+            "name": "debpkg",
+            "purl": "",
+            "version": "0.6.0"
+          },
+          {
+            "name": "defmt",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
+            "name": "defmt-macros",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
+            "name": "defmt-parser",
+            "purl": "",
+            "version": "1.0.0"
+          },
+          {
+            "name": "der",
+            "purl": "",
+            "version": "0.7.10"
+          },
+          {
+            "name": "deranged",
+            "purl": "",
+            "version": "0.5.8"
           },
           {
             "name": "derive_more",
@@ -9282,6 +9447,26 @@
             "version": "0.4.0"
           },
           {
+            "name": "digest",
+            "purl": "",
+            "version": "0.10.7"
+          },
+          {
+            "name": "directories",
+            "purl": "",
+            "version": "6.0.0"
+          },
+          {
+            "name": "dirs-sys",
+            "purl": "",
+            "version": "0.5.0"
+          },
+          {
+            "name": "displaydoc",
+            "purl": "",
+            "version": "0.2.6"
+          },
+          {
             "name": "dlmalloc",
             "purl": "",
             "version": "0.2.13"
@@ -9299,12 +9484,12 @@
           {
             "name": "env_filter",
             "purl": "",
-            "version": "1.0.1"
+            "version": "2.0.0"
           },
           {
             "name": "env_logger",
             "purl": "",
-            "version": "0.10.2"
+            "version": "0.11.11"
           },
           {
             "name": "equivalent",
@@ -9322,6 +9507,11 @@
             "version": "0.5.3"
           },
           {
+            "name": "exitcode",
+            "purl": "",
+            "version": "1.1.2"
+          },
+          {
             "name": "fallible-iterator",
             "purl": "",
             "version": "0.3.0"
@@ -9329,7 +9519,17 @@
           {
             "name": "fastrand",
             "purl": "",
-            "version": "2.3.0"
+            "version": "2.4.1"
+          },
+          {
+            "name": "filetime",
+            "purl": "",
+            "version": "0.2.29"
+          },
+          {
+            "name": "filetime_creation",
+            "purl": "",
+            "version": "0.2.0"
           },
           {
             "name": "find-msvc-tools",
@@ -9357,9 +9557,24 @@
             "version": "0.2.0"
           },
           {
+            "name": "form_urlencoded",
+            "purl": "",
+            "version": "1.2.2"
+          },
+          {
             "name": "fortanix-sgx-abi",
             "purl": "",
             "version": "0.6.1"
+          },
+          {
+            "name": "fs2",
+            "purl": "",
+            "version": "0.4.3"
+          },
+          {
+            "name": "fs_extra",
+            "purl": "",
+            "version": "1.3.0"
           },
           {
             "name": "futures",
@@ -9369,7 +9584,7 @@
           {
             "name": "futures-channel",
             "purl": "",
-            "version": "0.3.31"
+            "version": "0.3.32"
           },
           {
             "name": "futures-core",
@@ -9384,7 +9599,7 @@
           {
             "name": "futures-io",
             "purl": "",
-            "version": "0.3.31"
+            "version": "0.3.32"
           },
           {
             "name": "futures-macro",
@@ -9394,7 +9609,7 @@
           {
             "name": "futures-sink",
             "purl": "",
-            "version": "0.3.31"
+            "version": "0.3.32"
           },
           {
             "name": "futures-task",
@@ -9407,6 +9622,11 @@
             "version": "0.3.32"
           },
           {
+            "name": "generic-array",
+            "purl": "",
+            "version": "0.14.7"
+          },
+          {
             "name": "getopts",
             "purl": "",
             "version": "0.2.24"
@@ -9414,7 +9634,7 @@
           {
             "name": "getrandom",
             "purl": "",
-            "version": "0.4.2"
+            "version": "0.2.17"
           },
           {
             "name": "gimli",
@@ -9454,7 +9674,7 @@
           {
             "name": "hashbrown",
             "purl": "",
-            "version": "0.17.1"
+            "version": "0.12.3"
           },
           {
             "name": "heck",
@@ -9467,9 +9687,14 @@
             "version": "0.5.2"
           },
           {
+            "name": "hex",
+            "purl": "",
+            "version": "0.4.3"
+          },
+          {
             "name": "http",
             "purl": "",
-            "version": "1.3.1"
+            "version": "1.4.2"
           },
           {
             "name": "http-body",
@@ -9477,9 +9702,79 @@
             "version": "1.0.1"
           },
           {
+            "name": "http-body-util",
+            "purl": "",
+            "version": "0.1.3"
+          },
+          {
+            "name": "httparse",
+            "purl": "",
+            "version": "1.10.1"
+          },
+          {
             "name": "humantime",
             "purl": "",
             "version": "2.3.0"
+          },
+          {
+            "name": "hyper",
+            "purl": "",
+            "version": "1.10.1"
+          },
+          {
+            "name": "hyper-rustls",
+            "purl": "",
+            "version": "0.27.9"
+          },
+          {
+            "name": "hyper-util",
+            "purl": "",
+            "version": "0.1.20"
+          },
+          {
+            "name": "iana-time-zone",
+            "purl": "",
+            "version": "0.1.65"
+          },
+          {
+            "name": "iana-time-zone-haiku",
+            "purl": "",
+            "version": "0.1.2"
+          },
+          {
+            "name": "icu_collections",
+            "purl": "",
+            "version": "2.2.0"
+          },
+          {
+            "name": "icu_locale_core",
+            "purl": "",
+            "version": "2.2.0"
+          },
+          {
+            "name": "icu_normalizer",
+            "purl": "",
+            "version": "2.2.0"
+          },
+          {
+            "name": "icu_normalizer_data",
+            "purl": "",
+            "version": "2.2.0"
+          },
+          {
+            "name": "icu_properties",
+            "purl": "",
+            "version": "2.2.0"
+          },
+          {
+            "name": "icu_properties_data",
+            "purl": "",
+            "version": "2.2.0"
+          },
+          {
+            "name": "icu_provider",
+            "purl": "",
+            "version": "2.2.0"
           },
           {
             "name": "id-arena",
@@ -9492,9 +9787,19 @@
             "version": "1.0.1"
           },
           {
+            "name": "idna",
+            "purl": "",
+            "version": "1.1.0"
+          },
+          {
+            "name": "idna_adapter",
+            "purl": "",
+            "version": "1.2.2"
+          },
+          {
             "name": "indexmap",
             "purl": "",
-            "version": "2.13.0"
+            "version": "1.9.3"
           },
           {
             "name": "indicatif",
@@ -9502,14 +9807,29 @@
             "version": "0.18.4"
           },
           {
+            "name": "infer",
+            "purl": "",
+            "version": "0.19.0"
+          },
+          {
             "name": "intrinsic-test",
             "purl": "",
             "version": "0.1.0"
           },
           {
+            "name": "ipnet",
+            "purl": "",
+            "version": "2.12.0"
+          },
+          {
             "name": "is-terminal",
             "purl": "",
             "version": "0.4.17"
+          },
+          {
+            "name": "is_executable",
+            "purl": "",
+            "version": "1.0.6"
           },
           {
             "name": "is_terminal_polyfill",
@@ -9527,14 +9847,44 @@
             "version": "1.0.18"
           },
           {
+            "name": "jiff",
+            "purl": "",
+            "version": "0.2.32"
+          },
+          {
+            "name": "jiff-static",
+            "purl": "",
+            "version": "0.2.32"
+          },
+          {
+            "name": "jni",
+            "purl": "",
+            "version": "0.22.4"
+          },
+          {
+            "name": "jni-macros",
+            "purl": "",
+            "version": "0.22.4"
+          },
+          {
+            "name": "jni-sys",
+            "purl": "",
+            "version": "0.4.1"
+          },
+          {
+            "name": "jni-sys-macros",
+            "purl": "",
+            "version": "0.4.1"
+          },
+          {
             "name": "jobserver",
             "purl": "",
-            "version": "0.1.32"
+            "version": "0.1.35"
           },
           {
             "name": "js-sys",
             "purl": "",
-            "version": "0.3.94"
+            "version": "0.3.103"
           },
           {
             "name": "leb128fmt",
@@ -9542,9 +9892,14 @@
             "version": "0.1.0"
           },
           {
+            "name": "libbz2-rs-sys",
+            "purl": "",
+            "version": "0.2.5"
+          },
+          {
             "name": "libc",
             "purl": "",
-            "version": "0.2.185"
+            "version": "0.2.186"
           },
           {
             "name": "libm",
@@ -9562,6 +9917,11 @@
             "version": "0.1.0"
           },
           {
+            "name": "libredox",
+            "purl": "",
+            "version": "0.1.18"
+          },
+          {
             "name": "libtest-mimic",
             "purl": "",
             "version": "0.8.2"
@@ -9577,9 +9937,29 @@
             "version": "0.12.1"
           },
           {
+            "name": "litemap",
+            "purl": "",
+            "version": "0.8.2"
+          },
+          {
             "name": "log",
             "purl": "",
-            "version": "0.4.29"
+            "version": "0.4.33"
+          },
+          {
+            "name": "lru-slab",
+            "purl": "",
+            "version": "0.1.2"
+          },
+          {
+            "name": "lzma-rust",
+            "purl": "",
+            "version": "0.1.7"
+          },
+          {
+            "name": "lzma-sys",
+            "purl": "",
+            "version": "0.1.20"
           },
           {
             "name": "macro-string",
@@ -9587,9 +9967,14 @@
             "version": "0.2.0"
           },
           {
+            "name": "md-5",
+            "purl": "",
+            "version": "0.10.6"
+          },
+          {
             "name": "memchr",
             "purl": "",
-            "version": "2.7.6"
+            "version": "2.8.3"
           },
           {
             "name": "memmap2",
@@ -9600,6 +9985,11 @@
             "name": "miniz_oxide",
             "purl": "",
             "version": "0.8.9"
+          },
+          {
+            "name": "mio",
+            "purl": "",
+            "version": "1.2.1"
           },
           {
             "name": "moto-rt",
@@ -9615,6 +10005,16 @@
             "name": "no-panic",
             "purl": "",
             "version": "0.1.36"
+          },
+          {
+            "name": "nt-time",
+            "purl": "",
+            "version": "0.8.1"
+          },
+          {
+            "name": "num-conv",
+            "purl": "",
+            "version": "0.2.2"
           },
           {
             "name": "num-traits",
@@ -9642,6 +10042,16 @@
             "version": "11.1.5"
           },
           {
+            "name": "openssl-probe",
+            "purl": "",
+            "version": "0.2.1"
+          },
+          {
+            "name": "option-ext",
+            "purl": "",
+            "version": "0.2.0"
+          },
+          {
             "name": "page_size",
             "purl": "",
             "version": "0.6.0"
@@ -9657,6 +10067,16 @@
             "version": "1.0.15"
           },
           {
+            "name": "pem",
+            "purl": "",
+            "version": "3.0.6"
+          },
+          {
+            "name": "percent-encoding",
+            "purl": "",
+            "version": "2.3.2"
+          },
+          {
             "name": "pin-project-lite",
             "purl": "",
             "version": "0.2.17"
@@ -9665,6 +10085,11 @@
             "name": "pin-utils",
             "purl": "",
             "version": "0.1.0"
+          },
+          {
+            "name": "pkg-config",
+            "purl": "",
+            "version": "0.3.33"
           },
           {
             "name": "plotters",
@@ -9685,6 +10110,21 @@
             "name": "portable-atomic",
             "purl": "",
             "version": "1.13.1"
+          },
+          {
+            "name": "portable-atomic-util",
+            "purl": "",
+            "version": "0.2.7"
+          },
+          {
+            "name": "potential_utf",
+            "purl": "",
+            "version": "0.1.5"
+          },
+          {
+            "name": "powerfmt",
+            "purl": "",
+            "version": "0.2.0"
           },
           {
             "name": "ppv-lite86",
@@ -9734,7 +10174,7 @@
           {
             "name": "proc-macro2",
             "purl": "",
-            "version": "1.0.86"
+            "version": "1.0.106"
           },
           {
             "name": "proptest",
@@ -9752,14 +10192,29 @@
             "version": "1.1.0"
           },
           {
+            "name": "quinn",
+            "purl": "",
+            "version": "0.11.11"
+          },
+          {
+            "name": "quinn-proto",
+            "purl": "",
+            "version": "0.11.16"
+          },
+          {
+            "name": "quinn-udp",
+            "purl": "",
+            "version": "0.5.15"
+          },
+          {
             "name": "quote",
             "purl": "",
-            "version": "1.0.37"
+            "version": "1.0.46"
           },
           {
             "name": "r-efi",
             "purl": "",
-            "version": "5.3.0"
+            "version": "6.0.0"
           },
           {
             "name": "r-efi-alloc",
@@ -9769,17 +10224,22 @@
           {
             "name": "rand",
             "purl": "",
-            "version": "0.10.1"
+            "version": "0.10.2"
           },
           {
             "name": "rand_chacha",
             "purl": "",
-            "version": "0.10.0"
+            "version": "0.3.1"
           },
           {
             "name": "rand_core",
             "purl": "",
-            "version": "0.10.0"
+            "version": "0.10.1"
+          },
+          {
+            "name": "rand_pcg",
+            "purl": "",
+            "version": "0.10.2"
           },
           {
             "name": "rand_xorshift",
@@ -9802,19 +10262,34 @@
             "version": "1.13.0"
           },
           {
+            "name": "redox_users",
+            "purl": "",
+            "version": "0.5.2"
+          },
+          {
             "name": "regex",
             "purl": "",
-            "version": "1.12.3"
+            "version": "1.13.0"
           },
           {
             "name": "regex-automata",
             "purl": "",
-            "version": "0.4.14"
+            "version": "0.4.15"
           },
           {
             "name": "regex-syntax",
             "purl": "",
-            "version": "0.8.10"
+            "version": "0.8.11"
+          },
+          {
+            "name": "reqwest",
+            "purl": "",
+            "version": "0.12.28"
+          },
+          {
+            "name": "ring",
+            "purl": "",
+            "version": "0.17.14"
           },
           {
             "name": "rug",
@@ -9825,6 +10300,11 @@
             "name": "rustc-demangle",
             "purl": "",
             "version": "0.1.27"
+          },
+          {
+            "name": "rustc-hash",
+            "purl": "",
+            "version": "2.1.3"
           },
           {
             "name": "rustc-literal-escaper",
@@ -9857,9 +10337,39 @@
             "version": "1.1.4"
           },
           {
+            "name": "rustls",
+            "purl": "",
+            "version": "0.23.41"
+          },
+          {
+            "name": "rustls-native-certs",
+            "purl": "",
+            "version": "0.8.4"
+          },
+          {
+            "name": "rustls-pki-types",
+            "purl": "",
+            "version": "1.15.0"
+          },
+          {
+            "name": "rustls-platform-verifier",
+            "purl": "",
+            "version": "0.7.0"
+          },
+          {
+            "name": "rustls-platform-verifier-android",
+            "purl": "",
+            "version": "0.1.1"
+          },
+          {
+            "name": "rustls-webpki",
+            "purl": "",
+            "version": "0.103.13"
+          },
+          {
             "name": "rustversion",
             "purl": "",
-            "version": "1.0.22"
+            "version": "1.0.23"
           },
           {
             "name": "ruzstd",
@@ -9877,19 +10387,49 @@
             "version": "1.0.6"
           },
           {
+            "name": "schannel",
+            "purl": "",
+            "version": "0.1.29"
+          },
+          {
+            "name": "scroll",
+            "purl": "",
+            "version": "0.12.0"
+          },
+          {
+            "name": "scroll_derive",
+            "purl": "",
+            "version": "0.12.1"
+          },
+          {
+            "name": "security-framework",
+            "purl": "",
+            "version": "3.7.0"
+          },
+          {
+            "name": "security-framework-sys",
+            "purl": "",
+            "version": "2.17.0"
+          },
+          {
+            "name": "selenium-manager",
+            "purl": "",
+            "version": "0.4.47"
+          },
+          {
             "name": "semver",
             "purl": "",
-            "version": "1.0.27"
+            "version": "1.0.28"
           },
           {
             "name": "serde",
             "purl": "",
-            "version": "1.0.210"
+            "version": "1.0.228"
           },
           {
             "name": "serde-xml-rs",
             "purl": "",
-            "version": "0.8.2"
+            "version": "0.6.0"
           },
           {
             "name": "serde_core",
@@ -9899,12 +10439,22 @@
           {
             "name": "serde_derive",
             "purl": "",
-            "version": "1.0.210"
+            "version": "1.0.228"
           },
           {
             "name": "serde_json",
             "purl": "",
-            "version": "1.0.149"
+            "version": "1.0.150"
+          },
+          {
+            "name": "serde_spanned",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
+            "name": "serde_urlencoded",
+            "purl": "",
+            "version": "0.7.1"
           },
           {
             "name": "serde_with",
@@ -9922,9 +10472,29 @@
             "version": "0.8.26"
           },
           {
+            "name": "sevenz-rust",
+            "purl": "",
+            "version": "0.6.1"
+          },
+          {
+            "name": "sha1",
+            "purl": "",
+            "version": "0.10.7"
+          },
+          {
+            "name": "sha2",
+            "purl": "",
+            "version": "0.10.9"
+          },
+          {
             "name": "shlex",
             "purl": "",
-            "version": "1.3.0"
+            "version": "2.0.1"
+          },
+          {
+            "name": "signature",
+            "purl": "",
+            "version": "2.2.0"
           },
           {
             "name": "simd-adler32",
@@ -9937,6 +10507,21 @@
             "version": "0.1.0"
           },
           {
+            "name": "simd_cesu8",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
+            "name": "simdutf8",
+            "purl": "",
+            "version": "0.1.5"
+          },
+          {
+            "name": "simple-file-manifest",
+            "purl": "",
+            "version": "0.11.0"
+          },
+          {
             "name": "slab",
             "purl": "",
             "version": "0.4.12"
@@ -9944,7 +10529,12 @@
           {
             "name": "smallvec",
             "purl": "",
-            "version": "1.15.1"
+            "version": "1.15.2"
+          },
+          {
+            "name": "socket2",
+            "purl": "",
+            "version": "0.6.4"
           },
           {
             "name": "spin",
@@ -9952,9 +10542,14 @@
             "version": "0.9.8"
           },
           {
+            "name": "spki",
+            "purl": "",
+            "version": "0.7.3"
+          },
+          {
             "name": "stable_deref_trait",
             "purl": "",
-            "version": "1.2.0"
+            "version": "1.2.1"
           },
           {
             "name": "std",
@@ -10007,6 +10602,11 @@
             "version": "0.11.1"
           },
           {
+            "name": "subtle",
+            "purl": "",
+            "version": "2.6.1"
+          },
+          {
             "name": "symbol-check",
             "purl": "",
             "version": "0.1.0"
@@ -10014,7 +10614,17 @@
           {
             "name": "syn",
             "purl": "",
-            "version": "2.0.79"
+            "version": "2.0.118"
+          },
+          {
+            "name": "sync_wrapper",
+            "purl": "",
+            "version": "1.0.2"
+          },
+          {
+            "name": "synstructure",
+            "purl": "",
+            "version": "0.13.2"
           },
           {
             "name": "syscalls",
@@ -10025,6 +10635,11 @@
             "name": "sysroot",
             "purl": "",
             "version": "0.0.0"
+          },
+          {
+            "name": "tar",
+            "purl": "",
+            "version": "0.4.46"
           },
           {
             "name": "tempfile",
@@ -10054,17 +10669,117 @@
           {
             "name": "thiserror",
             "purl": "",
-            "version": "2.0.18"
+            "version": "1.0.69"
           },
           {
             "name": "thiserror-impl",
             "purl": "",
-            "version": "2.0.18"
+            "version": "1.0.69"
+          },
+          {
+            "name": "time",
+            "purl": "",
+            "version": "0.3.53"
+          },
+          {
+            "name": "time-core",
+            "purl": "",
+            "version": "0.1.9"
+          },
+          {
+            "name": "time-macros",
+            "purl": "",
+            "version": "0.2.31"
+          },
+          {
+            "name": "tinystr",
+            "purl": "",
+            "version": "0.8.3"
           },
           {
             "name": "tinytemplate",
             "purl": "",
             "version": "1.2.1"
+          },
+          {
+            "name": "tinyvec",
+            "purl": "",
+            "version": "1.12.0"
+          },
+          {
+            "name": "tinyvec_macros",
+            "purl": "",
+            "version": "0.1.1"
+          },
+          {
+            "name": "tokio",
+            "purl": "",
+            "version": "1.52.3"
+          },
+          {
+            "name": "tokio-macros",
+            "purl": "",
+            "version": "2.7.0"
+          },
+          {
+            "name": "tokio-rustls",
+            "purl": "",
+            "version": "0.26.4"
+          },
+          {
+            "name": "toml",
+            "purl": "",
+            "version": "1.1.2+spec-1.1.0"
+          },
+          {
+            "name": "toml_datetime",
+            "purl": "",
+            "version": "1.1.1+spec-1.1.0"
+          },
+          {
+            "name": "toml_parser",
+            "purl": "",
+            "version": "1.1.2+spec-1.1.0"
+          },
+          {
+            "name": "toml_writer",
+            "purl": "",
+            "version": "1.1.1+spec-1.1.0"
+          },
+          {
+            "name": "tower",
+            "purl": "",
+            "version": "0.5.3"
+          },
+          {
+            "name": "tower-http",
+            "purl": "",
+            "version": "0.6.11"
+          },
+          {
+            "name": "tower-layer",
+            "purl": "",
+            "version": "0.3.3"
+          },
+          {
+            "name": "tower-service",
+            "purl": "",
+            "version": "0.3.3"
+          },
+          {
+            "name": "tracing",
+            "purl": "",
+            "version": "0.1.44"
+          },
+          {
+            "name": "tracing-core",
+            "purl": "",
+            "version": "0.1.36"
+          },
+          {
+            "name": "try-lock",
+            "purl": "",
+            "version": "0.2.5"
           },
           {
             "name": "twox-hash",
@@ -10077,6 +10792,16 @@
             "version": "2.0.2"
           },
           {
+            "name": "typed-path",
+            "purl": "",
+            "version": "0.12.3"
+          },
+          {
+            "name": "typenum",
+            "purl": "",
+            "version": "1.20.1"
+          },
+          {
             "name": "unarray",
             "purl": "",
             "version": "0.1.4"
@@ -10084,7 +10809,7 @@
           {
             "name": "unicode-ident",
             "purl": "",
-            "version": "1.0.13"
+            "version": "1.0.24"
           },
           {
             "name": "unicode-width",
@@ -10102,6 +10827,11 @@
             "version": "0.5.2"
           },
           {
+            "name": "untrusted",
+            "purl": "",
+            "version": "0.9.0"
+          },
+          {
             "name": "unwinding",
             "purl": "",
             "version": "0.2.8"
@@ -10112,6 +10842,16 @@
             "version": "0.1.0"
           },
           {
+            "name": "url",
+            "purl": "",
+            "version": "2.5.8"
+          },
+          {
+            "name": "utf8_iter",
+            "purl": "",
+            "version": "1.0.4"
+          },
+          {
             "name": "utf8parse",
             "purl": "",
             "version": "0.2.2"
@@ -10120,6 +10860,16 @@
             "name": "util",
             "purl": "",
             "version": "0.1.0"
+          },
+          {
+            "name": "uuid",
+            "purl": "",
+            "version": "1.23.4"
+          },
+          {
+            "name": "version_check",
+            "purl": "",
+            "version": "0.9.5"
           },
           {
             "name": "vex-sdk",
@@ -10135,6 +10885,11 @@
             "name": "walkdir",
             "purl": "",
             "version": "2.5.0"
+          },
+          {
+            "name": "want",
+            "purl": "",
+            "version": "0.3.1"
           },
           {
             "name": "wasi",
@@ -10159,22 +10914,27 @@
           {
             "name": "wasm-bindgen",
             "purl": "",
-            "version": "0.2.117"
+            "version": "0.2.126"
+          },
+          {
+            "name": "wasm-bindgen-futures",
+            "purl": "",
+            "version": "0.4.76"
           },
           {
             "name": "wasm-bindgen-macro",
             "purl": "",
-            "version": "0.2.117"
+            "version": "0.2.126"
           },
           {
             "name": "wasm-bindgen-macro-support",
             "purl": "",
-            "version": "0.2.117"
+            "version": "0.2.126"
           },
           {
             "name": "wasm-bindgen-shared",
             "purl": "",
-            "version": "0.2.117"
+            "version": "0.2.126"
           },
           {
             "name": "wasm-encoder",
@@ -10199,12 +10959,27 @@
           {
             "name": "web-sys",
             "purl": "",
-            "version": "0.3.94"
+            "version": "0.3.103"
           },
           {
             "name": "web-time",
             "purl": "",
             "version": "1.1.0"
+          },
+          {
+            "name": "webpki-root-certs",
+            "purl": "",
+            "version": "1.0.8"
+          },
+          {
+            "name": "webpki-roots",
+            "purl": "",
+            "version": "1.0.8"
+          },
+          {
+            "name": "which",
+            "purl": "",
+            "version": "8.0.4"
           },
           {
             "name": "winapi",
@@ -10227,59 +11002,89 @@
             "version": "0.4.0"
           },
           {
+            "name": "windows-core",
+            "purl": "",
+            "version": "0.62.2"
+          },
+          {
+            "name": "windows-implement",
+            "purl": "",
+            "version": "0.60.2"
+          },
+          {
+            "name": "windows-interface",
+            "purl": "",
+            "version": "0.59.3"
+          },
+          {
             "name": "windows-link",
             "purl": "",
-            "version": "0.2.0"
+            "version": "0.2.1"
+          },
+          {
+            "name": "windows-result",
+            "purl": "",
+            "version": "0.4.1"
+          },
+          {
+            "name": "windows-strings",
+            "purl": "",
+            "version": "0.5.1"
           },
           {
             "name": "windows-sys",
             "purl": "",
-            "version": "0.61.100"
+            "version": "0.52.0"
           },
           {
             "name": "windows-targets",
             "purl": "",
-            "version": "0.53.3"
+            "version": "0.52.6"
           },
           {
             "name": "windows_aarch64_gnullvm",
             "purl": "",
-            "version": "0.53.0"
+            "version": "0.52.6"
           },
           {
             "name": "windows_aarch64_msvc",
             "purl": "",
-            "version": "0.53.0"
+            "version": "0.52.6"
           },
           {
             "name": "windows_i686_gnu",
             "purl": "",
-            "version": "0.53.0"
+            "version": "0.52.6"
           },
           {
             "name": "windows_i686_gnullvm",
             "purl": "",
-            "version": "0.53.0"
+            "version": "0.52.6"
           },
           {
             "name": "windows_i686_msvc",
             "purl": "",
-            "version": "0.53.0"
+            "version": "0.52.6"
           },
           {
             "name": "windows_x86_64_gnu",
             "purl": "",
-            "version": "0.53.0"
+            "version": "0.52.6"
           },
           {
             "name": "windows_x86_64_gnullvm",
             "purl": "",
-            "version": "0.53.0"
+            "version": "0.52.6"
           },
           {
             "name": "windows_x86_64_msvc",
             "purl": "",
-            "version": "0.53.0"
+            "version": "0.52.6"
+          },
+          {
+            "name": "winnow",
+            "purl": "",
+            "version": "1.0.3"
           },
           {
             "name": "wit-bindgen",
@@ -10317,9 +11122,34 @@
             "version": "0.244.0"
           },
           {
+            "name": "writeable",
+            "purl": "",
+            "version": "0.6.3"
+          },
+          {
+            "name": "x509-certificate",
+            "purl": "",
+            "version": "0.24.0"
+          },
+          {
+            "name": "xattr",
+            "purl": "",
+            "version": "1.6.1"
+          },
+          {
             "name": "xml",
             "purl": "",
             "version": "1.2.1"
+          },
+          {
+            "name": "xml-rs",
+            "purl": "",
+            "version": "0.8.28"
+          },
+          {
+            "name": "xz2",
+            "purl": "",
+            "version": "0.1.7"
           },
           {
             "name": "yaml-rust",
@@ -10332,19 +11162,94 @@
             "version": "1.0.1"
           },
           {
+            "name": "yoke",
+            "purl": "",
+            "version": "0.8.3"
+          },
+          {
+            "name": "yoke-derive",
+            "purl": "",
+            "version": "0.8.2"
+          },
+          {
             "name": "zerocopy",
             "purl": "",
-            "version": "0.8.48"
+            "version": "0.8.54"
           },
           {
             "name": "zerocopy-derive",
             "purl": "",
-            "version": "0.8.48"
+            "version": "0.8.54"
+          },
+          {
+            "name": "zerofrom",
+            "purl": "",
+            "version": "0.1.8"
+          },
+          {
+            "name": "zerofrom-derive",
+            "purl": "",
+            "version": "0.1.7"
+          },
+          {
+            "name": "zeroize",
+            "purl": "",
+            "version": "1.9.0"
+          },
+          {
+            "name": "zeroize_derive",
+            "purl": "",
+            "version": "1.5.0"
+          },
+          {
+            "name": "zerotrie",
+            "purl": "",
+            "version": "0.2.4"
+          },
+          {
+            "name": "zerovec",
+            "purl": "",
+            "version": "0.11.6"
+          },
+          {
+            "name": "zerovec-derive",
+            "purl": "",
+            "version": "0.11.3"
+          },
+          {
+            "name": "zip",
+            "purl": "",
+            "version": "8.6.0"
+          },
+          {
+            "name": "zlib-rs",
+            "purl": "",
+            "version": "0.6.6"
           },
           {
             "name": "zmij",
             "purl": "",
             "version": "1.0.21"
+          },
+          {
+            "name": "zopfli",
+            "purl": "",
+            "version": "0.8.3"
+          },
+          {
+            "name": "zstd",
+            "purl": "",
+            "version": "0.11.2+zstd.1.5.2"
+          },
+          {
+            "name": "zstd-safe",
+            "purl": "",
+            "version": "5.0.2+zstd.1.5.2"
+          },
+          {
+            "name": "zstd-sys",
+            "purl": "",
+            "version": "2.0.16+zstd.1.5.7"
           }
         ]
       },
@@ -10358,8 +11263,8 @@
         "php": 0,
         "python": 1575,
         "ruby": 0,
-        "rust": 274,
-        "total": 2011
+        "rust": 455,
+        "total": 2192
       }
     }
   }
