@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-14T22:18:24Z",
+  "generated": "2026-08-22T09:27:12Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.8.2",
+      "app_version": "2026.8.3",
       "arch": "amd64",
-      "generated": "2026-08-14T22:13:36Z",
+      "generated": "2026-08-22T09:22:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -322,7 +322,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -582,7 +582,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -634,7 +634,7 @@
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.22.0"
+            "version": "0.23.0"
           },
           {
             "licenses": [
@@ -700,7 +700,7 @@
               "GPLv2"
             ],
             "name": "libx264",
-            "version": "0.165.3223"
+            "version": "0.165.3223_1"
           },
           {
             "licenses": [
@@ -800,7 +800,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -1321,7 +1321,7 @@
           {
             "name": "Pygments",
             "purl": "",
-            "version": "2.20.0"
+            "version": "2.21.0"
           },
           {
             "name": "Pypubsub",
@@ -2051,7 +2051,7 @@
           {
             "name": "aiowebostv",
             "purl": "",
-            "version": "0.9.1"
+            "version": "0.9.2"
           },
           {
             "name": "aiowithings",
@@ -2414,11 +2414,6 @@
             "version": "1.4.1"
           },
           {
-            "name": "av",
-            "purl": "",
-            "version": "17.0.1"
-          },
-          {
             "name": "avea",
             "purl": "",
             "version": "1.8.0"
@@ -2561,7 +2556,7 @@
           {
             "name": "bitstruct",
             "purl": "",
-            "version": "8.22.1"
+            "version": "8.23.0"
           },
           {
             "name": "bizkaibus",
@@ -2919,11 +2914,6 @@
             "version": "0.8.1"
           },
           {
-            "name": "convertertools",
-            "purl": "",
-            "version": "1.1.0"
-          },
-          {
             "name": "cookidoo-api",
             "purl": "",
             "version": "0.17.2"
@@ -3051,7 +3041,7 @@
           {
             "name": "deepmerge",
             "purl": "",
-            "version": "2.1.0"
+            "version": "3.0"
           },
           {
             "name": "defusedxml",
@@ -3776,7 +3766,7 @@
           {
             "name": "google_health_api",
             "purl": "",
-            "version": "0.8.0"
+            "version": "0.9.0"
           },
           {
             "name": "google_nest_sdm",
@@ -4041,7 +4031,7 @@
           {
             "name": "holidays",
             "purl": "",
-            "version": "0.101"
+            "version": "0.103"
           },
           {
             "name": "home-assistant-bluetooth",
@@ -4061,7 +4051,7 @@
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.8.2"
+            "version": "2026.8.3"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4186,7 +4176,7 @@
           {
             "name": "ical",
             "purl": "",
-            "version": "14.1.0"
+            "version": "14.1.1"
           },
           {
             "name": "icalendar",
@@ -4211,7 +4201,7 @@
           {
             "name": "idna",
             "purl": "",
-            "version": "3.18"
+            "version": "3.19"
           },
           {
             "name": "idrive-e2-client",
@@ -4911,7 +4901,7 @@
           {
             "name": "modbus-connection",
             "purl": "",
-            "version": "4.7.0"
+            "version": "4.8.1"
           },
           {
             "name": "moehlenhoff-alpha2",
@@ -6029,11 +6019,6 @@
             "version": "2.13.4"
           },
           {
-            "name": "pydantic-extra-types",
-            "purl": "",
-            "version": "2.11.1"
-          },
-          {
             "name": "pydantic-settings",
             "purl": "",
             "version": "2.15.0"
@@ -6961,7 +6946,7 @@
           {
             "name": "python-didl-lite",
             "purl": "",
-            "version": "1.5.0"
+            "version": "1.5.1"
           },
           {
             "name": "python-digitalocean",
@@ -6971,7 +6956,7 @@
           {
             "name": "python-dotenv",
             "purl": "",
-            "version": "1.2.2"
+            "version": "1.2.3"
           },
           {
             "name": "python-dropbox-api",
@@ -7481,7 +7466,7 @@
           {
             "name": "reolink_aio",
             "purl": "",
-            "version": "0.21.8"
+            "version": "0.21.9"
           },
           {
             "name": "requests",
@@ -8011,7 +7996,7 @@
           {
             "name": "stevedore",
             "purl": "",
-            "version": "5.9.0"
+            "version": "5.9.1"
           },
           {
             "name": "stookwijzer",
@@ -8026,7 +8011,7 @@
           {
             "name": "striprtf",
             "purl": "",
-            "version": "0.0.32"
+            "version": "0.0.33"
           },
           {
             "name": "subarulink",
@@ -8394,11 +8379,6 @@
             "version": "1.2.8"
           },
           {
-            "name": "uiprotect",
-            "purl": "",
-            "version": "15.14.2"
-          },
-          {
             "name": "ujson",
             "purl": "",
             "version": "5.13.0"
@@ -8501,7 +8481,7 @@
           {
             "name": "uvicorn",
             "purl": "",
-            "version": "0.52.3"
+            "version": "0.52.4"
           },
           {
             "name": "vacuum-map-parser-base",
@@ -8616,7 +8596,7 @@
           {
             "name": "volvocarsapi",
             "purl": "",
-            "version": "0.4.3"
+            "version": "0.4.4"
           },
           {
             "name": "vsure",
@@ -8676,7 +8656,7 @@
           {
             "name": "webencodings",
             "purl": "",
-            "version": "0.5.1"
+            "version": "0.6.1"
           },
           {
             "name": "webexpythonsdk",
@@ -11261,10 +11241,10 @@
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 1575,
+        "python": 1571,
         "ruby": 0,
         "rust": 455,
-        "total": 2192
+        "total": 2188
       }
     }
   }
