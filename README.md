@@ -10,9 +10,6 @@ Source: dbuild templates
 
 Open source home automation that puts local control and privacy first.
 
-> [!WARNING]
-> **Requires ocijail ≥ 0.6.0 (annotation support).** This image needs the jail permission **allow.raw_sockets**, applied via OCI annotations. FreeBSD **quarterly ships ocijail 0.4.0, which has no annotation support** — the container starts but the permission is silently dropped, so the app can crash or misbehave at runtime. Point your pkg repos at the `latest` branch (ocijail ≥ 0.6.0), then run with the annotation flag below. See the [ocijail guide](https://daemonless.io/guides/ocijail-patch/).
-
 | | |
 |---|---|
 | **Registry** | `ghcr.io/daemonless/home-assistant` |
@@ -44,8 +41,11 @@ services:
       - "/path/to/containers/home-assistant:/config"
     annotations:
       org.freebsd.jail.allow.raw_sockets: "true"
-    restart: unless-stopped
+    # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
+    restart: always
 ```
+
+Save as `compose.yaml`, then run `podman-compose up -d`.
 
 ### AppJail Director
 **.env**:
@@ -97,6 +97,8 @@ OPTION from=ghcr.io/daemonless/home-assistant:${tag}
 SET allow.raw_sockets=1
 ```
 
+Save the files above, then run `appjail-director up`.
+
 ### Podman CLI
 
 ```bash
@@ -108,6 +110,8 @@ podman run -d --name home-assistant \
   -v /path/to/containers/home-assistant:/config \
   ghcr.io/daemonless/home-assistant:latest
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
 
 ### AppJail
 
@@ -122,6 +126,36 @@ appjail oci run -Pd \
   -e TZ=UTC \
   -o fstab="/path/to/containers/home-assistant /config <pseudofs>" \
   ghcr.io/daemonless/home-assistant:latest home-assistant
+```
+
+Save as `run.sh`, then run `sh run.sh`.
+
+### Bastille
+
+> [!WARNING]
+> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
+
+```yaml
+services:
+  home-assistant:
+    image: "ghcr.io/daemonless/home-assistant:latest"
+    container_name: home-assistant
+    network_mode: host  # jail shares host networking
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+```
+
+Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
+
+```bash
+bastille create -O \
+  --env PUID=1000 \
+  --env PGID=1000 \
+  --env TZ=UTC \
+  --data-path /path/to/containers/home-assistant \
+  home-assistant ghcr.io/daemonless/home-assistant:latest inherit
 ```
 
 ### Ansible
@@ -142,6 +176,8 @@ appjail oci run -Pd \
     annotation:
       org.freebsd.jail.allow.raw_sockets: "true"
 ```
+
+Save as `home-assistant-deploy.yaml`, then run `ansible-playbook home-assistant-deploy.yaml`.
 
 ## Parameters
 
