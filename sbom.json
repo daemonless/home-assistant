@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-02T23:50:20Z",
+  "generated": "2026-09-05T18:42:40Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.9.0",
+      "app_version": "2026.9.1",
       "arch": "amd64",
-      "generated": "2026-09-02T23:45:46Z",
+      "generated": "2026-09-05T18:37:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -322,7 +322,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.128"
           },
           {
             "licenses": [
@@ -512,7 +512,7 @@
               "MIT"
             ],
             "name": "jsoncpp",
-            "version": "1.9.6_1"
+            "version": "1.9.8"
           },
           {
             "licenses": [
@@ -533,7 +533,7 @@
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.1.1"
+            "version": "4.2.0"
           },
           {
             "licenses": [
@@ -757,7 +757,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -786,7 +786,7 @@
               "APACHE20"
             ],
             "name": "py312-packaging",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "licenses": [
@@ -1631,7 +1631,7 @@
           {
             "name": "aioflo",
             "purl": "",
-            "version": "2021.11.0"
+            "version": "2026.9.3"
           },
           {
             "name": "aioftp",
@@ -3021,7 +3021,7 @@
           {
             "name": "dateparser",
             "purl": "",
-            "version": "1.4.2"
+            "version": "1.4.3"
           },
           {
             "name": "dbus-fast",
@@ -3741,7 +3741,7 @@
           {
             "name": "google-auth",
             "purl": "",
-            "version": "2.57.0"
+            "version": "2.57.1"
           },
           {
             "name": "google-auth-httplib2",
@@ -4076,7 +4076,7 @@
           {
             "name": "home-assistant-frontend",
             "purl": "",
-            "version": "20260826.4"
+            "version": "20260826.6"
           },
           {
             "name": "home-assistant-intents",
@@ -4086,7 +4086,7 @@
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.9.0"
+            "version": "2026.9.1"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4591,7 +4591,7 @@
           {
             "name": "knx_frontend",
             "purl": "",
-            "version": "2026.8.28.62336"
+            "version": "2026.9.4.63549"
           },
           {
             "name": "krakenex",
@@ -5011,7 +5011,7 @@
           {
             "name": "mt-940",
             "purl": "",
-            "version": "5.0.0"
+            "version": "5.1.0"
           },
           {
             "name": "mullvad-api",
@@ -5366,7 +5366,7 @@
           {
             "name": "orjson",
             "purl": "",
-            "version": "3.12.0"
+            "version": "3.11.9"
           },
           {
             "name": "ormsgpack",
@@ -6051,7 +6051,7 @@
           {
             "name": "pydaikin",
             "purl": "",
-            "version": "2.19.0"
+            "version": "2.19.1"
           },
           {
             "name": "pydanfossair",
@@ -6441,7 +6441,7 @@
           {
             "name": "pylitterbot",
             "purl": "",
-            "version": "2025.6.4"
+            "version": "2025.6.5"
           },
           {
             "name": "pylutron",
@@ -7086,7 +7086,7 @@
           {
             "name": "python-hotspring",
             "purl": "",
-            "version": "2.0.1"
+            "version": "2.1.0"
           },
           {
             "name": "python-hpilo",
@@ -7181,7 +7181,7 @@
           {
             "name": "python-roborock",
             "purl": "",
-            "version": "7.1.1"
+            "version": "7.2.3"
           },
           {
             "name": "python-slugify",
@@ -7521,7 +7521,7 @@
           {
             "name": "reolink_aio",
             "purl": "",
-            "version": "0.21.14"
+            "version": "0.21.15"
           },
           {
             "name": "requests",
@@ -7641,7 +7641,7 @@
           {
             "name": "samsung-exlink",
             "purl": "",
-            "version": "1.1.0"
+            "version": "1.1.1"
           },
           {
             "name": "samsungctl",
@@ -7766,7 +7766,7 @@
           {
             "name": "serialx",
             "purl": "",
-            "version": "1.9.0"
+            "version": "1.10.0"
           },
           {
             "name": "setuptools",
@@ -7996,7 +7996,7 @@
           {
             "name": "sse-starlette",
             "purl": "",
-            "version": "3.4.8"
+            "version": "3.4.11"
           },
           {
             "name": "standard-aifc",
@@ -8466,7 +8466,7 @@
           {
             "name": "ujson",
             "purl": "",
-            "version": "5.13.0"
+            "version": "6.0.0"
           },
           {
             "name": "ulid-transform",
@@ -8646,7 +8646,7 @@
           {
             "name": "vizaio",
             "purl": "",
-            "version": "0.5.0"
+            "version": "0.6.1"
           },
           {
             "name": "vobject",
