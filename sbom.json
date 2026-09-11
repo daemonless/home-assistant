@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-05T18:42:40Z",
+  "generated": "2026-09-11T23:35:57Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.9.1",
+      "app_version": "2026.9.2",
       "arch": "amd64",
-      "generated": "2026-09-05T18:37:31Z",
+      "generated": "2026-09-11T23:31:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -322,7 +322,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.128"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -357,14 +357,14 @@
               "MIT"
             ],
             "name": "curl",
-            "version": "8.21.0"
+            "version": "8.22.0"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -378,7 +378,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.3"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -386,7 +386,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg-nox11",
-            "version": "8.1.2_3,1"
+            "version": "9.0.1,1"
           },
           {
             "licenses": [
@@ -554,7 +554,7 @@
               "MIT"
             ],
             "name": "libdeflate",
-            "version": "1.25"
+            "version": "1.26"
           },
           {
             "licenses": [
@@ -707,7 +707,7 @@
               "MIT"
             ],
             "name": "libxml2",
-            "version": "2.15.3"
+            "version": "2.15.4"
           },
           {
             "licenses": [
@@ -829,7 +829,7 @@
               "APACHE20"
             ],
             "name": "rust",
-            "version": "1.97.1"
+            "version": "1.98.1"
           },
           {
             "licenses": [
@@ -1201,7 +1201,7 @@
           {
             "name": "Pint",
             "purl": "",
-            "version": "0.25.3"
+            "version": "0.26.1"
           },
           {
             "name": "PlexAPI",
@@ -1311,7 +1311,7 @@
           {
             "name": "PyViCare",
             "purl": "",
-            "version": "2.62.0"
+            "version": "2.62.1"
           },
           {
             "name": "PyXiaomiGateway",
@@ -1391,7 +1391,7 @@
           {
             "name": "actron-neo-api",
             "purl": "",
-            "version": "0.5.14"
+            "version": "0.5.16"
           },
           {
             "name": "adax",
@@ -1406,7 +1406,7 @@
           {
             "name": "adext",
             "purl": "",
-            "version": "0.4.4"
+            "version": "0.4.7"
           },
           {
             "name": "adguardhome",
@@ -1801,7 +1801,7 @@
           {
             "name": "aiolimiter",
             "purl": "",
-            "version": "1.2.1"
+            "version": "1.3.0"
           },
           {
             "name": "aiolookin",
@@ -1931,7 +1931,7 @@
           {
             "name": "aiortm",
             "purl": "",
-            "version": "0.20.0"
+            "version": "0.20.1"
           },
           {
             "name": "aiortsp",
@@ -2096,7 +2096,7 @@
           {
             "name": "airos",
             "purl": "",
-            "version": "0.6.9"
+            "version": "0.6.12"
           },
           {
             "name": "airpatrol",
@@ -2126,7 +2126,7 @@
           {
             "name": "alarmdecoder",
             "purl": "",
-            "version": "1.13.12"
+            "version": "1.13.14"
           },
           {
             "name": "alpha-vantage",
@@ -2776,7 +2776,7 @@
           {
             "name": "cattrs",
             "purl": "",
-            "version": "26.1.0"
+            "version": "26.2.0"
           },
           {
             "name": "cbor2",
@@ -3651,7 +3651,7 @@
           {
             "name": "gcal_sync",
             "purl": "",
-            "version": "9.1.0"
+            "version": "9.1.1"
           },
           {
             "name": "genie_partner_sdk",
@@ -3741,7 +3741,7 @@
           {
             "name": "google-auth",
             "purl": "",
-            "version": "2.57.1"
+            "version": "2.58.0"
           },
           {
             "name": "google-auth-httplib2",
@@ -4076,7 +4076,7 @@
           {
             "name": "home-assistant-frontend",
             "purl": "",
-            "version": "20260826.6"
+            "version": "20260826.7"
           },
           {
             "name": "home-assistant-intents",
@@ -4086,7 +4086,7 @@
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.9.1"
+            "version": "2026.9.2"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4901,7 +4901,7 @@
           {
             "name": "midea-local",
             "purl": "",
-            "version": "10.1.0"
+            "version": "11.0.1"
           },
           {
             "name": "mill_local",
@@ -5011,7 +5011,7 @@
           {
             "name": "mt-940",
             "purl": "",
-            "version": "5.1.0"
+            "version": "5.1.1"
           },
           {
             "name": "mullvad-api",
@@ -5021,7 +5021,7 @@
           {
             "name": "multidict",
             "purl": "",
-            "version": "6.7.1"
+            "version": "6.8.0"
           },
           {
             "name": "munch",
@@ -5299,6 +5299,11 @@
             "version": "0.3.0"
           },
           {
+            "name": "openhomedevice",
+            "purl": "",
+            "version": "2.5"
+          },
+          {
             "name": "openrgb-python",
             "purl": "",
             "version": "0.3.6"
@@ -5516,7 +5521,7 @@
           {
             "name": "platformdirs",
             "purl": "",
-            "version": "4.11.7"
+            "version": "4.11.8"
           },
           {
             "name": "plexauth",
@@ -5911,7 +5916,7 @@
           {
             "name": "pyatag",
             "purl": "",
-            "version": "0.3.5.3"
+            "version": "0.3.7.1"
           },
           {
             "name": "pyatmo",
@@ -7181,7 +7186,7 @@
           {
             "name": "python-roborock",
             "purl": "",
-            "version": "7.2.3"
+            "version": "7.4.2"
           },
           {
             "name": "python-slugify",
@@ -7216,7 +7221,7 @@
           {
             "name": "python-socks",
             "purl": "",
-            "version": "3.0.0"
+            "version": "3.1.1"
           },
           {
             "name": "python-songpal",
@@ -7506,7 +7511,7 @@
           {
             "name": "regex",
             "purl": "",
-            "version": "2026.9.3"
+            "version": "2026.9.10"
           },
           {
             "name": "renault-api",
@@ -7521,7 +7526,7 @@
           {
             "name": "reolink_aio",
             "purl": "",
-            "version": "0.21.15"
+            "version": "0.21.16"
           },
           {
             "name": "requests",
@@ -7661,7 +7666,7 @@
           {
             "name": "satel_integra",
             "purl": "",
-            "version": "1.3.1"
+            "version": "1.5.0"
           },
           {
             "name": "scapy",
@@ -7691,7 +7696,7 @@
           {
             "name": "selenium",
             "purl": "",
-            "version": "4.48.0"
+            "version": "4.49.0"
           },
           {
             "name": "semver",
@@ -8261,7 +8266,7 @@
           {
             "name": "tinytag",
             "purl": "",
-            "version": "2.3.1"
+            "version": "2.3.2"
           },
           {
             "name": "titlecase",
@@ -8331,7 +8336,7 @@
           {
             "name": "tqdm",
             "purl": "",
-            "version": "4.70.0"
+            "version": "4.70.1"
           },
           {
             "name": "transitions",
@@ -8646,7 +8651,7 @@
           {
             "name": "vizaio",
             "purl": "",
-            "version": "0.6.1"
+            "version": "0.6.2"
           },
           {
             "name": "vobject",
@@ -8706,7 +8711,7 @@
           {
             "name": "waterfurnace",
             "purl": "",
-            "version": "1.7.1"
+            "version": "1.9.0"
           },
           {
             "name": "watergate_local_api",
@@ -8811,7 +8816,7 @@
           {
             "name": "wrapt",
             "purl": "",
-            "version": "2.4.0"
+            "version": "2.4.1"
           },
           {
             "name": "wsdot",
@@ -8956,12 +8961,12 @@
           {
             "name": "zha",
             "purl": "",
-            "version": "2.2.1"
+            "version": "2.2.2"
           },
           {
             "name": "zha-quirks",
             "purl": "",
-            "version": "2.2.1"
+            "version": "2.2.2"
           },
           {
             "name": "zhong-hong-hvac",
@@ -8976,7 +8981,7 @@
           {
             "name": "zigpy",
             "purl": "",
-            "version": "2.1.0"
+            "version": "2.2.0"
           },
           {
             "name": "zigpy-deconz",
@@ -9149,7 +9154,7 @@
           {
             "name": "assert_cmd",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.2.1"
           },
           {
             "name": "atomic-waker",
@@ -9187,9 +9192,9 @@
             "version": "0.7.7"
           },
           {
-            "name": "bincode",
+            "name": "bincode-next",
             "purl": "",
-            "version": "1.3.3"
+            "version": "2.1.0"
           },
           {
             "name": "bit-set",
@@ -9254,7 +9259,7 @@
           {
             "name": "cc",
             "purl": "",
-            "version": "1.4.4"
+            "version": "1.4.5"
           },
           {
             "name": "cfb",
@@ -9274,7 +9279,7 @@
           {
             "name": "chacha20",
             "purl": "",
-            "version": "0.10.1"
+            "version": "0.10.2"
           },
           {
             "name": "chrono",
@@ -9594,12 +9599,12 @@
           {
             "name": "find-msvc-tools",
             "purl": "",
-            "version": "0.1.11"
+            "version": "0.1.12"
           },
           {
             "name": "flate2",
             "purl": "",
-            "version": "1.1.9"
+            "version": "1.1.10"
           },
           {
             "name": "float-cmp",
@@ -9709,22 +9714,22 @@
           {
             "name": "gmp-mpfr-sys",
             "purl": "",
-            "version": "1.7.0"
+            "version": "1.7.1"
           },
           {
             "name": "gungraun",
             "purl": "",
-            "version": "0.18.1"
+            "version": "0.19.0"
           },
           {
             "name": "gungraun-macros",
             "purl": "",
-            "version": "0.8.0"
+            "version": "0.9.0"
           },
           {
             "name": "gungraun-runner",
             "purl": "",
-            "version": "0.18.1"
+            "version": "0.19.0"
           },
           {
             "name": "half",
@@ -9779,7 +9784,7 @@
           {
             "name": "hyper",
             "purl": "",
-            "version": "1.11.0"
+            "version": "1.11.1"
           },
           {
             "name": "hyper-rustls",
@@ -9879,7 +9884,7 @@
           {
             "name": "ipnet",
             "purl": "",
-            "version": "2.12.1"
+            "version": "2.12.2"
           },
           {
             "name": "is-terminal",
@@ -9949,7 +9954,7 @@
           {
             "name": "js-sys",
             "purl": "",
-            "version": "0.3.104"
+            "version": "0.3.105"
           },
           {
             "name": "leb128fmt",
@@ -9984,7 +9989,7 @@
           {
             "name": "libredox",
             "purl": "",
-            "version": "0.1.20"
+            "version": "0.1.23"
           },
           {
             "name": "libtest-mimic",
@@ -10049,12 +10054,12 @@
           {
             "name": "miniz_oxide",
             "purl": "",
-            "version": "0.8.9"
+            "version": "0.9.1"
           },
           {
             "name": "mio",
             "purl": "",
-            "version": "1.2.2"
+            "version": "1.2.3"
           },
           {
             "name": "moto-rt",
@@ -10179,7 +10184,7 @@
           {
             "name": "portable-atomic-util",
             "purl": "",
-            "version": "0.2.7"
+            "version": "0.2.8"
           },
           {
             "name": "potential_utf",
@@ -10249,7 +10254,7 @@
           {
             "name": "quick-xml",
             "purl": "",
-            "version": "0.33.0"
+            "version": "0.37.5"
           },
           {
             "name": "quickcheck",
@@ -10319,7 +10324,7 @@
           {
             "name": "rayon",
             "purl": "",
-            "version": "1.11.0"
+            "version": "1.12.0"
           },
           {
             "name": "rayon-core",
@@ -10359,7 +10364,7 @@
           {
             "name": "rug",
             "purl": "",
-            "version": "1.29.0"
+            "version": "1.30.0"
           },
           {
             "name": "rustc-demangle",
@@ -10374,7 +10379,7 @@
           {
             "name": "rustc-literal-escaper",
             "purl": "",
-            "version": "0.0.7"
+            "version": "0.0.8"
           },
           {
             "name": "rustc-std-workspace-alloc",
@@ -10479,7 +10484,7 @@
           {
             "name": "selenium-manager",
             "purl": "",
-            "version": "0.4.48"
+            "version": "0.4.49-nightly"
           },
           {
             "name": "semver",
@@ -10594,7 +10599,7 @@
           {
             "name": "smallvec",
             "purl": "",
-            "version": "1.15.2"
+            "version": "1.16.0"
           },
           {
             "name": "socket2",
@@ -10628,6 +10633,11 @@
           },
           {
             "name": "stdarch-gen-arm",
+            "purl": "",
+            "version": "0.1.0"
+          },
+          {
+            "name": "stdarch-gen-common",
             "purl": "",
             "version": "0.1.0"
           },
@@ -10690,11 +10700,6 @@
             "name": "synstructure",
             "purl": "",
             "version": "0.13.2"
-          },
-          {
-            "name": "syscalls",
-            "purl": "",
-            "version": "0.6.18"
           },
           {
             "name": "sysroot",
@@ -10769,7 +10774,7 @@
           {
             "name": "tinyvec",
             "purl": "",
-            "version": "1.12.0"
+            "version": "1.13.2"
           },
           {
             "name": "tinyvec_macros",
@@ -10789,12 +10794,12 @@
           {
             "name": "tokio-rustls",
             "purl": "",
-            "version": "0.26.4"
+            "version": "0.26.5"
           },
           {
             "name": "toml",
             "purl": "",
-            "version": "1.1.4+spec-1.1.0"
+            "version": "1.1.5+spec-1.1.0"
           },
           {
             "name": "toml_datetime",
@@ -10897,6 +10902,11 @@
             "version": "0.9.0"
           },
           {
+            "name": "unty-next",
+            "purl": "",
+            "version": "0.1.1"
+          },
+          {
             "name": "unwinding",
             "purl": "",
             "version": "0.2.8"
@@ -10979,27 +10989,27 @@
           {
             "name": "wasm-bindgen",
             "purl": "",
-            "version": "0.2.127"
+            "version": "0.2.128"
           },
           {
             "name": "wasm-bindgen-futures",
             "purl": "",
-            "version": "0.4.77"
+            "version": "0.4.78"
           },
           {
             "name": "wasm-bindgen-macro",
             "purl": "",
-            "version": "0.2.127"
+            "version": "0.2.128"
           },
           {
             "name": "wasm-bindgen-macro-support",
             "purl": "",
-            "version": "0.2.127"
+            "version": "0.2.128"
           },
           {
             "name": "wasm-bindgen-shared",
             "purl": "",
-            "version": "0.2.127"
+            "version": "0.2.128"
           },
           {
             "name": "wasm-encoder",
@@ -11024,7 +11034,7 @@
           {
             "name": "web-sys",
             "purl": "",
-            "version": "0.3.104"
+            "version": "0.3.105"
           },
           {
             "name": "web-time",
@@ -11314,7 +11324,7 @@
           {
             "name": "zstd-sys",
             "purl": "",
-            "version": "2.0.16+zstd.1.5.7"
+            "version": "2.1.0+zstd.1.5.7"
           }
         ]
       },
@@ -11326,10 +11336,10 @@
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 1587,
+        "python": 1588,
         "ruby": 0,
-        "rust": 456,
-        "total": 2205
+        "rust": 457,
+        "total": 2207
       }
     }
   }
