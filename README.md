@@ -7,6 +7,7 @@ Source: dbuild templates
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/home-assistant/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/home-assistant/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/daemonless/home-assistant?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/home-assistant/commits)
+[![OCI Pulls](https://img.shields.io/docker/pulls/daemonless/home-assistant?style=flat-square&label=OCI+Pulls&color=blue)](https://hub.docker.com/r/daemonless/home-assistant)
 
 Open source home automation that puts local control and privacy first.
 
