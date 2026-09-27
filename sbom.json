@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-18T18:56:59Z",
+  "generated": "2026-09-27T15:21:14Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.9.3",
+      "app_version": "2026.9.4",
       "arch": "amd64",
-      "generated": "2026-09-18T18:52:07Z",
+      "generated": "2026-09-27T15:16:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -315,7 +315,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.0"
+            "version": "3.15.1"
           },
           {
             "licenses": [
@@ -764,7 +764,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.5"
+            "version": "0.26.5_1"
           },
           {
             "licenses": [
@@ -785,7 +785,7 @@
               "ISCL"
             ],
             "name": "pkgconf",
-            "version": "3.0.5,1"
+            "version": "3.0.6,1"
           },
           {
             "licenses": [
@@ -828,7 +828,7 @@
               "GPLv3"
             ],
             "name": "readline",
-            "version": "8.3.3"
+            "version": "8.3.6"
           },
           {
             "licenses": [
@@ -1195,7 +1195,7 @@
           {
             "name": "Markdown",
             "purl": "",
-            "version": "3.10.3"
+            "version": "3.11"
           },
           {
             "name": "MarkupSafe",
@@ -2400,7 +2400,7 @@
           {
             "name": "atpublic",
             "purl": "",
-            "version": "7.0.0"
+            "version": "8.0.1"
           },
           {
             "name": "attrs",
@@ -2790,7 +2790,7 @@
           {
             "name": "cattrs",
             "purl": "",
-            "version": "26.2.0"
+            "version": "26.2.1"
           },
           {
             "name": "cbor2",
@@ -2950,7 +2950,7 @@
           {
             "name": "coverage",
             "purl": "",
-            "version": "7.16.1"
+            "version": "7.16.2"
           },
           {
             "name": "crc",
@@ -3755,7 +3755,7 @@
           {
             "name": "google-auth",
             "purl": "",
-            "version": "2.58.0"
+            "version": "2.58.1"
           },
           {
             "name": "google-auth-httplib2",
@@ -3870,7 +3870,7 @@
           {
             "name": "graphql-core",
             "purl": "",
-            "version": "3.2.12"
+            "version": "3.2.13"
           },
           {
             "name": "graphviz",
@@ -4100,7 +4100,7 @@
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.9.3"
+            "version": "2026.9.4"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4155,7 +4155,7 @@
           {
             "name": "httpcore2",
             "purl": "",
-            "version": "2.13.0"
+            "version": "2.13.1"
           },
           {
             "name": "httplib2",
@@ -4185,7 +4185,7 @@
           {
             "name": "httpx2",
             "purl": "",
-            "version": "2.13.0"
+            "version": "2.13.1"
           },
           {
             "name": "huawei-lte-api",
@@ -4300,7 +4300,7 @@
           {
             "name": "imgw_pib",
             "purl": "",
-            "version": "2.5.1"
+            "version": "2.5.2"
           },
           {
             "name": "importlib_metadata",
@@ -5045,7 +5045,7 @@
           {
             "name": "multidict",
             "purl": "",
-            "version": "6.9.0"
+            "version": "6.9.1"
           },
           {
             "name": "munch",
@@ -5340,17 +5340,17 @@
           {
             "name": "opentelemetry-api",
             "purl": "",
-            "version": "1.44.0"
+            "version": "1.45.0"
           },
           {
             "name": "opentelemetry-sdk",
             "purl": "",
-            "version": "1.44.0"
+            "version": "1.45.0"
           },
           {
             "name": "opentelemetry-semantic-conventions",
             "purl": "",
-            "version": "0.65b0"
+            "version": "0.66b0"
           },
           {
             "name": "openwebifpy",
@@ -5545,7 +5545,7 @@
           {
             "name": "platformdirs",
             "purl": "",
-            "version": "4.11.10"
+            "version": "4.12.0"
           },
           {
             "name": "plexauth",
@@ -6660,7 +6660,7 @@
           {
             "name": "pyparsing",
             "purl": "",
-            "version": "3.3.2"
+            "version": "3.3.3"
           },
           {
             "name": "pypca",
@@ -7275,7 +7275,7 @@
           {
             "name": "python-xbox",
             "purl": "",
-            "version": "0.2.1"
+            "version": "0.3.0"
           },
           {
             "name": "python_linkplay",
@@ -7355,7 +7355,7 @@
           {
             "name": "pytz",
             "purl": "",
-            "version": "2026.3.post1"
+            "version": "2026.4"
           },
           {
             "name": "pyuptimerobot",
@@ -7975,7 +7975,7 @@
           {
             "name": "soupsieve",
             "purl": "",
-            "version": "2.9.2"
+            "version": "2.10"
           },
           {
             "name": "speak2mary",
@@ -8050,7 +8050,7 @@
           {
             "name": "starlette",
             "purl": "",
-            "version": "1.6.0"
+            "version": "1.7.0"
           },
           {
             "name": "starline",
@@ -8450,7 +8450,7 @@
           {
             "name": "types-pytz",
             "purl": "",
-            "version": "2026.3.1.20260727"
+            "version": "2026.4.0.20260926"
           },
           {
             "name": "typing-inspect",
@@ -8540,7 +8540,7 @@
           {
             "name": "untangle",
             "purl": "",
-            "version": "1.2.1"
+            "version": "1.3.0"
           },
           {
             "name": "upb-lib",
@@ -8600,7 +8600,7 @@
           {
             "name": "uvicorn",
             "purl": "",
-            "version": "0.53.0"
+            "version": "0.54.0"
           },
           {
             "name": "vacuum-map-parser-base",
@@ -8750,7 +8750,7 @@
           {
             "name": "wcwidth",
             "purl": "",
-            "version": "0.8.4"
+            "version": "0.9.1"
           },
           {
             "name": "weatherflow4py",
@@ -8845,7 +8845,7 @@
           {
             "name": "wrapt",
             "purl": "",
-            "version": "2.4.1"
+            "version": "2.5.0"
           },
           {
             "name": "wsdot",
