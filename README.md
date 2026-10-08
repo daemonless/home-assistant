@@ -39,7 +39,7 @@ services:
       - PGID=1000  # Group ID for the application process
       - TZ=UTC  # Timezone for the container
     volumes:
-      - "/path/to/containers/home-assistant:/config"
+      - "/containers/home-assistant:/config"
     annotations:
       org.freebsd.jail.allow.raw_sockets: "true"
     # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
@@ -84,7 +84,7 @@ services:
       - home-assistant: /config
 volumes:
   home-assistant:
-    device: '/path/to/containers/home-assistant'
+    device: '/containers/home-assistant'
 ```
 
 **Makejail**:
@@ -115,52 +115,6 @@ Save the files above, then run `appjail-director up`.
 
 
 
-### Podman CLI
-
-```bash
-podman run -d --name home-assistant \
-  --annotation 'org.freebsd.jail.allow.raw_sockets=true' \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -v /path/to/containers/home-assistant:/config \
-  ghcr.io/daemonless/home-assistant:latest
-```
-
-Save as `run.sh`, then run `sh run.sh`.
-
-### AppJail
-
-
-```bash
-appjail oci run -Pd \
-  -o overwrite=force \
-  -o container="args:--pull" \
-  -o virtualnet=":<random> default" \
-  -o nat \
-  -o template=template.conf \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=UTC \
-  -o fstab="/path/to/containers/home-assistant /config <pseudofs>" \
-  ghcr.io/daemonless/home-assistant:latest home-assistant
-```
-
-**template.conf**:
-```
-# template.conf
-
-exec.start: "/bin/sh /etc/rc"
-exec.stop: "/bin/sh /etc/rc.shutdown jail"
-mount.devfs
-persist
-allow.raw_sockets
-```
-
-Save the files above, then run `sh run.sh`.
-
-
-
 ### Bastille
 
 > [!WARNING]
@@ -178,40 +132,10 @@ services:
       - PGID=1000
       - TZ=UTC
     volumes:
-      - "/path/to/containers/home-assistant:/config"
+      - "/containers/home-assistant:/config"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
-
-```bash
-bastille create -O \
-  --env PUID=1000 \
-  --env PGID=1000 \
-  --env TZ=UTC \
-  --volume /path/to/containers/home-assistant /config \
-  home-assistant ghcr.io/daemonless/home-assistant:latest inherit
-```
-
-### Ansible
-
-```yaml
-- name: Deploy home-assistant
-  containers.podman.podman_container:
-    name: home-assistant
-    image: "ghcr.io/daemonless/home-assistant:latest"
-    state: started
-    restart_policy: always
-    env:
-      PUID: "1000"
-      PGID: "1000"
-      TZ: "UTC"
-    volumes:
-      - "/path/to/containers/home-assistant:/config"
-    annotation:
-      org.freebsd.jail.allow.raw_sockets: "true"
-```
-
-Save as `home-assistant-deploy.yaml`, then run `ansible-playbook home-assistant-deploy.yaml`.
+Save as `bastille-compose.yml`, then run `bastille up`.
 
 ## Parameters
 
