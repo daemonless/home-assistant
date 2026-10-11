@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-08T00:57:19Z",
+  "generated": "2026-10-11T09:44:23Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.10.0",
+      "app_version": "2026.10.1",
       "arch": "amd64",
-      "generated": "2026-10-08T00:53:22Z",
+      "generated": "2026-10-11T09:39:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -336,7 +336,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -1185,7 +1185,7 @@
           {
             "name": "ImageIO",
             "purl": "",
-            "version": "2.38.0"
+            "version": "2.38.1"
           },
           {
             "name": "Jinja2",
@@ -1555,7 +1555,7 @@
           {
             "name": "aioautomower",
             "purl": "",
-            "version": "3.0.0"
+            "version": "3.1.0"
           },
           {
             "name": "aioaxlevpp",
@@ -1765,7 +1765,7 @@
           {
             "name": "aioimmich",
             "purl": "",
-            "version": "0.17.0"
+            "version": "0.18.0"
           },
           {
             "name": "aioindiallsky",
@@ -2605,12 +2605,12 @@
           {
             "name": "bitarray",
             "purl": "",
-            "version": "3.11.0"
+            "version": "3.12.0"
           },
           {
             "name": "bitstring",
             "purl": "",
-            "version": "4.4.0"
+            "version": "5.0.0"
           },
           {
             "name": "bitstruct",
@@ -3185,7 +3185,7 @@
           {
             "name": "dnspython",
             "purl": "",
-            "version": "2.8.0"
+            "version": "2.9.0"
           },
           {
             "name": "docopt",
@@ -3220,7 +3220,7 @@
           {
             "name": "dwdwfsapi",
             "purl": "",
-            "version": "1.0.7"
+            "version": "1.1.0"
           },
           {
             "name": "dynalite-panel",
@@ -3770,7 +3770,7 @@
           {
             "name": "google-api-core",
             "purl": "",
-            "version": "2.41.0"
+            "version": "2.42.0"
           },
           {
             "name": "google-api-python-client",
@@ -3800,7 +3800,7 @@
           {
             "name": "google-cloud-firestore",
             "purl": "",
-            "version": "2.34.0"
+            "version": "2.34.1"
           },
           {
             "name": "google-cloud-pubsub",
@@ -4115,7 +4115,7 @@
           {
             "name": "home-assistant-frontend",
             "purl": "",
-            "version": "20260930.2"
+            "version": "20260930.3"
           },
           {
             "name": "home-assistant-intents",
@@ -4125,7 +4125,7 @@
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.10.0"
+            "version": "2026.10.1"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4980,7 +4980,7 @@
           {
             "name": "modbus-connection",
             "purl": "",
-            "version": "4.12.3"
+            "version": "4.12.4"
           },
           {
             "name": "moehlenhoff-alpha2",
@@ -5555,7 +5555,7 @@
           {
             "name": "platformdirs",
             "purl": "",
-            "version": "4.12.4"
+            "version": "4.13.0"
           },
           {
             "name": "plexauth",
@@ -5805,7 +5805,7 @@
           {
             "name": "pyElectra",
             "purl": "",
-            "version": "1.2.4"
+            "version": "1.2.5"
           },
           {
             "name": "pyEmby",
@@ -5830,7 +5830,7 @@
           {
             "name": "pyRFC3339",
             "purl": "",
-            "version": "2.1.0"
+            "version": "2.1.1"
           },
           {
             "name": "pyRFXtrx",
@@ -6055,7 +6055,7 @@
           {
             "name": "pycparser",
             "purl": "",
-            "version": "3.0"
+            "version": "3.11"
           },
           {
             "name": "pycrc16",
@@ -6330,7 +6330,7 @@
           {
             "name": "pyicloud",
             "purl": "",
-            "version": "2.6.5"
+            "version": "2.7.0"
           },
           {
             "name": "pyimouapi",
@@ -7130,7 +7130,7 @@
           {
             "name": "python-kasa",
             "purl": "",
-            "version": "0.10.2"
+            "version": "0.11.0.1"
           },
           {
             "name": "python-magic",
@@ -7535,7 +7535,7 @@
           {
             "name": "reolink_aio",
             "purl": "",
-            "version": "0.21.17"
+            "version": "0.21.18"
           },
           {
             "name": "requests",
@@ -7700,7 +7700,7 @@
           {
             "name": "selenium",
             "purl": "",
-            "version": "4.50.0"
+            "version": "4.51.0"
           },
           {
             "name": "semver",
@@ -7920,7 +7920,7 @@
           {
             "name": "solaredge-web",
             "purl": "",
-            "version": "0.4.0"
+            "version": "0.5.0"
           },
           {
             "name": "solaredged",
@@ -7955,7 +7955,7 @@
           {
             "name": "soupsieve",
             "purl": "",
-            "version": "2.10"
+            "version": "3.0.1"
           },
           {
             "name": "speak2mary",
@@ -8135,7 +8135,7 @@
           {
             "name": "tailscale",
             "purl": "",
-            "version": "0.7.0"
+            "version": "1.0.0"
           },
           {
             "name": "tapsaff",
@@ -8250,7 +8250,7 @@
           {
             "name": "tibs",
             "purl": "",
-            "version": "0.5.7"
+            "version": "2.0.2"
           },
           {
             "name": "tilt-ble",
@@ -8335,7 +8335,7 @@
           {
             "name": "tplink_omada_client",
             "purl": "",
-            "version": "1.5.10"
+            "version": "1.5.13"
           },
           {
             "name": "tqdm",
@@ -8815,7 +8815,7 @@
           {
             "name": "wled",
             "purl": "",
-            "version": "1.1.0"
+            "version": "1.1.1"
           },
           {
             "name": "wrapt",
@@ -8965,7 +8965,7 @@
           {
             "name": "zha",
             "purl": "",
-            "version": "2.3.0"
+            "version": "2.3.1"
           },
           {
             "name": "zha-quirks",
@@ -9263,7 +9263,7 @@
           {
             "name": "cc",
             "purl": "",
-            "version": "1.5.1"
+            "version": "1.6.0"
           },
           {
             "name": "cfb",
@@ -9973,7 +9973,7 @@
           {
             "name": "libc",
             "purl": "",
-            "version": "0.2.189"
+            "version": "0.2.190"
           },
           {
             "name": "libm",
@@ -10063,7 +10063,7 @@
           {
             "name": "mio",
             "purl": "",
-            "version": "1.2.3"
+            "version": "1.2.4"
           },
           {
             "name": "moto-rt",
@@ -10488,7 +10488,7 @@
           {
             "name": "selenium-manager",
             "purl": "",
-            "version": "0.4.50"
+            "version": "0.4.51"
           },
           {
             "name": "semver",
@@ -10783,7 +10783,7 @@
           {
             "name": "tokio",
             "purl": "",
-            "version": "1.53.1"
+            "version": "1.53.2"
           },
           {
             "name": "tokio-macros",
@@ -10938,7 +10938,7 @@
           {
             "name": "uuid",
             "purl": "",
-            "version": "1.26.1"
+            "version": "1.27.0"
           },
           {
             "name": "version_check",
