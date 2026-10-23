@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T09:48:05Z",
+  "generated": "2026-10-23T12:29:29Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
       "app_version": "2026.10.2",
       "arch": "amd64",
-      "generated": "2026-10-23T09:41:38Z",
+      "generated": "2026-10-23T12:24:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
