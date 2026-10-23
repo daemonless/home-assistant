@@ -82,7 +82,7 @@ RUN mkdir -p /app && \
     > /app/version
 
 # Production image
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="python314 py314-sqlite3 ffmpeg-nox11 libffi libjpeg-turbo ca_root_nss pkgconf gmake cmake rust zlib-ng FreeBSD-clang FreeBSD-toolchain FreeBSD-clibs-dev FreeBSD-runtime-dev FreeBSD-utilities-dev FreeBSD-openssl-dev FreeBSD-zlib-dev git-lite"
@@ -130,7 +130,11 @@ RUN touch /.dockerenv && \
     chown -R bsd:bsd /config /opt/hass
 
 COPY root/ /
-RUN chmod +x /etc/services.d/home-assistant/run /healthz 2>/dev/null || true
+RUN chmod +x /daemonless/libexec/home-assistant
+
+CMD ["/daemonless/libexec/home-assistant"]
+
+RUN chmod +x /healthz
 
 ENV PATH="/opt/hass/bin:$PATH" \
     PYTHONDONTWRITEBYTECODE=1 \
