@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T12:29:29Z",
+  "generated": "2026-10-23T23:41:07Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.10.2",
+      "app_version": "2026.10.3",
       "arch": "amd64",
-      "generated": "2026-10-23T12:24:26Z",
+      "generated": "2026-10-23T23:36:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -336,7 +336,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.131.1"
           },
           {
             "licenses": [
@@ -371,7 +371,7 @@
               "MIT"
             ],
             "name": "curl",
-            "version": "8.22.0"
+            "version": "8.23.0"
           },
           {
             "licenses": [
@@ -2589,12 +2589,12 @@
           {
             "name": "bitstring",
             "purl": "",
-            "version": "5.0.0"
+            "version": "4.4.0"
           },
           {
             "name": "bitstruct",
             "purl": "",
-            "version": "8.23.0"
+            "version": "8.24.0"
           },
           {
             "name": "bitvis-protobuf",
@@ -2634,7 +2634,7 @@
           {
             "name": "blebox_uniapi",
             "purl": "",
-            "version": "2.5.7"
+            "version": "2.5.9"
           },
           {
             "name": "blinker",
@@ -2804,7 +2804,7 @@
           {
             "name": "certifi",
             "purl": "",
-            "version": "2026.10.19"
+            "version": "2026.10.23"
           },
           {
             "name": "cffi",
@@ -3329,7 +3329,7 @@
           {
             "name": "energyzero",
             "purl": "",
-            "version": "5.1.0"
+            "version": "5.1.1"
           },
           {
             "name": "enocean_async",
@@ -4099,7 +4099,7 @@
           {
             "name": "home-assistant-frontend",
             "purl": "",
-            "version": "20260930.4"
+            "version": "20260930.5"
           },
           {
             "name": "home-assistant-intents",
@@ -4109,7 +4109,7 @@
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.10.2"
+            "version": "2026.10.3"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4499,7 +4499,7 @@
           {
             "name": "jiter",
             "purl": "",
-            "version": "0.17.0"
+            "version": "0.18.0"
           },
           {
             "name": "jmespath",
@@ -4539,7 +4539,7 @@
           {
             "name": "jsonrpc-websocket",
             "purl": "",
-            "version": "4.0.0"
+            "version": "4.1.0"
           },
           {
             "name": "jsonschema",
@@ -5374,7 +5374,7 @@
           {
             "name": "opower",
             "purl": "",
-            "version": "0.22.2"
+            "version": "0.22.3"
           },
           {
             "name": "opuslib-next",
@@ -5744,7 +5744,7 @@
           {
             "name": "py-unifi-access",
             "purl": "",
-            "version": "1.6.1"
+            "version": "1.6.2"
           },
           {
             "name": "py-vapid",
@@ -6539,7 +6539,7 @@
           {
             "name": "pynina",
             "purl": "",
-            "version": "1.0.3"
+            "version": "1.0.4"
           },
           {
             "name": "pynintendoauth",
@@ -8229,7 +8229,7 @@
           {
             "name": "tibs",
             "purl": "",
-            "version": "2.0.2"
+            "version": "0.5.7"
           },
           {
             "name": "tilt-ble",
@@ -8544,7 +8544,7 @@
           {
             "name": "uv",
             "purl": "",
-            "version": "0.12.23"
+            "version": "0.13.5"
           },
           {
             "name": "uvcclient",
@@ -8599,7 +8599,7 @@
           {
             "name": "victron-vrm",
             "purl": "",
-            "version": "0.1.13"
+            "version": "0.1.14"
           },
           {
             "name": "victron_ble",
