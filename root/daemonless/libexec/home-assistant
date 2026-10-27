@@ -2,4 +2,88 @@
 # HA installs per-integration pinned deps at runtime via uv; bsd needs a
 # writable HOME for the uv cache (default /root/.cache is root-only).
 export HOME=/config
+
+# TRUSTED_PROXIES (comma-separated; fjord fills it with where its proxy
+# connects from): without it HA answers 400 to anything a proxy forwards.
+# Since 2026.10 HA keeps its HTTP settings in .storage/http and reads YAML
+# only once, so they are set there, before every start. Proxies you added
+# yourself stay; the ones this put there last time are replaced. A store
+# this does not know is left alone and HA starts as it is.
+if [ -n "$TRUSTED_PROXIES" ]; then
+    /opt/hass/bin/python - <<'PY'
+import ipaddress, json, os
+
+STORE = "/config/.storage/http"
+OURS = "/config/.storage/daemonless.trusted_proxies"
+
+
+def say(msg):
+    print(f"[home-assistant] {msg}", flush=True)
+
+
+# Addresses and subnets only: a fjord older than {proxy} passes the template
+# through as it is, and HA refuses its whole HTTP config over one bad entry.
+want = []
+for p in os.environ["TRUSTED_PROXIES"].split(","):
+    try:
+        want.append(str(ipaddress.ip_network(p.strip(), strict=False)))
+    except ValueError:
+        if p.strip():
+            say(f"TRUSTED_PROXIES: {p.strip()!r} is not an address or subnet; skipped")
+
+def has_yaml_http():
+    try:
+        with open("/config/configuration.yaml") as f:
+            return any(line.startswith("http:") for line in f)
+    except OSError:
+        return False
+
+
+try:
+    if not want:
+        doc = None
+    elif os.path.exists(STORE):
+        with open(STORE) as f:
+            doc = json.load(f)
+    elif has_yaml_http():
+        # HA imports configuration.yaml's http: on this start; next time.
+        doc = None
+    else:
+        from homeassistant.components.http.config import (
+            _DEFAULT_CONFIG, STORAGE_KEY, STORAGE_MINOR_VERSION, STORAGE_VERSION)
+        doc = {"version": STORAGE_VERSION, "minor_version": STORAGE_MINOR_VERSION, "key": STORAGE_KEY,
+               "data": {"stable": dict(_DEFAULT_CONFIG), "pending": None, "yaml_migration_done": True}}
+    if doc is not None and (doc.get("version") != 2 or not isinstance(doc.get("data", {}).get("stable"), dict)):
+        say(f"{STORE} has a layout this image does not know; add the proxy in HA's network settings: {', '.join(want)}")
+        doc = None
+    if doc is not None:
+        try:
+            with open(OURS) as f:
+                before = json.load(f)
+        except (OSError, ValueError):
+            before = []
+        changed = False
+        for slot in ("stable", "pending"):
+            conf = doc["data"].get(slot)
+            if not isinstance(conf, dict) or (slot == "pending" and conf.get("error")):
+                continue
+            mine = [p for p in conf.get("trusted_proxies", []) if p not in before and p not in want]
+            proxies = mine + want
+            if conf.get("trusted_proxies") != proxies or conf.get("use_x_forwarded_for") is not True:
+                conf["trusted_proxies"], conf["use_x_forwarded_for"] = proxies, True
+                changed = True
+        if changed:
+            os.makedirs(os.path.dirname(STORE), exist_ok=True)
+            with open(STORE + ".new", "w") as f:
+                json.dump(doc, f, indent=2)
+            os.chmod(STORE + ".new", 0o600)
+            os.replace(STORE + ".new", STORE)
+            say(f"trusted proxies: {', '.join(want)}")
+        with open(OURS, "w") as f:
+            json.dump(want, f)
+except Exception as err:  # never keep HA from starting
+    say(f"TRUSTED_PROXIES not applied: {err}")
+PY
+fi
+
 exec /opt/hass/bin/hass --config /config

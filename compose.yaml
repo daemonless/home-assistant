@@ -16,11 +16,17 @@ x-daemonless:
         - "alias:"        # Required for discovery (host-like networking)
         - "ip4_inherit:"  # Required for discovery (host-like networking)
 
+  # fjord fills this with where its names provider connects from: HA
+  # refuses a forwarded request from a proxy it does not trust.
+  name_env:
+    TRUSTED_PROXIES: "{proxy}"
+
   docs:
     env:
       PUID: "User ID for the application process"
       PGID: "Group ID for the application process"
       TZ: "Timezone for the container"
+      TRUSTED_PROXIES: "Proxies HA trusts, comma-separated addresses or subnets; set as its trusted proxies (with X-Forwarded-For on) at every start"
     volumes:
       /config: "Configuration directory"
     ports:
@@ -32,6 +38,10 @@ services:
     container_name: home-assistant
     restart: unless-stopped
     network_mode: host  # required for mDNS/Zeroconf device discovery
+    # HA's own shutdown waits for its integrations: a cast device it found
+    # but cannot reach holds it ~100s. Podman's 10s default killed it
+    # mid-shutdown, before it saved its state.
+    stop_grace_period: 2m
     annotations:
       org.freebsd.jail.allow.raw_sockets: "true"  # required for DHCP device discovery
 
