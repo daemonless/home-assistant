@@ -38,6 +38,7 @@ services:
       - PUID=1000  # User ID for the application process
       - PGID=1000  # Group ID for the application process
       - TZ=UTC  # Timezone for the container
+      # - TRUSTED_PROXIES=  # Proxies HA trusts, comma-separated addresses or subnets; set as its trusted proxies (with X-Forwarded-For on) at every start
     volumes:
       - "/containers/home-assistant:/config"
     annotations:
@@ -146,6 +147,7 @@ Save as `bastille-compose.yml`, then run `bastille up`.
 | `PUID` | `1000` | User ID for the application process |
 | `PGID` | `1000` | Group ID for the application process |
 | `TZ` | `UTC` | Timezone for the container |
+| `TRUSTED_PROXIES` | `` | Proxies HA trusts, comma-separated addresses or subnets; set as its trusted proxies (with X-Forwarded-For on) at every start |
 
 ### Volumes
 
