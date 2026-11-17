@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-10T01:31:15Z",
+  "generated": "2026-11-17T00:35:04Z",
   "image": "home-assistant",
   "tags": {
     "latest": {
-      "app_version": "2026.11.1",
+      "app_version": "2026.11.2",
       "arch": "amd64",
-      "generated": "2026-11-10T01:26:08Z",
+      "generated": "2026-11-17T00:30:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -437,7 +437,7 @@
               "GPLv2"
             ],
             "name": "git-lite",
-            "version": "2.56.0"
+            "version": "2.56.1"
           },
           {
             "licenses": [
@@ -505,7 +505,7 @@
               "ZLIB"
             ],
             "name": "jpeg-turbo",
-            "version": "3.1.4.1"
+            "version": "3.2.1"
           },
           {
             "licenses": [
@@ -533,14 +533,14 @@
               "MIT"
             ],
             "name": "lcms2",
-            "version": "2.19.1"
+            "version": "2.20"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.2.0"
+            "version": "4.3.0"
           },
           {
             "licenses": [
@@ -612,7 +612,7 @@
               "ZLIB"
             ],
             "name": "libjpeg-turbo",
-            "version": "3.1.4.1"
+            "version": "3.2.1"
           },
           {
             "licenses": [
@@ -800,21 +800,21 @@
               "PSFL"
             ],
             "name": "py314-sqlite3",
-            "version": "3.14.8_10"
+            "version": "3.14.10_10"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python314",
-            "version": "3.14.8"
+            "version": "3.14.10"
           },
           {
             "licenses": [
@@ -1174,7 +1174,7 @@
           {
             "name": "ImageIO",
             "purl": "",
-            "version": "2.38.1"
+            "version": "2.38.2"
           },
           {
             "name": "Jinja2",
@@ -1594,7 +1594,7 @@
           {
             "name": "aioconsole",
             "purl": "",
-            "version": "0.8.2"
+            "version": "0.9.0"
           },
           {
             "name": "aiodhcpwatcher",
@@ -1669,7 +1669,7 @@
           {
             "name": "aioftp",
             "purl": "",
-            "version": "0.21.3"
+            "version": "0.28.3"
           },
           {
             "name": "aioghost",
@@ -1789,7 +1789,7 @@
           {
             "name": "aioindiallsky",
             "purl": "",
-            "version": "0.1.7"
+            "version": "0.1.8"
           },
           {
             "name": "aioipp",
@@ -2139,7 +2139,7 @@
           {
             "name": "aiowebostv",
             "purl": "",
-            "version": "1.0.1"
+            "version": "1.1.0"
           },
           {
             "name": "aiowithings",
@@ -2169,7 +2169,7 @@
           {
             "name": "airos",
             "purl": "",
-            "version": "0.6.13"
+            "version": "0.6.14"
           },
           {
             "name": "airpatrol",
@@ -2244,7 +2244,7 @@
           {
             "name": "annotated-doc",
             "purl": "",
-            "version": "0.0.5"
+            "version": "0.0.6"
           },
           {
             "name": "annotated-types",
@@ -2329,7 +2329,7 @@
           {
             "name": "arcam-fmj",
             "purl": "",
-            "version": "3.1.1"
+            "version": "3.1.2"
           },
           {
             "name": "argcomplete",
@@ -2534,7 +2534,7 @@
           {
             "name": "axis",
             "purl": "",
-            "version": "74"
+            "version": "75"
           },
           {
             "name": "ayla_iot_unofficial",
@@ -2644,7 +2644,7 @@
           {
             "name": "bitarray",
             "purl": "",
-            "version": "3.12.3"
+            "version": "3.12.4"
           },
           {
             "name": "bitstring",
@@ -2849,7 +2849,7 @@
           {
             "name": "cachetools",
             "purl": "",
-            "version": "7.3.0"
+            "version": "7.3.2"
           },
           {
             "name": "casttube",
@@ -3024,7 +3024,7 @@
           {
             "name": "coverage",
             "purl": "",
-            "version": "7.17.2"
+            "version": "7.17.3"
           },
           {
             "name": "crc",
@@ -3309,7 +3309,7 @@
           {
             "name": "egauge-async",
             "purl": "",
-            "version": "0.4.0"
+            "version": "0.6.0"
           },
           {
             "name": "eheimdigital",
@@ -3824,7 +3824,7 @@
           {
             "name": "google-auth",
             "purl": "",
-            "version": "2.62.1"
+            "version": "2.62.2"
           },
           {
             "name": "google-auth-httplib2",
@@ -4164,7 +4164,7 @@
           {
             "name": "home-assistant-frontend",
             "purl": "",
-            "version": "20261028.5"
+            "version": "20261028.6"
           },
           {
             "name": "home-assistant-intents",
@@ -4174,7 +4174,7 @@
           {
             "name": "homeassistant",
             "purl": "",
-            "version": "2026.11.1"
+            "version": "2026.11.2"
           },
           {
             "name": "homekit-audio-proxy",
@@ -4254,7 +4254,7 @@
           {
             "name": "httpx-ws",
             "purl": "",
-            "version": "0.9.0"
+            "version": "0.10.0"
           },
           {
             "name": "httpx2",
@@ -4459,7 +4459,7 @@
           {
             "name": "iometer",
             "purl": "",
-            "version": "1.0.2"
+            "version": "1.0.3"
           },
           {
             "name": "iottycloud",
@@ -4579,7 +4579,7 @@
           {
             "name": "josepy",
             "purl": "",
-            "version": "2.2.0"
+            "version": "2.3.0"
           },
           {
             "name": "joserfc",
@@ -4824,7 +4824,7 @@
           {
             "name": "loguru",
             "purl": "",
-            "version": "0.7.3"
+            "version": "0.8.0"
           },
           {
             "name": "lojack_api",
@@ -4894,7 +4894,7 @@
           {
             "name": "markdown-it-py",
             "purl": "",
-            "version": "4.2.0"
+            "version": "4.3.0"
           },
           {
             "name": "marshmallow",
@@ -5024,7 +5024,7 @@
           {
             "name": "midea-local",
             "purl": "",
-            "version": "15.0.0"
+            "version": "15.2.0"
           },
           {
             "name": "mill_local",
@@ -5039,7 +5039,7 @@
           {
             "name": "miniaudio",
             "purl": "",
-            "version": "1.71"
+            "version": "1.73"
           },
           {
             "name": "minio",
@@ -6184,7 +6184,7 @@
           {
             "name": "pydantic-settings",
             "purl": "",
-            "version": "2.16.2"
+            "version": "2.16.3"
           },
           {
             "name": "pydantic-xml",
@@ -7264,7 +7264,7 @@
           {
             "name": "python-multipart",
             "purl": "",
-            "version": "0.0.33"
+            "version": "0.0.34"
           },
           {
             "name": "python-mystrom",
@@ -7594,7 +7594,7 @@
           {
             "name": "rapt-ble",
             "purl": "",
-            "version": "2.0.0"
+            "version": "2.0.1"
           },
           {
             "name": "raspyrfm-client",
@@ -7609,7 +7609,7 @@
           {
             "name": "reactivex",
             "purl": "",
-            "version": "6.1.0"
+            "version": "6.1.1"
           },
           {
             "name": "redgtech-api",
@@ -7634,7 +7634,7 @@
           {
             "name": "regex",
             "purl": "",
-            "version": "2026.11.9"
+            "version": "2026.11.15"
           },
           {
             "name": "renault-api",
@@ -7649,7 +7649,7 @@
           {
             "name": "reolink_aio",
             "purl": "",
-            "version": "0.22.0"
+            "version": "0.23.0"
           },
           {
             "name": "requests",
@@ -7824,7 +7824,7 @@
           {
             "name": "semver",
             "purl": "",
-            "version": "3.1.1"
+            "version": "3.1.2"
           },
           {
             "name": "sendgrid",
@@ -7959,7 +7959,7 @@
           {
             "name": "simplejson",
             "purl": "",
-            "version": "4.2.0"
+            "version": "4.3.0"
           },
           {
             "name": "simplepush",
@@ -8089,7 +8089,7 @@
           {
             "name": "soupsieve",
             "purl": "",
-            "version": "4.0.1"
+            "version": "4.1.1"
           },
           {
             "name": "speak2mary",
@@ -8119,7 +8119,7 @@
           {
             "name": "sqlite3",
             "purl": "",
-            "version": "3.14.8"
+            "version": "3.14.10"
           },
           {
             "name": "sqlparse",
@@ -8204,7 +8204,7 @@
           {
             "name": "stevedore",
             "purl": "",
-            "version": "5.9.1"
+            "version": "5.10.0"
           },
           {
             "name": "stookwijzer",
@@ -8439,7 +8439,7 @@
           {
             "name": "todoist_api_python",
             "purl": "",
-            "version": "3.1.0"
+            "version": "4.0.1"
           },
           {
             "name": "togrill-bluetooth",
@@ -8514,7 +8514,7 @@
           {
             "name": "trmnl",
             "purl": "",
-            "version": "0.1.1"
+            "version": "0.2.0"
           },
           {
             "name": "truststore",
@@ -8644,7 +8644,7 @@
           {
             "name": "unicode-rbnf",
             "purl": "",
-            "version": "2.4.1"
+            "version": "2.5.0"
           },
           {
             "name": "unifi-discovery",
@@ -8669,7 +8669,7 @@
           {
             "name": "untangle",
             "purl": "",
-            "version": "1.3.0"
+            "version": "1.3.1"
           },
           {
             "name": "upb-lib",
